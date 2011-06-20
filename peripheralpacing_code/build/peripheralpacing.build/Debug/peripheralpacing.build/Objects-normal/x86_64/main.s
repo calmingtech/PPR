@@ -1,0 +1,940 @@
+	.section __DWARF,__debug_frame,regular,debug
+Lsection__debug_frame:
+	.section __DWARF,__debug_info,regular,debug
+Lsection__debug_info:
+	.section __DWARF,__debug_abbrev,regular,debug
+Lsection__debug_abbrev:
+	.section __DWARF,__debug_aranges,regular,debug
+Lsection__debug_aranges:
+	.section __DWARF,__debug_macinfo,regular,debug
+Lsection__debug_macinfo:
+	.section __DWARF,__debug_line,regular,debug
+Lsection__debug_line:
+	.section __DWARF,__debug_loc,regular,debug
+Lsection__debug_loc:
+	.section __DWARF,__debug_pubnames,regular,debug
+Lsection__debug_pubnames:
+	.section __DWARF,__debug_pubtypes,regular,debug
+Lsection__debug_pubtypes:
+	.section __DWARF,__debug_inlined,regular,debug
+Lsection__debug_inlined:
+	.section __DWARF,__debug_str,regular,debug
+Lsection__debug_str:
+	.section __DWARF,__debug_ranges,regular,debug
+Lsection__debug_ranges:
+	.section __DWARF,__debug_abbrev,regular,debug
+Ldebug_abbrev0:
+	.section __DWARF,__debug_info,regular,debug
+Ldebug_info0:
+	.section __DWARF,__debug_line,regular,debug
+Ldebug_line0:
+	.text
+Ltext0:
+	.cstring
+LC0:
+	.ascii "testing testing testing\0"
+	.text
+.globl _main
+_main:
+LFB680:
+	.file 1 "/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/main.m"
+	.loc 1 12 0
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	pushq	%rbp
+LCFI0:
+	movq	%rsp, %rbp
+LCFI1:
+	subq	$16, %rsp
+LCFI2:
+	movl	%edi, -4(%rbp)
+	movq	%rsi, -16(%rbp)
+	.loc 1 13 0
+	leaq	LC0(%rip), %rdi
+	call	_puts
+	movl	$0, %eax
+	.loc 1 15 0
+	leave
+	ret
+LFE680:
+	.section __DATA, __objc_msgrefs, coalesced
+	.section __DATA, __objc_data
+	.section __DATA, __objc_const
+	.section __DATA, __objc_classrefs, regular, no_dead_strip
+	.section __DATA, __objc_classlist, regular, no_dead_strip
+	.section __DATA, __objc_catlist, regular, no_dead_strip
+	.section __DATA, __objc_selrefs, literal_pointers, no_dead_strip
+	.section __DATA, __objc_nlclslist, regular, no_dead_strip
+	.section __DATA, __objc_nlcatlist, regular, no_dead_strip
+	.section __DATA, __objc_protolist, coalesced, no_dead_strip
+	.section __DATA, __objc_protorefs, coalesced, no_dead_strip
+	.section __DATA, __objc_superrefs, regular, no_dead_strip
+	.section __DATA, __objc_imageinfo, regular, no_dead_strip
+	.section __DATA, __objc_stringobj, regular, no_dead_strip
+	.section __DATA, __objc_imageinfo, regular, no_dead_strip
+	.align 2
+L_OBJC_IMAGE_INFO:
+	.long	0
+	.long	16
+	.section __DWARF,__debug_frame,regular,debug
+Lframe0:
+	.set L$set$0,LECIE0-LSCIE0
+	.long L$set$0
+LSCIE0:
+	.long	0xffffffff
+	.byte	0x1
+	.ascii "\0"
+	.byte	0x1
+	.byte	0x78
+	.byte	0x10
+	.byte	0xc
+	.byte	0x7
+	.byte	0x8
+	.byte	0x90
+	.byte	0x1
+	.align 3
+LECIE0:
+LSFDE0:
+	.set L$set$1,LEFDE0-LASFDE0
+	.long L$set$1
+LASFDE0:
+	.set L$set$2,Lframe0-Lsection__debug_frame
+	.long L$set$2
+	.quad	LFB680
+	.set L$set$3,LFE680-LFB680
+	.quad L$set$3
+	.byte	0x4
+	.set L$set$4,LCFI0-LFB680
+	.long L$set$4
+	.byte	0xe
+	.byte	0x10
+	.byte	0x86
+	.byte	0x2
+	.byte	0x4
+	.set L$set$5,LCFI1-LCFI0
+	.long L$set$5
+	.byte	0xd
+	.byte	0x6
+	.align 3
+LEFDE0:
+	.section __TEXT,__eh_frame,coalesced,no_toc+strip_static_syms+live_support
+EH_frame1:
+	.set L$set$6,LECIE1-LSCIE1
+	.long L$set$6
+LSCIE1:
+	.long	0x0
+	.byte	0x1
+	.ascii "zR\0"
+	.byte	0x1
+	.byte	0x78
+	.byte	0x10
+	.byte	0x1
+	.byte	0x10
+	.byte	0xc
+	.byte	0x7
+	.byte	0x8
+	.byte	0x90
+	.byte	0x1
+	.align 3
+LECIE1:
+.globl _main.eh
+_main.eh:
+LSFDE1:
+	.set L$set$7,LEFDE1-LASFDE1
+	.long L$set$7
+LASFDE1:
+	.long	LASFDE1-EH_frame1
+	.quad	LFB680-.
+	.set L$set$8,LFE680-LFB680
+	.quad L$set$8
+	.byte	0x0
+	.byte	0x4
+	.set L$set$9,LCFI0-LFB680
+	.long L$set$9
+	.byte	0xe
+	.byte	0x10
+	.byte	0x86
+	.byte	0x2
+	.byte	0x4
+	.set L$set$10,LCFI1-LCFI0
+	.long L$set$10
+	.byte	0xd
+	.byte	0x6
+	.align 3
+LEFDE1:
+	.text
+Letext0:
+	.section __DWARF,__debug_loc,regular,debug
+Ldebug_loc0:
+LLST0:
+	.set L$set$11,LFB680-Ltext0
+	.quad L$set$11
+	.set L$set$12,LCFI0-Ltext0
+	.quad L$set$12
+	.word	0x2
+	.byte	0x77
+	.byte	0x8
+	.set L$set$13,LCFI0-Ltext0
+	.quad L$set$13
+	.set L$set$14,LCFI1-Ltext0
+	.quad L$set$14
+	.word	0x2
+	.byte	0x77
+	.byte	0x10
+	.set L$set$15,LCFI1-Ltext0
+	.quad L$set$15
+	.set L$set$16,LFE680-Ltext0
+	.quad L$set$16
+	.word	0x2
+	.byte	0x76
+	.byte	0x10
+	.quad	0x0
+	.quad	0x0
+	.file 2 "/Developer/SDKs/MacOSX10.6.sdk/usr/include/i386/_types.h"
+	.file 3 "/Developer/SDKs/MacOSX10.6.sdk/usr/include/runetype.h"
+	.section __DWARF,__debug_info,regular,debug
+	.long	0x56d
+	.word	0x2
+	.set L$set$17,Ldebug_abbrev0-Lsection__debug_abbrev
+	.long L$set$17
+	.byte	0x8
+	.byte	0x1
+	.ascii "GNU Objective-C 4.2.1 (Apple Inc. build 5664)\0"
+	.byte	0x10
+	.ascii "/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/main.m\0"
+	.byte	0x2
+	.quad	Ltext0
+	.quad	Letext0
+	.set L$set$18,Ldebug_line0-Lsection__debug_line
+	.long L$set$18
+	.byte	0x2
+	.byte	0x1
+	.byte	0x6
+	.ascii "signed char\0"
+	.byte	0x2
+	.byte	0x1
+	.byte	0x8
+	.ascii "unsigned char\0"
+	.byte	0x2
+	.byte	0x2
+	.byte	0x5
+	.ascii "short int\0"
+	.byte	0x2
+	.byte	0x2
+	.byte	0x7
+	.ascii "short unsigned int\0"
+	.byte	0x2
+	.byte	0x4
+	.byte	0x5
+	.ascii "int\0"
+	.byte	0x3
+	.ascii "__uint32_t\0"
+	.byte	0x2
+	.byte	0x2d
+	.long	0xf4
+	.byte	0x2
+	.byte	0x4
+	.byte	0x7
+	.ascii "unsigned int\0"
+	.byte	0x2
+	.byte	0x8
+	.byte	0x5
+	.ascii "long long int\0"
+	.byte	0x2
+	.byte	0x8
+	.byte	0x7
+	.ascii "long long unsigned int\0"
+	.byte	0x2
+	.byte	0x8
+	.byte	0x5
+	.ascii "long int\0"
+	.byte	0x4
+	.byte	0x8
+	.byte	0x7
+	.byte	0x2
+	.byte	0x1
+	.byte	0x6
+	.ascii "char\0"
+	.byte	0x3
+	.ascii "__darwin_size_t\0"
+	.byte	0x2
+	.byte	0x5a
+	.long	0x15d
+	.byte	0x2
+	.byte	0x8
+	.byte	0x7
+	.ascii "long unsigned int\0"
+	.byte	0x5
+	.byte	0x8
+	.byte	0x3
+	.ascii "__darwin_wchar_t\0"
+	.byte	0x2
+	.byte	0x66
+	.long	0xdb
+	.byte	0x3
+	.ascii "__darwin_rune_t\0"
+	.byte	0x2
+	.byte	0x6b
+	.long	0x174
+	.byte	0x6
+	.long	0x13e
+	.long	0x1b3
+	.byte	0x7
+	.long	0x13b
+	.byte	0x7
+	.byte	0x0
+	.byte	0x8
+	.byte	0x8
+	.long	0x13e
+	.byte	0x9
+	.byte	0x18
+	.byte	0x3
+	.byte	0x51
+	.long	0x204
+	.byte	0xa
+	.ascii "__min\0"
+	.byte	0x3
+	.byte	0x52
+	.long	0x18c
+	.byte	0x2
+	.byte	0x23
+	.byte	0x0
+	.byte	0xa
+	.ascii "__max\0"
+	.byte	0x3
+	.byte	0x53
+	.long	0x18c
+	.byte	0x2
+	.byte	0x23
+	.byte	0x4
+	.byte	0xa
+	.ascii "__map\0"
+	.byte	0x3
+	.byte	0x54
+	.long	0x18c
+	.byte	0x2
+	.byte	0x23
+	.byte	0x8
+	.byte	0xa
+	.ascii "__types\0"
+	.byte	0x3
+	.byte	0x55
+	.long	0x204
+	.byte	0x2
+	.byte	0x23
+	.byte	0x10
+	.byte	0x0
+	.byte	0x8
+	.byte	0x8
+	.long	0xe2
+	.byte	0x3
+	.ascii "_RuneEntry\0"
+	.byte	0x3
+	.byte	0x56
+	.long	0x1b9
+	.byte	0x9
+	.byte	0x10
+	.byte	0x3
+	.byte	0x58
+	.long	0x24c
+	.byte	0xa
+	.ascii "__nranges\0"
+	.byte	0x3
+	.byte	0x59
+	.long	0xdb
+	.byte	0x2
+	.byte	0x23
+	.byte	0x0
+	.byte	0xa
+	.ascii "__ranges\0"
+	.byte	0x3
+	.byte	0x5a
+	.long	0x24c
+	.byte	0x2
+	.byte	0x23
+	.byte	0x8
+	.byte	0x0
+	.byte	0x8
+	.byte	0x8
+	.long	0x20a
+	.byte	0x3
+	.ascii "_RuneRange\0"
+	.byte	0x3
+	.byte	0x5b
+	.long	0x21c
+	.byte	0x9
+	.byte	0x14
+	.byte	0x3
+	.byte	0x5d
+	.long	0x28f
+	.byte	0xa
+	.ascii "__name\0"
+	.byte	0x3
+	.byte	0x5e
+	.long	0x28f
+	.byte	0x2
+	.byte	0x23
+	.byte	0x0
+	.byte	0xa
+	.ascii "__mask\0"
+	.byte	0x3
+	.byte	0x5f
+	.long	0xe2
+	.byte	0x2
+	.byte	0x23
+	.byte	0x10
+	.byte	0x0
+	.byte	0x6
+	.long	0x13e
+	.long	0x29f
+	.byte	0x7
+	.long	0x13b
+	.byte	0xd
+	.byte	0x0
+	.byte	0x3
+	.ascii "_RuneCharClass\0"
+	.byte	0x3
+	.byte	0x60
+	.long	0x264
+	.byte	0xb
+	.word	0xc88
+	.byte	0x3
+	.byte	0x62
+	.long	0x41b
+	.byte	0xa
+	.ascii "__magic\0"
+	.byte	0x3
+	.byte	0x63
+	.long	0x1a3
+	.byte	0x2
+	.byte	0x23
+	.byte	0x0
+	.byte	0xa
+	.ascii "__encoding\0"
+	.byte	0x3
+	.byte	0x64
+	.long	0x41b
+	.byte	0x2
+	.byte	0x23
+	.byte	0x8
+	.byte	0xa
+	.ascii "__sgetrune\0"
+	.byte	0x3
+	.byte	0x66
+	.long	0x456
+	.byte	0x2
+	.byte	0x23
+	.byte	0x28
+	.byte	0xa
+	.ascii "__sputrune\0"
+	.byte	0x3
+	.byte	0x67
+	.long	0x481
+	.byte	0x2
+	.byte	0x23
+	.byte	0x30
+	.byte	0xa
+	.ascii "__invalid_rune\0"
+	.byte	0x3
+	.byte	0x68
+	.long	0x18c
+	.byte	0x2
+	.byte	0x23
+	.byte	0x38
+	.byte	0xa
+	.ascii "__runetype\0"
+	.byte	0x3
+	.byte	0x6a
+	.long	0x487
+	.byte	0x2
+	.byte	0x23
+	.byte	0x3c
+	.byte	0xa
+	.ascii "__maplower\0"
+	.byte	0x3
+	.byte	0x6b
+	.long	0x497
+	.byte	0x3
+	.byte	0x23
+	.byte	0xbc,0x8
+	.byte	0xa
+	.ascii "__mapupper\0"
+	.byte	0x3
+	.byte	0x6c
+	.long	0x497
+	.byte	0x3
+	.byte	0x23
+	.byte	0xbc,0x10
+	.byte	0xa
+	.ascii "__runetype_ext\0"
+	.byte	0x3
+	.byte	0x73
+	.long	0x252
+	.byte	0x3
+	.byte	0x23
+	.byte	0xc0,0x18
+	.byte	0xa
+	.ascii "__maplower_ext\0"
+	.byte	0x3
+	.byte	0x74
+	.long	0x252
+	.byte	0x3
+	.byte	0x23
+	.byte	0xd0,0x18
+	.byte	0xa
+	.ascii "__mapupper_ext\0"
+	.byte	0x3
+	.byte	0x75
+	.long	0x252
+	.byte	0x3
+	.byte	0x23
+	.byte	0xe0,0x18
+	.byte	0xa
+	.ascii "__variable\0"
+	.byte	0x3
+	.byte	0x77
+	.long	0x172
+	.byte	0x3
+	.byte	0x23
+	.byte	0xf0,0x18
+	.byte	0xa
+	.ascii "__variable_len\0"
+	.byte	0x3
+	.byte	0x78
+	.long	0xdb
+	.byte	0x3
+	.byte	0x23
+	.byte	0xf8,0x18
+	.byte	0xa
+	.ascii "__ncharclasses\0"
+	.byte	0x3
+	.byte	0x7d
+	.long	0xdb
+	.byte	0x3
+	.byte	0x23
+	.byte	0xfc,0x18
+	.byte	0xa
+	.ascii "__charclasses\0"
+	.byte	0x3
+	.byte	0x7e
+	.long	0x4a7
+	.byte	0x3
+	.byte	0x23
+	.byte	0x80,0x19
+	.byte	0x0
+	.byte	0x6
+	.long	0x13e
+	.long	0x42b
+	.byte	0x7
+	.long	0x13b
+	.byte	0x1f
+	.byte	0x0
+	.byte	0xc
+	.byte	0x1
+	.long	0x18c
+	.long	0x445
+	.byte	0xd
+	.long	0x445
+	.byte	0xd
+	.long	0x146
+	.byte	0xd
+	.long	0x450
+	.byte	0x0
+	.byte	0x8
+	.byte	0x8
+	.long	0x44b
+	.byte	0xe
+	.long	0x13e
+	.byte	0x8
+	.byte	0x8
+	.long	0x445
+	.byte	0x8
+	.byte	0x8
+	.long	0x42b
+	.byte	0xc
+	.byte	0x1
+	.long	0xdb
+	.long	0x47b
+	.byte	0xd
+	.long	0x18c
+	.byte	0xd
+	.long	0x1b3
+	.byte	0xd
+	.long	0x146
+	.byte	0xd
+	.long	0x47b
+	.byte	0x0
+	.byte	0x8
+	.byte	0x8
+	.long	0x1b3
+	.byte	0x8
+	.byte	0x8
+	.long	0x45c
+	.byte	0x6
+	.long	0xe2
+	.long	0x497
+	.byte	0x7
+	.long	0x13b
+	.byte	0xff
+	.byte	0x0
+	.byte	0x6
+	.long	0x18c
+	.long	0x4a7
+	.byte	0x7
+	.long	0x13b
+	.byte	0xff
+	.byte	0x0
+	.byte	0x8
+	.byte	0x8
+	.long	0x29f
+	.byte	0x3
+	.ascii "_RuneLocale\0"
+	.byte	0x3
+	.byte	0x7f
+	.long	0x2b5
+	.byte	0x2
+	.byte	0x4
+	.byte	0x4
+	.ascii "float\0"
+	.byte	0x2
+	.byte	0x8
+	.byte	0x4
+	.ascii "double\0"
+	.byte	0x6
+	.long	0xdb
+	.long	0x4de
+	.byte	0xf
+	.byte	0x0
+	.byte	0x2
+	.byte	0x1
+	.byte	0x2
+	.ascii "_Bool\0"
+	.byte	0x10
+	.byte	0x1
+	.set L$set$19,LASF0-Lsection__debug_str
+	.long L$set$19
+	.byte	0x1
+	.byte	0xc
+	.byte	0x1
+	.long	0xdb
+	.quad	LFB680
+	.quad	LFE680
+	.set L$set$20,LLST0-Lsection__debug_loc
+	.long L$set$20
+	.long	0x52b
+	.byte	0x11
+	.ascii "argc\0"
+	.byte	0x1
+	.byte	0xb
+	.long	0xdb
+	.byte	0x2
+	.byte	0x91
+	.byte	0x6c
+	.byte	0x11
+	.ascii "argv\0"
+	.byte	0x1
+	.byte	0xb
+	.long	0x47b
+	.byte	0x2
+	.byte	0x91
+	.byte	0x60
+	.byte	0x0
+	.byte	0x12
+	.ascii "__CFConstantStringClassReference\0"
+	.long	0x4d3
+	.byte	0x1
+	.byte	0x1
+	.byte	0x1
+	.byte	0x13
+	.ascii "_DefaultRuneLocale\0"
+	.byte	0x3
+	.byte	0x84
+	.long	0x4ad
+	.byte	0x1
+	.byte	0x1
+	.byte	0x0
+	.section __DWARF,__debug_abbrev,regular,debug
+	.byte	0x1
+	.byte	0x11
+	.byte	0x1
+	.byte	0x25
+	.byte	0x8
+	.byte	0x13
+	.byte	0xb
+	.byte	0x3
+	.byte	0x8
+	.byte	0xe5,0x7f
+	.byte	0xb
+	.byte	0x11
+	.byte	0x1
+	.byte	0x12
+	.byte	0x1
+	.byte	0x10
+	.byte	0x6
+	.byte	0x0
+	.byte	0x0
+	.byte	0x2
+	.byte	0x24
+	.byte	0x0
+	.byte	0xb
+	.byte	0xb
+	.byte	0x3e
+	.byte	0xb
+	.byte	0x3
+	.byte	0x8
+	.byte	0x0
+	.byte	0x0
+	.byte	0x3
+	.byte	0x16
+	.byte	0x0
+	.byte	0x3
+	.byte	0x8
+	.byte	0x3a
+	.byte	0xb
+	.byte	0x3b
+	.byte	0xb
+	.byte	0x49
+	.byte	0x13
+	.byte	0x0
+	.byte	0x0
+	.byte	0x4
+	.byte	0x24
+	.byte	0x0
+	.byte	0xb
+	.byte	0xb
+	.byte	0x3e
+	.byte	0xb
+	.byte	0x0
+	.byte	0x0
+	.byte	0x5
+	.byte	0xf
+	.byte	0x0
+	.byte	0xb
+	.byte	0xb
+	.byte	0x0
+	.byte	0x0
+	.byte	0x6
+	.byte	0x1
+	.byte	0x1
+	.byte	0x49
+	.byte	0x13
+	.byte	0x1
+	.byte	0x13
+	.byte	0x0
+	.byte	0x0
+	.byte	0x7
+	.byte	0x21
+	.byte	0x0
+	.byte	0x49
+	.byte	0x13
+	.byte	0x2f
+	.byte	0xb
+	.byte	0x0
+	.byte	0x0
+	.byte	0x8
+	.byte	0xf
+	.byte	0x0
+	.byte	0xb
+	.byte	0xb
+	.byte	0x49
+	.byte	0x13
+	.byte	0x0
+	.byte	0x0
+	.byte	0x9
+	.byte	0x13
+	.byte	0x1
+	.byte	0xb
+	.byte	0xb
+	.byte	0x3a
+	.byte	0xb
+	.byte	0x3b
+	.byte	0xb
+	.byte	0x1
+	.byte	0x13
+	.byte	0x0
+	.byte	0x0
+	.byte	0xa
+	.byte	0xd
+	.byte	0x0
+	.byte	0x3
+	.byte	0x8
+	.byte	0x3a
+	.byte	0xb
+	.byte	0x3b
+	.byte	0xb
+	.byte	0x49
+	.byte	0x13
+	.byte	0x38
+	.byte	0xa
+	.byte	0x0
+	.byte	0x0
+	.byte	0xb
+	.byte	0x13
+	.byte	0x1
+	.byte	0xb
+	.byte	0x5
+	.byte	0x3a
+	.byte	0xb
+	.byte	0x3b
+	.byte	0xb
+	.byte	0x1
+	.byte	0x13
+	.byte	0x0
+	.byte	0x0
+	.byte	0xc
+	.byte	0x15
+	.byte	0x1
+	.byte	0x27
+	.byte	0xc
+	.byte	0x49
+	.byte	0x13
+	.byte	0x1
+	.byte	0x13
+	.byte	0x0
+	.byte	0x0
+	.byte	0xd
+	.byte	0x5
+	.byte	0x0
+	.byte	0x49
+	.byte	0x13
+	.byte	0x0
+	.byte	0x0
+	.byte	0xe
+	.byte	0x26
+	.byte	0x0
+	.byte	0x49
+	.byte	0x13
+	.byte	0x0
+	.byte	0x0
+	.byte	0xf
+	.byte	0x21
+	.byte	0x0
+	.byte	0x0
+	.byte	0x0
+	.byte	0x10
+	.byte	0x2e
+	.byte	0x1
+	.byte	0x3f
+	.byte	0xc
+	.byte	0x3
+	.byte	0xe
+	.byte	0x3a
+	.byte	0xb
+	.byte	0x3b
+	.byte	0xb
+	.byte	0x27
+	.byte	0xc
+	.byte	0x49
+	.byte	0x13
+	.byte	0x11
+	.byte	0x1
+	.byte	0x12
+	.byte	0x1
+	.byte	0x40
+	.byte	0x6
+	.byte	0x1
+	.byte	0x13
+	.byte	0x0
+	.byte	0x0
+	.byte	0x11
+	.byte	0x5
+	.byte	0x0
+	.byte	0x3
+	.byte	0x8
+	.byte	0x3a
+	.byte	0xb
+	.byte	0x3b
+	.byte	0xb
+	.byte	0x49
+	.byte	0x13
+	.byte	0x2
+	.byte	0xa
+	.byte	0x0
+	.byte	0x0
+	.byte	0x12
+	.byte	0x34
+	.byte	0x0
+	.byte	0x3
+	.byte	0x8
+	.byte	0x49
+	.byte	0x13
+	.byte	0x3f
+	.byte	0xc
+	.byte	0x34
+	.byte	0xc
+	.byte	0x3c
+	.byte	0xc
+	.byte	0x0
+	.byte	0x0
+	.byte	0x13
+	.byte	0x34
+	.byte	0x0
+	.byte	0x3
+	.byte	0x8
+	.byte	0x3a
+	.byte	0xb
+	.byte	0x3b
+	.byte	0xb
+	.byte	0x49
+	.byte	0x13
+	.byte	0x3f
+	.byte	0xc
+	.byte	0x3c
+	.byte	0xc
+	.byte	0x0
+	.byte	0x0
+	.byte	0x0
+	.section __DWARF,__debug_pubnames,regular,debug
+	.long	0x17
+	.word	0x2
+	.set L$set$21,Ldebug_info0-Lsection__debug_info
+	.long L$set$21
+	.long	0x571
+	.long	0x4e7
+	.ascii "main\0"
+	.long	0x0
+	.section __DWARF,__debug_pubtypes,regular,debug
+	.long	0x9b
+	.word	0x2
+	.set L$set$22,Ldebug_info0-Lsection__debug_info
+	.long L$set$22
+	.long	0x571
+	.long	0xe2
+	.ascii "__uint32_t\0"
+	.long	0x146
+	.ascii "__darwin_size_t\0"
+	.long	0x174
+	.ascii "__darwin_wchar_t\0"
+	.long	0x18c
+	.ascii "__darwin_rune_t\0"
+	.long	0x20a
+	.ascii "_RuneEntry\0"
+	.long	0x252
+	.ascii "_RuneRange\0"
+	.long	0x29f
+	.ascii "_RuneCharClass\0"
+	.long	0x4ad
+	.ascii "_RuneLocale\0"
+	.long	0x0
+	.section __DWARF,__debug_aranges,regular,debug
+	.long	0x2c
+	.word	0x2
+	.set L$set$23,Ldebug_info0-Lsection__debug_info
+	.long L$set$23
+	.byte	0x8
+	.byte	0x0
+	.word	0x0
+	.word	0x0
+	.quad	Ltext0
+	.set L$set$24,Letext0-Ltext0
+	.quad L$set$24
+	.quad	0x0
+	.quad	0x0
+	.section __DWARF,__debug_str,regular,debug
+LASF0:
+	.ascii "main\0"
+	.subsections_via_symbols

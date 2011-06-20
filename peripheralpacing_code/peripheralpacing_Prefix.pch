@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'peripheralpacing' target in the 'peripheralpacing' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

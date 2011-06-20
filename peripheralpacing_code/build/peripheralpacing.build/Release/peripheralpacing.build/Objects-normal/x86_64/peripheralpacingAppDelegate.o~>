@@ -1,0 +1,6 @@
+/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/peripheralpacingAppDelegate.m: In function '-[peripheralpacingAppDelegate setupAvatars]':
+/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/peripheralpacingAppDelegate.m:95: warning: format '%s' expects type 'char *', but argument 3 has type 'char (*)[128]'
+/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/peripheralpacingAppDelegate.m: In function '-[peripheralpacingAppDelegate notify:duration:icon:]':
+/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/peripheralpacingAppDelegate.m:258: warning: format '%s' expects type 'char *', but argument 3 has type 'struct NSString *'
+/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/peripheralpacingAppDelegate.m: In function '-[peripheralpacingAppDelegate mainloop:]':
+/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/peripheralpacingAppDelegate.m:713: warning: format '%s' expects type 'char *', but argument 3 has type 'char (*)[128]'

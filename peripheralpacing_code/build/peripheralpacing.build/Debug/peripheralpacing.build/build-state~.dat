@@ -1,0 +1,220 @@
+Tperipheralpacing
+v7
+r0
+t323221467.564468
+cCheck dependencies
+cProcessInfoPlistFile /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/Debug/peripheralpacing.app/Contents/Info.plist peripheralpacing-Info.plist
+cCopyStringsFile /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/Debug/peripheralpacing.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/English.lproj/MainMenu.xib
+cProcessPCH /var/folders/zz/zzzivhrRnAmviuee+++wNk++D4Q/-Caches-/com.apple.Xcode.15463/SharedPrecompiledHeaders/peripheralpacing_Prefix-cdezwhmykgbntpdvwjyiuughxdcl/peripheralpacing_Prefix.pch.gch peripheralpacing_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/peripheralpacing.build/Debug/peripheralpacing.build/Objects-normal/x86_64/main.o /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/peripheralpacing.build/Debug/peripheralpacing.build/Objects-normal/x86_64/peripheralpacingAppDelegate.o /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/peripheralpacingAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/peripheralpacing.build/Debug/peripheralpacing.build/Objects-normal/x86_64/BreathRate.o /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/BreathRate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004C8B15BA00000000000000EE
+t1284183482
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/BreathRate.h
+c000000004D93C057000000000000031F
+t1301528663
+s799
+i<Cocoa/Cocoa.h>
+
+N/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/BreathRate.m
+c000000004D93C04F000000000000025B
+t1301528655
+s603
+i"BreathRate.h"
+
+N/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/English.lproj/InfoPlist.strings
+c000000004D93B6E5000000000000002D
+t1301526245
+s45
+
+N/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/English.lproj/MainMenu.xib
+c000000004D93B6E6000000000002BBCE
+t1301526246
+s179150
+
+N/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/Debug/peripheralpacing.app
+t2
+s0
+
+N/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/Debug/peripheralpacing.app/Contents/Info.plist
+t1301528663
+s913
+
+N/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/Debug/peripheralpacing.app/Contents/MacOS/peripheralpacing
+t2
+s0
+
+N/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/Debug/peripheralpacing.app/Contents/PkgInfo
+t1301528663
+s8
+
+N/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/Debug/peripheralpacing.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1301528663
+s92
+
+N/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/Debug/peripheralpacing.app/Contents/Resources/English.lproj/MainMenu.nib
+t1301528664
+s34519
+
+N/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/peripheralpacing.build/Debug/peripheralpacing.build/Objects-normal/x86_64/BreathRate.o
+t2
+s0
+
+N/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/peripheralpacing.build/Debug/peripheralpacing.build/Objects-normal/x86_64/main.o
+t1301528667
+s5040
+
+N/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/peripheralpacing.build/Debug/peripheralpacing.build/Objects-normal/x86_64/peripheralpacing.LinkFileList
+c000000004D93C05700000000000001E5
+t1301528663
+s485
+
+N/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/peripheralpacing.build/Debug/peripheralpacing.build/Objects-normal/x86_64/peripheralpacingAppDelegate.o
+t1301528667
+s21376
+
+N/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/main.m
+c000000004D93B6E6000000000000010F
+t1301526246
+s271
+i<Cocoa/Cocoa.h>
+
+N/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/peripheralpacingAppDelegate.h
+c000000004D93B6E6000000000000015F
+t1301526246
+s351
+i<Cocoa/Cocoa.h>
+
+N/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/peripheralpacingAppDelegate.m
+c000000004D93B6E6000000000000019D
+t1301526246
+s413
+i"peripheralpacingAppDelegate.h"
+
+N/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/peripheralpacing_Prefix.pch
+c000000004D93B6E600000000000000A3
+t1301526246
+s163
+i<Cocoa/Cocoa.h>
+
+N/var/folders/zz/zzzivhrRnAmviuee+++wNk++D4Q/-Caches-/com.apple.Xcode.15463/SharedPrecompiledHeaders/peripheralpacing_Prefix-cdezwhmykgbntpdvwjyiuughxdcl/peripheralpacing_Prefix.pch.gch
+t1301528667
+s54265616
+
+Nperipheralpacing-Info.plist
+c000000004D93B6E600000000000003EA
+t1301526246
+s1002
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies323221463#323221463#0(0"0(0#1#0"32088628383449192#0"0#
+
+CCompileC build/peripheralpacing.build/Debug/peripheralpacing.build/Objects-normal/x86_64/BreathRate.o /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/BreathRate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s323221467.463825
+e323221467.564398
+r0
+xCompileC
+xbuild/peripheralpacing.build/Debug/peripheralpacing.build/Objects-normal/x86_64/BreathRate.o
+x/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/BreathRate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/BreathRate.m:9:
+o/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/BreathRate.h:14: error: cannot find interface declaration for 'Object', superclass of 'BreathRate'
+o/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/BreathRate.m: In function '-[BreathRate init]':
+o/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/BreathRate.m:17: error: 'average_sample_time' undeclared (first use in this function)
+o/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/BreathRate.m:17: error: (Each undeclared identifier is reported only once
+o/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/BreathRate.m:17: error: for each function it appears in.)
+o/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/BreathRate.m: In function '-[BreathRate add_sample::]':
+o/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/BreathRate.m:33: error: 'average_sample_time' undeclared (first use in this function)
+lSLF07#2@85"Compile /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/BreathRate.m323221467#323221467#0(1065"In file included from /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/BreathRate.m:9:/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/BreathRate.h:14: error: cannot find interface declaration for 'Object', superclass of 'BreathRate'/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/BreathRate.m: In function '-[BreathRate init]':/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/BreathRate.m:17: error: 'average_sample_time' undeclared (first use in this function)/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/BreathRate.m:17: error: (Each undeclared identifier is reported only once/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/BreathRate.m:17: error: for each function it appears in.)/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/BreathRate.m: In function '-[BreathRate add_sample::]':/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/BreathRate.m:33: error: 'average_sample_time' undeclared (first use in this function)3(4@74"Cannot find interface declaration for 'Object', superclass of 'BreathRate'323221467#103#164#2(7@99"In file included from /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/BreathRate.m323221467#18446744073709551615#0#0(6@77"/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/BreathRate.m323221455#9#0#9#0#0"0(13@155"Cannot find interface declaration for 'Object', superclass of 'BreathRate' in /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/BreathRate.h323221467#18446744073709551615#0#0(6@77"/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/BreathRate.h323221463#14#0#14#0#0"0(6@77"/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/BreathRate.h323221463#14#0#14#0#60"cannot find interface declaration for '*', superclass of '*'0(4@61"'average_sample_time' undeclared (first use in this function)323221467#380#151#0(6@77"/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/BreathRate.m323221455#17#0#17#0#43"'*' undeclared (first use in this function)0(4@61"'average_sample_time' undeclared (first use in this function)323221467#914#151#0(6@77"/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/BreathRate.m323221455#33#0#33#0#43"'*' undeclared (first use in this function)0(0#0#77"/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/BreathRate.m8626901600#1930"    cd /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/peripheralpacing.build/Debug/peripheralpacing.build/peripheralpacing-generated-files.hmap -I/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/peripheralpacing.build/Debug/peripheralpacing.build/peripheralpacing-own-target-headers.hmap -I/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/peripheralpacing.build/Debug/peripheralpacing.build/peripheralpacing-all-target-headers.hmap -iquote /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/peripheralpacing.build/Debug/peripheralpacing.build/peripheralpacing-project-headers.hmap -F/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/Debug -I/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/Debug/include -I/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/peripheralpacing.build/Debug/peripheralpacing.build/DerivedSources/x86_64 -I/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/peripheralpacing.build/Debug/peripheralpacing.build/DerivedSources -include /var/folders/zz/zzzivhrRnAmviuee+++wNk++D4Q/-Caches-/com.apple.Xcode.15463/SharedPrecompiledHeaders/peripheralpacing_Prefix-cdezwhmykgbntpdvwjyiuughxdcl/peripheralpacing_Prefix.pch -c /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/BreathRate.m -o /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/peripheralpacing.build/Debug/peripheralpacing.build/Objects-normal/x86_64/BreathRate.o1#
+
+CCompileC build/peripheralpacing.build/Debug/peripheralpacing.build/Objects-normal/x86_64/main.o /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s323221467.219689
+e323221467.465303
+r1
+xCompileC
+xbuild/peripheralpacing.build/Debug/peripheralpacing.build/Objects-normal/x86_64/main.o
+x/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/main.m323221467#323221467#0(0"0(0#0#71"/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/main.m8621035552#1918"    cd /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/peripheralpacing.build/Debug/peripheralpacing.build/peripheralpacing-generated-files.hmap -I/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/peripheralpacing.build/Debug/peripheralpacing.build/peripheralpacing-own-target-headers.hmap -I/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/peripheralpacing.build/Debug/peripheralpacing.build/peripheralpacing-all-target-headers.hmap -iquote /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/peripheralpacing.build/Debug/peripheralpacing.build/peripheralpacing-project-headers.hmap -F/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/Debug -I/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/Debug/include -I/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/peripheralpacing.build/Debug/peripheralpacing.build/DerivedSources/x86_64 -I/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/peripheralpacing.build/Debug/peripheralpacing.build/DerivedSources -include /var/folders/zz/zzzivhrRnAmviuee+++wNk++D4Q/-Caches-/com.apple.Xcode.15463/SharedPrecompiledHeaders/peripheralpacing_Prefix-cdezwhmykgbntpdvwjyiuughxdcl/peripheralpacing_Prefix.pch -c /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/main.m -o /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/peripheralpacing.build/Debug/peripheralpacing.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/peripheralpacing.build/Debug/peripheralpacing.build/Objects-normal/x86_64/peripheralpacingAppDelegate.o /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/peripheralpacingAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s323221467.221131
+e323221467.463690
+r1
+xCompileC
+xbuild/peripheralpacing.build/Debug/peripheralpacing.build/Objects-normal/x86_64/peripheralpacingAppDelegate.o
+x/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/peripheralpacingAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/peripheralpacingAppDelegate.m323221467#323221467#0(0"0(0#0#94"/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/peripheralpacingAppDelegate.m8598433632#1964"    cd /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/peripheralpacing.build/Debug/peripheralpacing.build/peripheralpacing-generated-files.hmap -I/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/peripheralpacing.build/Debug/peripheralpacing.build/peripheralpacing-own-target-headers.hmap -I/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/peripheralpacing.build/Debug/peripheralpacing.build/peripheralpacing-all-target-headers.hmap -iquote /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/peripheralpacing.build/Debug/peripheralpacing.build/peripheralpacing-project-headers.hmap -F/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/Debug -I/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/Debug/include -I/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/peripheralpacing.build/Debug/peripheralpacing.build/DerivedSources/x86_64 -I/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/peripheralpacing.build/Debug/peripheralpacing.build/DerivedSources -include /var/folders/zz/zzzivhrRnAmviuee+++wNk++D4Q/-Caches-/com.apple.Xcode.15463/SharedPrecompiledHeaders/peripheralpacing_Prefix-cdezwhmykgbntpdvwjyiuughxdcl/peripheralpacing_Prefix.pch -c /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/peripheralpacingAppDelegate.m -o /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/peripheralpacing.build/Debug/peripheralpacing.build/Objects-normal/x86_64/peripheralpacingAppDelegate.o0#
+
+CCompileXIB /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/English.lproj/MainMenu.xib
+s323221463.471339
+e323221464.176558
+r1
+xCompileXIB
+x/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib323221463#323221464#0(0"0(0#0#91"/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/English.lproj/MainMenu.xib8621071072#451"    cd /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/Debug/peripheralpacing.app/Contents/Resources/English.lproj/MainMenu.nib /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/Debug/peripheralpacing.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s323221463.385217
+e323221463.838059
+r1
+xCopyStringsFile
+x/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/Debug/peripheralpacing.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings323221463#323221463#0(0"0(0#0#96"/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/English.lproj/InfoPlist.strings8621240160#426"    cd /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/Debug/peripheralpacing.app/Contents/Resources/English.lproj0#
+
+CLd /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/Debug/peripheralpacing.app/Contents/MacOS/peripheralpacing normal x86_64
+r0
+
+CProcessInfoPlistFile /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/Debug/peripheralpacing.app/Contents/Info.plist peripheralpacing-Info.plist
+s323221463.327343
+e323221463.385136
+r1
+xProcessInfoPlistFile
+x/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/Debug/peripheralpacing.app/Contents/Info.plist
+xperipheralpacing-Info.plist
+lSLF07#2@35"Process peripheralpacing-Info.plist323221463#323221463#0(0"0(0#0#92"/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/peripheralpacing-Info.plist30399714104049764#415"    cd /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing    builtin-infoPlistUtility peripheralpacing-Info.plist -genpkginfo /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/Debug/peripheralpacing.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/Debug/peripheralpacing.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/zz/zzzivhrRnAmviuee+++wNk++D4Q/-Caches-/com.apple.Xcode.15463/SharedPrecompiledHeaders/peripheralpacing_Prefix-cdezwhmykgbntpdvwjyiuughxdcl/peripheralpacing_Prefix.pch.gch peripheralpacing_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s323221464.176758
+e323221467.219434
+r1
+xProcessPCH
+x/var/folders/zz/zzzivhrRnAmviuee+++wNk++D4Q/-Caches-/com.apple.Xcode.15463/SharedPrecompiledHeaders/peripheralpacing_Prefix-cdezwhmykgbntpdvwjyiuughxdcl/peripheralpacing_Prefix.pch.gch
+xperipheralpacing_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile peripheralpacing_Prefix.pch323221464#323221467#0(0"0(0#0#92"/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/peripheralpacing_Prefix.pch8620119040#1789"    cd /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/peripheralpacing.build/Debug/peripheralpacing.build/peripheralpacing-generated-files.hmap -I/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/peripheralpacing.build/Debug/peripheralpacing.build/peripheralpacing-own-target-headers.hmap -I/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/peripheralpacing.build/Debug/peripheralpacing.build/peripheralpacing-all-target-headers.hmap -iquote /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/peripheralpacing.build/Debug/peripheralpacing.build/peripheralpacing-project-headers.hmap -F/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/Debug -I/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/Debug/include -I/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/peripheralpacing.build/Debug/peripheralpacing.build/DerivedSources/x86_64 -I/afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/peripheralpacing.build/Debug/peripheralpacing.build/DerivedSources -c /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/peripheralpacing_Prefix.pch -o /var/folders/zz/zzzivhrRnAmviuee+++wNk++D4Q/-Caches-/com.apple.Xcode.15463/SharedPrecompiledHeaders/peripheralpacing_Prefix-cdezwhmykgbntpdvwjyiuughxdcl/peripheralpacing_Prefix.pch.gch0#
+
+CTouch /afs/ir.stanford.edu/users/b/e/benolson/Desktop/peripheralpacing/build/Debug/peripheralpacing.app
+r0
+
