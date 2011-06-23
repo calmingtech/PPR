@@ -96,8 +96,8 @@
 - (void) set_brightness:(float) new_brightness progress:(float)prog;
 - (void) set_brightness_screen:(float) new_brightness;
 - (void) set_brightness_menu:(float) new_brightness;
-- (void)set_bounce_position:(float)relativePos;
-
+- (void) set_bounce_position:(float)relativePos;
+- (void) set_breath_rate:(int)br_rate;
 
 - (void) record_baseline:(id)sender;
 
