@@ -727,7 +727,11 @@ const CFStringRef kDisplayBrightness = CFSTR(kIODisplayBrightnessKey);
 	[window setFrameOrigin:theOrigin];
 	//printf("%f\n",relativePos);
 }
+- (void)set_breath_rate:(int) br_rate
+{
+	[statusItem setTitle:[NSString stringWithFormat:@"Breathcast (rate =%d) ",br_rate]];
 
+}
 
 - (void) mainloop:(NSConnection *)connection
 {
@@ -773,8 +777,10 @@ const CFStringRef kDisplayBrightness = CFSTR(kIODisplayBrightnessKey);
 	int cycle_samples = 0;
 	
 	float calm_duration = 0.0;
+	float last_display = 0.0;
 	
 	vis_duration = 60.0;
+	int samplecount = 0;
 	
 	while(true)
 	{
@@ -787,8 +793,11 @@ const CFStringRef kDisplayBrightness = CFSTR(kIODisplayBrightnessKey);
 		//	baseline = val;
 		//[self set_brightness:max(0,0.4+(val-baseline)/500.0)];
 		timePassed_s = [date timeIntervalSinceNow] * -1.0;
+		samplecount = samplecount++%NUM_SAMPLES;
+		//printf("adding %dth sample=%d ",samplecount,val); 
 		[br add_sample:val :timePassed_s];
 		float breathrate = [br getBreathRate];
+
 		if (recording_baseline)
 		{
 			baseline_total += breathrate;
@@ -815,7 +824,11 @@ const CFStringRef kDisplayBrightness = CFSTR(kIODisplayBrightnessKey);
 		fprintf(fp,"%f %d %f %f %d %d %d %d\n",timePassed_s,val,breathrate,baseline_bpm,recording_baseline,running,realtime,cycle);
 		//printf("appended\n");
 		fclose(fp);
-		
+		if ((last_display += time_delta) > 10) { 
+			[self set_breath_rate: (int)breathrate];
+			last_display = 0;
+		}
+
 		if (running)
 		{
 			if (calm_moment)
