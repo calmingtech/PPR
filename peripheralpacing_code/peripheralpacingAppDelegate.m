@@ -727,9 +727,25 @@ const CFStringRef kDisplayBrightness = CFSTR(kIODisplayBrightnessKey);
 	[window setFrameOrigin:theOrigin];
 	//printf("%f\n",relativePos);
 }
-- (void)set_breath_rate:(int) br_rate
+- (void)set_breath_rate_view:(float) br_rate :(float) base_rate
 {
-	[statusItem setTitle:[NSString stringWithFormat:@"Breathcast (rate =%d) ",br_rate]];
+	int percentChange = (int)(br_rate - base_rate) * 100/base_rate;
+
+	NSString *trend = [NSString stringWithFormat:@"%d%% (%.1f bpm)",percentChange,br_rate];
+	NSMutableAttributedString *statusDisplay = [[NSMutableAttributedString alloc] initWithString:@"Breathcast "];
+	NSFont *font = [NSFont fontWithName:@"Helvetica" size:14.0];
+	NSRange range = NSMakeRange(0, [statusDisplay length]);
+	[statusDisplay addAttribute:NSFontAttributeName value:font range:range];
+
+    NSMutableAttributedString *trendAttr = [[NSMutableAttributedString alloc] initWithString:trend];
+	range = NSMakeRange(0, [trendAttr length]);
+	if (percentChange > 100)
+		[trendAttr addAttribute:NSForegroundColorAttributeName value:[NSColor redColor] range:range];
+	else 
+		[trendAttr addAttribute:NSForegroundColorAttributeName value:[NSColor blueColor] range:range];
+	[statusDisplay appendAttributedString:trendAttr];
+	
+	[statusItem setTitle:statusDisplay];
 
 }
 
@@ -825,7 +841,7 @@ const CFStringRef kDisplayBrightness = CFSTR(kIODisplayBrightnessKey);
 		//printf("appended\n");
 		fclose(fp);
 		if ((last_display += time_delta) > 10) { 
-			[self set_breath_rate: (int)breathrate];
+			[self set_breath_rate_view: breathrate :baseline_bpm];
 			last_display = 0;
 		}
 

@@ -97,7 +97,7 @@
 - (void) set_brightness_screen:(float) new_brightness;
 - (void) set_brightness_menu:(float) new_brightness;
 - (void) set_bounce_position:(float)relativePos;
-- (void) set_breath_rate:(int)br_rate;
+- (void) set_breath_rate_view:(float)br_rate :(float) base_rate;
 
 - (void) record_baseline:(id)sender;
 
