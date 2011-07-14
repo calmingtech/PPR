@@ -13,7 +13,8 @@
 #import "MGTransparentWindow.h"
 #import <Carbon/Carbon.h>
 #import <QuartzCore/QuartzCore.h>
-
+#import <CorePlot/CorePlot.h>
+#import "plotGraph.h"
 
 @implementation peripheralpacingAppDelegate
 
@@ -130,6 +131,7 @@
 	baseline_bpm = 15.0;
 	recording_baseline = false;
 	calibrateMode = false;
+	colorMode = false;
 	cycle = false;
 	
 	// Create transparent window.
@@ -148,6 +150,9 @@
 	NSRect notifyFrame = NSMakeRect(width-280,height-202, 272, 172);
 	notify_window = [[MGTransparentWindow windowWithFrame:notifyFrame] retain];
 	
+//	NSRect graphFrame = NSMakeRect(0,height-100, 100, 100);
+//	graph_window = [[plotGraph windowWithFrame:graphFrame] retain];
+					
 	[notify_window setReleasedWhenClosed:YES];
 	[notify_window setHidesOnDeactivate:NO];
 	[notify_window setCanHide:NO];
@@ -173,6 +178,32 @@
 	[cal_window setIgnoresMouseEvents:YES];
 	[cal_window setLevel:NSScreenSaverWindowLevel];
 	[cal_window setDelegate:self];
+	// @poorna 
+	// Configure interval_window.
+	[ interval_window setReleasedWhenClosed:YES];
+	[interval_window  setHidesOnDeactivate:NO];
+	[interval_window  setCanHide:NO];
+	[interval_window  setCollectionBehavior:NSWindowCollectionBehaviorCanJoinAllSpaces];
+	[interval_window  setIgnoresMouseEvents:NO];
+	[interval_window  setLevel:NSScreenSaverWindowLevel];
+	[interval_window  setDelegate:self];
+	// Configure color_window.
+	[color_window setReleasedWhenClosed:YES];
+	[color_window setHidesOnDeactivate:NO];
+	[color_window setCanHide:NO];
+	[color_window setCollectionBehavior:NSWindowCollectionBehaviorCanJoinAllSpaces];
+	[color_window setIgnoresMouseEvents:YES];
+	[color_window setLevel:NSScreenSaverWindowLevel];
+	[color_window setDelegate:self];
+	// @poorna
+	// Configure graph window.
+	/* [graph_window setReleasedWhenClosed:YES];
+		[graph_window setHidesOnDeactivate:NO];
+		[graph_window setCanHide:NO];
+		[graph_window setCollectionBehavior:NSWindowCollectionBehaviorCanJoinAllSpaces];
+		[graph_window setIgnoresMouseEvents:YES];
+		[graph_window setLevel:NSScreenSaverWindowLevel];
+		[graph_window setDelegate:self]; */
 	
 	// Configure contentView for pacing bar
 	NSView *contentView = [window contentView];
@@ -217,6 +248,42 @@
 	layer.opacity = 0.0;
 	[window makeFirstResponder:contentView];
 	
+	// Configure contentView for graph window
+	contentView = [graph_window contentView];
+	[contentView setWantsLayer:YES];
+	layer = [contentView layer];
+	layer.backgroundColor = CGColorGetConstantColor(kCGColorBlack);
+	layer.opacity = 0.0;
+	[graph_window makeFirstResponder:contentView];
+	
+	//configure intervalView for update interval 
+	contentView = [interval_window contentView];
+	NSRect intRect = NSMakeRect(400.f, 400.f, 20.f, 20.f);
+	intervalTextField = [[NSTextField alloc] initWithFrame:intRect];
+	[intervalTextField setEditable:YES];
+	[intervalTextField setStringValue:@"--update time interval"];
+	[intervalTextField setBackgroundColor:[NSColor blackColor]];
+	[intervalTextField setTextColor:[NSColor whiteColor]];
+	[intervalTextField setFont:[NSFont fontWithName:@"Helvetica" size:20]];
+	[intervalTextField setBordered:TRUE];
+	[contentView addSubview:intervalTextField];
+	[intervalTextField release];
+	
+	[contentView setWantsLayer:YES];
+	layer = [contentView layer];
+	layer.backgroundColor = CGColorGetConstantColor(kCGColorBlack);
+	layer.opacity = 0.0;
+	[interval_window makeFirstResponder:contentView];
+		
+	//configure colorView to toggle color changes 
+	contentView = [color_window contentView];
+	[contentView setWantsLayer:YES];
+	layer = [contentView layer];
+	layer.backgroundColor = CGColorGetConstantColor(kCGColorBlack);
+	layer.opacity = 0.0;
+	[color_window makeFirstResponder:contentView];
+	
+		
 	NSRect myRect = NSMakeRect(38.f, -10.f, 220.f, 160.f);
 	notifyTextField = [[NSTextField alloc] initWithFrame:myRect];
 	[notifyTextField setEditable:NO];
@@ -242,6 +309,9 @@
 	[window makeKeyAndOrderFront:self];
 	[cal_window makeKeyAndOrderFront:self];
 	[notify_window makeKeyAndOrderFront:self];
+	[interval_window makeKeyAndOrderFront:self];
+	[color_window makeKeyAndOrderFront:self];
+	//[graph_window makeKeyAndOrderFront:self];
 	
 	//run dat looooop
 	[NSThread detachNewThreadSelector:@selector(mainloop:) toTarget:self withObject:nil];
@@ -461,12 +531,19 @@
 	recordBaseline = [statusMenu addItemWithTitle:@"Record Baseline" action:@selector(record_baseline:) keyEquivalent:@""];
 	increaseBaselineItem = [statusMenu addItemWithTitle:@"Increase Baseline" action:@selector(increaseBaseline:) keyEquivalent:@""];
 	decreaseBaselineItem = [statusMenu addItemWithTitle:@"Decrease Baseline" action:@selector(decreaseBaseline:) keyEquivalent:@""];
+	graphItem = [statusMenu addItemWithTitle:@"View Breath Performance" action:@selector(viewGraph:) keyEquivalent:@""];
 	//displayOff = [statusMenu addItemWithTitle:@"Feedback Off" action:@selector(set_display_off:) keyEquivalent:@""];
 	//displayScreen = [statusMenu addItemWithTitle:@"Screen Dim Feedback" action:@selector(set_display_screen:) keyEquivalent:@""];
 	//displayMenu = [statusMenu addItemWithTitle:@"Menu Dim Feedback" action:@selector(set_display_menu:) keyEquivalent:@""];
 	//displayBounce = [statusMenu addItemWithTitle:@"Bounce Feedback" action:@selector(set_display_bounce:) keyEquivalent:@""];
 	calibrateToggle = [statusMenu addItemWithTitle:@"Turn Calibration On" action:@selector(calibrate_on_off:) keyEquivalent:@""];
+	intervalItem = [statusMenu addItemWithTitle:@"Change Update Interval" action:@selector(set_interval:) keyEquivalent:@""];
+	colorToggle = [statusMenu addItemWithTitle:@"Change Color based on Rate On" action:@selector(color_on_off:) keyEquivalent:@""];
 	[statusMenu addItemWithTitle:@"Quit" action:@selector(terminate:) keyEquivalent:@""];
+}
+- (void) viewGraph:(id) sender
+{
+	//placeholder for now
 }
 
 - (void) record_baseline:(id)sender
@@ -548,10 +625,30 @@
 		[cal_window display];
 	}
 
-	
+
 }
-
-
+- (void) set_interval:(id) sender 
+{
+	last_display = [intervalTextField floatValue];
+	if ((last_display < 0) || (last_display > 3600))
+		last_display = 10;  //default interval 10 seconds.
+}
+- (void) color_on_off:(id) sender
+{
+	if (colorMode) {  
+		[colorToggle setTitle:@"Change Color based on Rate On"];
+		colorMode = false;
+	//	[[color_window contentView] layer].opacity = 0.0;
+	//	[color_window display];
+	}
+	else { 
+		[colorToggle setTitle:@"Change Color based on Rate Off"];
+		colorMode = true;
+	//	[[color_window contentView] layer].opacity = 0.2;
+	//	[color_window display];
+	}
+	[self set_breath_rate_view : breathrate :baseline_bpm];	
+}
 - (void) toggle_on_off:(id)sender
 {
 	//int randomint = rand()%NUM_USERS;
@@ -727,9 +824,10 @@ const CFStringRef kDisplayBrightness = CFSTR(kIODisplayBrightnessKey);
 	[window setFrameOrigin:theOrigin];
 	//printf("%f\n",relativePos);
 }
+//@poorna - june22,2011
 - (void)set_breath_rate_view:(float) br_rate :(float) base_rate
 {
-	int percentChange = (int)(br_rate - base_rate) * 100/base_rate;
+	int percentChange = (int)(br_rate) * 100/base_rate;
 
 	NSString *trend = [NSString stringWithFormat:@"%d%% (%.1f bpm)",percentChange,br_rate];
 	NSMutableAttributedString *statusDisplay = [[NSMutableAttributedString alloc] initWithString:@"Breathcast "];
@@ -739,10 +837,14 @@ const CFStringRef kDisplayBrightness = CFSTR(kIODisplayBrightnessKey);
 
     NSMutableAttributedString *trendAttr = [[NSMutableAttributedString alloc] initWithString:trend];
 	range = NSMakeRange(0, [trendAttr length]);
-	if (percentChange > 100)
-		[trendAttr addAttribute:NSForegroundColorAttributeName value:[NSColor redColor] range:range];
+	NSColor *showColor;
+	if (colorMode)
+		showColor =(percentChange > 100) ? [NSColor redColor] : [NSColor blueColor];
 	else 
-		[trendAttr addAttribute:NSForegroundColorAttributeName value:[NSColor blueColor] range:range];
+		showColor = [NSColor blackColor];
+
+	
+	[trendAttr addAttribute:NSForegroundColorAttributeName value:showColor range:range];
 	[statusDisplay appendAttributedString:trendAttr];
 	
 	[statusItem setTitle:statusDisplay];
@@ -774,7 +876,8 @@ const CFStringRef kDisplayBrightness = CFSTR(kIODisplayBrightnessKey);
 	
 	// Get a current time for where you want to start measuring from
 	NSDate *date = [NSDate date];
-	
+	NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init]; // = [[NSDateFormatter alloc] initWithDateFormat:@"%y-%m-%d %H:%M:%S:%F" allowNaturalLanguage:YES];
+	[dateFormatter setDateFormat:@"yyyy-MM-dd 'at' HH:mm:ss"];
 	// Find elapsed time
 	// Use (-) modifier to conversion since receiver is earlier than now
 	NSTimeInterval timePassed_s;
@@ -793,7 +896,7 @@ const CFStringRef kDisplayBrightness = CFSTR(kIODisplayBrightnessKey);
 	int cycle_samples = 0;
 	
 	float calm_duration = 0.0;
-	float last_display = 0.0;
+	last_display = 0.0;
 	
 	vis_duration = 60.0;
 	int samplecount = 0;
@@ -812,15 +915,20 @@ const CFStringRef kDisplayBrightness = CFSTR(kIODisplayBrightnessKey);
 		samplecount = samplecount++%NUM_SAMPLES;
 		//printf("adding %dth sample=%d ",samplecount,val); 
 		[br add_sample:val :timePassed_s];
-		float breathrate = [br getBreathRate];
+		breathrate = [br getBreathRate];
+		//NSDate *now = [NSDate dateWithTimeIntervalSinceNow:timePassed_s];
+		NSDate *now = [NSDate date];
 
+		NSString *dateString = [dateFormatter stringFromDate:now];
+		NSNumber *milliSecs = [NSNumber numberWithLongLong:timePassed_s * 1000];
+		NSString *timestamp = [NSString stringWithFormat:@"%@:%.2i",dateString,milliSecs];
 		if (recording_baseline)
 		{
 			baseline_total += breathrate;
 			baseline_iterations++;
 		}
-		printf("time: %f, read: %d, breath rate: %f, calm_moment: %d\n",timePassed_s,val,breathrate,calm_moment);
-		
+	//	printf("logtime:%s ,time: %f, read: %d, breath rate: %f, calm_moment: %d\n",[timestamp UTF8String], timePassed_s,val,breathrate,calm_moment);
+		NSLog(@"logtime:%@, time: %f,read : %d, breath rate: %f ,calm_moment: %d\n",timestamp,timePassed_s,val,breathrate,calm_moment);
 		if (calibrateMode)
 		{
 			NSRect theFrame = [window frame];
@@ -837,7 +945,7 @@ const CFStringRef kDisplayBrightness = CFSTR(kIODisplayBrightnessKey);
 		//printf("%s\n",[[data_dir stringByAppendingString:@"log.txt"] UTF8String]);
 		fp = fopen([[data_dir stringByAppendingString:@"log.txt"] UTF8String],"a");
 		//printf("opened\n");
-		fprintf(fp,"%f %d %f %f %d %d %d %d\n",timePassed_s,val,breathrate,baseline_bpm,recording_baseline,running,realtime,cycle);
+		fprintf(fp,"%.2f %d %.2f %.2f %.2f %.2f %.2f %d %d %d %d\n",timePassed_s,val,breathrate,baseline_bpm,[br getInhaleExhaleRatio], [br getInhaleRestPerMinute],[br getExhaleRestPerMinute],recording_baseline,running,realtime,cycle);
 		//printf("appended\n");
 		fclose(fp);
 		if ((last_display += time_delta) > 10) { 

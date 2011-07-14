@@ -39,13 +39,40 @@
 #include <termios.h>  /* POSIX terminal control definitions */
 #include <sys/ioctl.h>
 #include <getopt.h>
+#include <IOKit/IOKitLib.h>
+#include <IOKit/serial/IOSerialKeys.h>
+#include <IOKit/IOBSD.h>
+#include <IOKit/serial/ioss.h>
 
 void usage(void);
 int serialport_init(const char* serialport, int baud);
 int serialport_writebyte(int fd, uint8_t b);
 int serialport_write(int fd, const char* str);
 int serialport_read_until(int fd, char* buf, char until);
+NSString *autoDetect_Arduino_port();
 
+NSString *autoDetect_Arduino_port() { 
+	io_object_t serialPort;
+	io_iterator_t serialPortIterator;
+	int fd;
+	//ask for all the serial ports
+	IOServiceGetMatchingServices(kIOMasterPortDefault, IOServiceMatching(kIOSerialBSDServiceValue),&serialPortIterator);
+	//Loop through all the serial ports
+	while (serialPort = IOIteratorNext(serialPortIterator)) { 
+		NSString *portName = IORegistryEntryCreateCFProperty(serialPort, CFSTR(kIOCalloutDeviceKey),kCFAllocatorDefault,0);
+		IOObjectRelease(serialPort);
+		//A rough hack that should detect Arduino on Mac
+		if ([portName hasPrefix :@"/dev/tty.usbserial"] || [portName hasPrefix :@"/dev/tty.usbmodem"] ||
+			[portName hasPrefix :@"/dev/cu.usbserial"] || [portName hasPrefix :@"/dev/cu.usbmodem"])
+		{	NSLog(@"Detected Serial port=%@",portName);
+			fd = open([portName UTF8String], O_RDWR | O_NOCTTY | O_NDELAY);
+			
+			if (fd != -1)
+				return portName;
+		}
+	}
+	return NULL;
+}
 void usage(void) {
     printf("Usage: arduino-serial -p <serialport> [OPTIONS]\n"
     "\n"
@@ -176,8 +203,11 @@ int serialport_init(const char* serialport, int baud)
     
     //fprintf(stderr,"init_serialport: opening port %s @ %d bps\n",
     //        serialport,baud);
-
-    fd = open(serialport, O_RDWR | O_NOCTTY | O_NDELAY);
+	char *port = [autoDetect_Arduino_port() UTF8String];
+    if (port != NULL) 
+		fd = open(port,O_RDWR | O_NOCTTY | O_NDELAY);
+	else
+		fd = open(serialport, O_RDWR | O_NOCTTY | O_NDELAY);
     if (fd == -1)  {
         perror("init_serialport: Unable to open port ");
         return -1;
