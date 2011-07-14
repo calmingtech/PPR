@@ -7,21 +7,19 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>peripheralpacing</string>
+	<string>CorePlot</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.yourcompany.peripheralpacing</string>
+	<string>org.coreplot.CorePlot</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>peripheralpacing</string>
+	<string>CorePlot</string>
 	<key>CFBundlePackageType</key>
-	<string>APPL</string>
-	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>FMWK</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>1.0</string>
 	<key>DTCompiler</key>
 	<string>4.2</string>
 	<key>DTPlatformBuild</key>
@@ -29,18 +27,12 @@
 	<key>DTPlatformVersion</key>
 	<string>PG</string>
 	<key>DTSDKBuild</key>
-	<string>10M2518</string>
+	<string>10J3210</string>
 	<key>DTSDKName</key>
-	<string>macosx10.6</string>
+	<string></string>
 	<key>DTXcode</key>
 	<string>0400</string>
 	<key>DTXcodeBuild</key>
 	<string>10M2518</string>
-	<key>LSMinimumSystemVersion</key>
-	<string>10.6</string>
-	<key>NSMainNibFile</key>
-	<string>MainMenu</string>
-	<key>NSPrincipalClass</key>
-	<string>NSApplication</string>
 </dict>
 </plist>
