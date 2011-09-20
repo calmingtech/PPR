@@ -43,15 +43,22 @@
 #include <IOKit/serial/IOSerialKeys.h>
 #include <IOKit/IOBSD.h>
 #include <IOKit/serial/ioss.h>
-
+#define NUM_VALUES 600
+#define SENSOR_MAX 1023
 void usage(void);
 int serialport_init(const char* serialport, int baud);
 int serialport_writebyte(int fd, uint8_t b);
 int serialport_write(int fd, const char* str);
-int serialport_read_until(int fd, char* buf, char until);
-NSString *autoDetect_Arduino_port();
+int serialport_read_until(int fd, char* buf, char until, int *numRead);
+int autoDetect_Arduino_port();
+int getNextVal(int fd,int *val,char *header);
 
-NSString *autoDetect_Arduino_port() { 
+
+int values[NUM_VALUES] = {0};
+int indx;
+BOOL warm_up = YES;
+
+int autoDetect_Arduino_port(int baud) { 
 	io_object_t serialPort;
 	io_iterator_t serialPortIterator;
 	int fd;
@@ -65,13 +72,20 @@ NSString *autoDetect_Arduino_port() {
 		if ([portName hasPrefix :@"/dev/tty.usbserial"] || [portName hasPrefix :@"/dev/tty.usbmodem"] ||
 			[portName hasPrefix :@"/dev/cu.usbserial"] || [portName hasPrefix :@"/dev/cu.usbmodem"])
 		{	NSLog(@"Detected Serial port=%@",portName);
-			fd = open([portName UTF8String], O_RDWR | O_NOCTTY | O_NDELAY);
-			
-			if (fd != -1)
-				return portName;
+			fd = serialport_init([portName UTF8String],baud);
+			int val;
+			char header[9600];
+			if (fd != -1){
+				int rc = getNextVal(fd, &val,header);
+				if ((rc == 0) && (strcmp(header,"BCAST:") == 0)) {
+					NSLog(@"found the correct port with val=%d",val);
+					return fd;
+				}
+				close(fd);
+			}
 		}
 	}
-	return NULL;
+	return -1;
 }
 void usage(void) {
     printf("Usage: arduino-serial -p <serialport> [OPTIONS]\n"
@@ -105,7 +119,7 @@ int ardmain(int argc, char *argv[])
     }
 
     /* parse options */
-    int option_index = 0, opt;
+    int option_index = 0, opt, numRead;
     static struct option loptions[] = {
         {"help",       no_argument,       0, 'h'},
         {"port",       required_argument, 0, 'p'},
@@ -148,7 +162,7 @@ int ardmain(int argc, char *argv[])
             if(rc==-1) return -1;
             break;
         case 'r':
-            serialport_read_until(fd, buf, '\n');
+            serialport_read_until(fd, buf, '\n',&numRead);
             printf("read: %s\n",buf);
             break;
         }
@@ -173,8 +187,38 @@ int serialport_write(int fd, const char* str)
         return -1;
     return 0;
 }
-
-int serialport_read_until(int fd, char* buf, char until)
+int getNextVal(int fd,int *val,char *header) 
+{ 
+	char buf[256];
+	int numRead, rc;
+	do {
+	 rc = serialport_read_until(fd, buf,'\n',&numRead); 
+	} while ((numRead < 10) && (rc == 0)) ;
+	if (rc == -1) 
+		return rc;
+	sscanf(buf,"%s %d\n",header,val);
+	values[indx] = *val;
+	indx = ++indx % NUM_VALUES;
+	
+	int min = SENSOR_MAX;
+	int max = 0;
+	if (warm_up && (indx == 0))
+		warm_up = NO;
+	//detect if user left computer by checking range of values returned by the sensor
+	// over a span of 30 secs.
+	if (!warm_up) { 
+		for (int i = 0; i < NUM_VALUES; i++)
+		{
+			min = (values[i] < min) ? values[i] : min;
+			max = (values[i] > max) ? values[i] : max;
+		}
+		//NSLog(@"min=%d max = %d ",min,max);
+		if (abs(min - max) < 6) 
+			return -2;
+	}
+	return rc;
+}
+int serialport_read_until(int fd, char* buf, char until, int *numRead)
 {
     char b[1];
     int i=0;
@@ -187,7 +231,7 @@ int serialport_read_until(int fd, char* buf, char until)
         }
         buf[i] = b[0]; i++;
     } while( b[0] != until );
-
+	*numRead = i;
     buf[i] = 0;  // null terminate the string
     return 0;
 }
@@ -203,10 +247,10 @@ int serialport_init(const char* serialport, int baud)
     
     //fprintf(stderr,"init_serialport: opening port %s @ %d bps\n",
     //        serialport,baud);
-	char *port = [autoDetect_Arduino_port() UTF8String];
-    if (port != NULL) 
-		fd = open(port,O_RDWR | O_NOCTTY | O_NDELAY);
-	else
+//	char *port = [autoDetect_Arduino_port() UTF8String];
+  //  if (port != NULL) 
+	//	fd = open(port,O_RDWR | O_NOCTTY | O_NDELAY);
+	//else
 		fd = open(serialport, O_RDWR | O_NOCTTY | O_NDELAY);
     if (fd == -1)  {
         perror("init_serialport: Unable to open port ");

@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	256AC3D80F4B6AC300CF3369 /* BreatheUploaderAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {853, 420}}";
+			sepNavSelRange = "{371, 0}";
+			sepNavVisRange = "{36, 341}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* BreatheUploaderAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1843.44, 1533}}";
+			sepNavSelRange = "{584, 1}";
+			sepNavVisRange = "{0, 565}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = AE085FD014145D7A00DFF8CC /* BreatheUploader */;
+		activeTarget = 8D1107260486CEB800E47090 /* BreatheUploader */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* BreatheUploader */,
+		);
+		breakpoints = (
+			AEDE69151416D6FE00DFE6A6 /* BreatheUploaderAppDelegate.m:46 */,
+			AEE060B31417E77E00AAE503 /* BreatheUploaderAppDelegate.m:26 */,
+			AEE060BD1417E7A100AAE503 /* BreatheUploaderAppDelegate.m:21 */,
+			AEE060C01417E7AB00AAE503 /* BreatheUploaderAppDelegate.m:22 */,
+		);
+		codeSenseManager = AE085FDD14145D9900DFF8CC /* Code sense */;
+		executables = (
+			AE085FD014145D7A00DFF8CC /* BreatheUploader */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					675,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 338229833;
+			PBXWorkspaceStateSaveDate = 338229833;
+		};
+		perUserProjectItems = {
+			AEDC3ABB1428FA2A0031B9CC /* PBXTextBookmark */ = AEDC3ABB1428FA2A0031B9CC /* PBXTextBookmark */;
+			AEDC3ABC1428FA2A0031B9CC /* PBXTextBookmark */ = AEDC3ABC1428FA2A0031B9CC /* PBXTextBookmark */;
+			AEDC3ABD1428FA2A0031B9CC /* PBXTextBookmark */ = AEDC3ABD1428FA2A0031B9CC /* PBXTextBookmark */;
+			AEDC3ABF1428FA2A0031B9CC /* PBXTextBookmark */ = AEDC3ABF1428FA2A0031B9CC /* PBXTextBookmark */;
+			AEDC3BA21428FAE30031B9CC /* PBXTextBookmark */ = AEDC3BA21428FAE30031B9CC /* PBXTextBookmark */;
+			AEE05E421416EEC600AAE503 /* PBXTextBookmark */ = AEE05E421416EEC600AAE503 /* PBXTextBookmark */;
+			AEE062F91417FA1800AAE503 /* PBXTextBookmark */ = AEE062F91417FA1800AAE503 /* PBXTextBookmark */;
+		};
+		sourceControlManager = AE085FDC14145D9900DFF8CC /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {853, 379}}";
+			sepNavSelRange = "{210, 0}";
+			sepNavVisRange = "{0, 271}";
+		};
+	};
+	8D1107260486CEB800E47090 /* BreatheUploader */ = {
+		activeExec = 0;
+		executables = (
+			AE085FD014145D7A00DFF8CC /* BreatheUploader */,
+		);
+	};
+	AE085FD014145D7A00DFF8CC /* BreatheUploader */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = BreatheUploader;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	AE085FDC14145D9900DFF8CC /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	AE085FDD14145D9900DFF8CC /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	AE08608C14145E6A00DFF8CC /* ppDatabaseManager.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1323.27, 8925}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{11374, 640}";
+		};
+	};
+	AE08609814145E6A00DFF8CC /* ppUser.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {853, 1764}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1348, 266}";
+		};
+	};
+	AE0860A814145E6A00DFF8CC /* NSObject+SBJson.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {868.116, 1197}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 977}";
+		};
+	};
+	AEDC3ABB1428FA2A0031B9CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AE08608C14145E6A00DFF8CC /* ppDatabaseManager.m */;
+		name = "ppDatabaseManager.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 640;
+		vrLoc = 11374;
+	};
+	AEDC3ABC1428FA2A0031B9CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* BreatheUploaderAppDelegate.m */;
+		name = "BreatheUploaderAppDelegate.m: 20";
+		rLen = 1;
+		rLoc = 584;
+		rType = 0;
+		vrLen = 565;
+		vrLoc = 0;
+	};
+	AEDC3ABD1428FA2A0031B9CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* BreatheUploaderAppDelegate.h */;
+		name = "BreatheUploaderAppDelegate.h: 18";
+		rLen = 0;
+		rLoc = 371;
+		rType = 0;
+		vrLen = 341;
+		vrLoc = 36;
+	};
+	AEDC3ABF1428FA2A0031B9CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AE08609814145E6A00DFF8CC /* ppUser.m */;
+		name = "ppUser.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 238;
+		vrLoc = 1376;
+	};
+	AEDC3BA21428FAE30031B9CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AE08609814145E6A00DFF8CC /* ppUser.m */;
+		name = "ppUser.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 266;
+		vrLoc = 1348;
+	};
+	AEDE69151416D6FE00DFE6A6 /* BreatheUploaderAppDelegate.m:46 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 256AC3D90F4B6AC300CF3369 /* BreatheUploaderAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 46;
+		modificationTime = 337115699.305064;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	AEE05E421416EEC600AAE503 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AE0860A814145E6A00DFF8CC /* NSObject+SBJson.h */;
+		name = "NSObject+SBJson.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 977;
+		vrLoc = 0;
+	};
+	AEE060B31417E77E00AAE503 /* BreatheUploaderAppDelegate.m:26 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 256AC3D90F4B6AC300CF3369 /* BreatheUploaderAppDelegate.m */;
+		functionName = "-applicationDidFinishLaunching:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 26;
+		modificationTime = 337115699.320048;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	AEE060BD1417E7A100AAE503 /* BreatheUploaderAppDelegate.m:21 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 256AC3D90F4B6AC300CF3369 /* BreatheUploaderAppDelegate.m */;
+		functionName = "-applicationDidFinishLaunching:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 21;
+		location = BreatheUploader;
+		modificationTime = 337115669.379458;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEE060C01417E7AB00AAE503 /* BreatheUploaderAppDelegate.m:22 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 256AC3D90F4B6AC300CF3369 /* BreatheUploaderAppDelegate.m */;
+		functionName = "-applicationDidFinishLaunching:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 22;
+		modificationTime = 337115699.346818;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	AEE062F91417FA1800AAE503 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 13";
+		rLen = 0;
+		rLoc = 210;
+		rType = 0;
+		vrLen = 271;
+		vrLoc = 0;
+	};
+}

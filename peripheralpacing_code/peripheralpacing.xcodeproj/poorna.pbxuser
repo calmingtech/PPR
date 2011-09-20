@@ -1,0 +1,5134 @@
+// !$*UTF8*$!
+{
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 554}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 45}";
+		};
+	};
+	256AC3D80F4B6AC300CF3369 /* peripheralpacingAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {998.159, 3969}}";
+			sepNavSelRange = "{5308, 14}";
+			sepNavVisRange = "{5497, 752}";
+			sepNavWindowFrame = "{{15, 55}, {750, 723}}";
+		};
+	};
+	256AC3F00F4B6AF500CF3369 /* peripheralpacing_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 354}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 163}";
+			sepNavWindowFrame = "{{15, 55}, {750, 723}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = AEF242E413B008D200549512 /* peripheralpacing */;
+		activeTarget = 8D1107260486CEB800E47090 /* peripheralpacing */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* peripheralpacing */,
+		);
+		breakpoints = (
+			AE0A9BE913EA013F00CC39C2 /* BreathStatController.m:55 */,
+			AE0A9BEB13EA014400CC39C2 /* BreathStatController.m:55 */,
+			AE0A9BEF13EA027F00CC39C2 /* BreathStatController.m:55 */,
+			AE0A9BF513EA035700CC39C2 /* BreathStatController.m:55 */,
+			AE0A9C1813EA081F00CC39C2 /* BreathStatController.m:55 */,
+			AE0A9C1A13EA085900CC39C2 /* BreathStatController.m:55 */,
+			AED8AC3113EB154000E659AC /* peripheralpacingAppDelegate.m:1500 */,
+			AED8AC3313EB154500E659AC /* peripheralpacingAppDelegate.m:1516 */,
+			AED8AC3513EB155900E659AC /* peripheralpacingAppDelegate.m:1534 */,
+			AED8AC3713EB15CA00E659AC /* peripheralpacingAppDelegate.m:1564 */,
+			AED8AC3913EB15CF00E659AC /* peripheralpacingAppDelegate.m:1581 */,
+			AED8AC5A13EB1E0100E659AC /* peripheralpacingAppDelegate.m:711 */,
+			AED8AC7A13EB204400E659AC /* peripheralpacingAppDelegate.m:998 */,
+			AED8AC7C13EB205D00E659AC /* peripheralpacingAppDelegate.m:1013 */,
+			AED8ACF913EB5B6000E659AC /* peripheralpacingAppDelegate.m:1425 */,
+			AED8ADC613EC800200E659AC /* peripheralpacingAppDelegate.m:1494 */,
+			AED8ADC813EC800800E659AC /* peripheralpacingAppDelegate.m:1492 */,
+			AED8AE0913EC86E400E659AC /* peripheralpacingAppDelegate.m:1495 */,
+			AED8AE1B13EC87C600E659AC /* peripheralpacingAppDelegate.m:1281 */,
+			AED8AE4C13EC990A00E659AC /* peripheralpacingAppDelegate.m:1278 */,
+			AED8AE5013EC994700E659AC /* BreathStatController.m:55 */,
+			AED8AE8913ECA57200E659AC /* BreathStatController.m:55 */,
+			AED8AEB013ECA60000E659AC /* BreathStatController.m:55 */,
+			AEE04D2B13F058A000F367B1 /* BreathStatController.m:55 */,
+			AEE04D3913F0598F00F367B1 /* BreathStatController.m:55 */,
+			AEE04D6C13F0612A00F367B1 /* BreathRate.m:83 */,
+			AEE04D8513F065DB00F367B1 /* BreathStatController.m:55 */,
+			AEE04D8D13F0661A00F367B1 /* BreathStatController.m:55 */,
+			AEAE859913F06971001BFB13 /* BreathStatController.m:55 */,
+			AEAE859B13F06979001BFB13 /* BreathStatController.m:55 */,
+			AEAE85B213F06A87001BFB13 /* BreathStatController.m:55 */,
+			AEAE860613F0790D001BFB13 /* BreathStatController.m:55 */,
+			AEAE860E13F0792B001BFB13 /* BreathStatController.m:55 */,
+			AEAE865F13F07F6A001BFB13 /* BreathStatController.m:55 */,
+			AEAE866113F07F6C001BFB13 /* BreathStatController.m:55 */,
+			AEAE866313F07F83001BFB13 /* BreathStatController.m:55 */,
+			AEAE867B13F081D8001BFB13 /* BreathStatController.m:55 */,
+			AEAE868613F0844A001BFB13 /* BreathStatController.m:55 */,
+			AEAE878F13F0A472001BFB13 /* BreathStatController.m:205 */,
+			AEAE87D913F10AF3001BFB13 /* BreathStatController.m:49 */,
+			AEAE87FC13F10CA7001BFB13 /* BreathStatController.m:92 */,
+			AEAE883513F11289001BFB13 /* BreathStatController.m:98 */,
+			AED1C54613F1A548004B15E1 /* BreathStatController.m:259 */,
+			AED1C55113F1A5ED004B15E1 /* BreathStatController.m:259 */,
+			AED1C5B113F1AC48004B15E1 /* BreathStatController.m:72 */,
+			AED1C5D213F1AD8C004B15E1 /* BreathStatController.m:89 */,
+			AED1C5FA13F1AE84004B15E1 /* BreathStatController.m:259 */,
+			AED1C61213F1AFC7004B15E1 /* BreathStatController.m:89 */,
+			AED1C62D13F1B1A6004B15E1 /* BreathStatController.m:257 */,
+			AE5EA2F613F1D01E009C860D /* BreathStatController.m:296 */,
+			AE231F4213F20684000C8626 /* peripheralpacingAppDelegate.m:1432 */,
+			AE231F4413F206A1000C8626 /* peripheralpacingAppDelegate.m:1433 */,
+			AEDF1BEC13F46170001EC310 /* BreathStatController.m:345 */,
+			AEDF1BF713F461EB001EC310 /* myLogger.m:31 */,
+			AEDF1BFE13F46220001EC310 /* myLogger.m:16 */,
+			AEDF1C0C13F462C7001EC310 /* myLogger.m:15 */,
+			AEDF1D7413F4A420001EC310 /* BreathStatController.m:365 */,
+			AEDF1D9C13F4A626001EC310 /* BreathStatController.m:320 */,
+			AEDF1DA813F56B8B001EC310 /* BreathStatController.m:293 */,
+			AEDF1DAE13F56BFE001EC310 /* Stat.m:35 */,
+			AE76CEF213F5B6320041C1C6 /* BreathStatController.m:383 */,
+			AE76CF0E13F5B9360041C1C6 /* BreathStatController.m:383 */,
+			AEE0229D13FADC7700DD1A01 /* BreathStatController.m:100 */,
+			AEDE51EA13FC57850065958C /* arduino-serial.h:226 */,
+			AEDE51FE13FC59D70065958C /* peripheralpacingAppDelegate.m:1386 */,
+			AEDC9D5F13FD8348007338D9 /* peripheralpacingAppDelegate.m:1388 */,
+			AEDC9D7A13FD846F007338D9 /* peripheralpacingAppDelegate.m:1390 */,
+			AEDC9D7C13FD8476007338D9 /* peripheralpacingAppDelegate.m:1388 */,
+			AEDC9DC213FDB0B5007338D9 /* arduino-serial.h:69 */,
+			AEDC9E0113FDB584007338D9 /* arduino-serial.h:200 */,
+			AEDC9E0313FDB7F5007338D9 /* peripheralpacingAppDelegate.m:1316 */,
+			AEE85A7D13FDBCA900981D47 /* arduino-serial.h:235 */,
+			AEE85A9713FDC2F600981D47 /* arduino-serial.h:305 */,
+			AEE85B1913FDD00400981D47 /* arduino-serial.h:199 */,
+			AEE6C28613FED2A600BF9CEC /* arduino-serial.h:217 */,
+			AEE03D05140420D300006A6F /* peripheralpacingAppDelegate.m:1482 */,
+			AEE03F691404626900006A6F /* wireless-serial.h:84 */,
+			AEDB50401404CE5A008A6F53 /* peripheralpacingAppDelegate.m:1367 */,
+			AEDB50531404CE8A008A6F53 /* arduino-serial.h:88 */,
+			AEDB507E1404D3C9008A6F53 /* peripheralpacingAppDelegate.m:1416 */,
+			AEDB50801404D3CC008A6F53 /* peripheralpacingAppDelegate.m:1416 */,
+			AEDB50871404D43A008A6F53 /* peripheralpacingAppDelegate.m:1351 */,
+			AEDB50A41404D500008A6F53 /* peripheralpacingAppDelegate.m:1416 */,
+			AEDB50BE1404D5E6008A6F53 /* peripheralpacingAppDelegate.m:1416 */,
+			AEE24F1514056B5300CF22E9 /* peripheralpacingAppDelegate.m:714 */,
+			AEE24F2114056B9B00CF22E9 /* peripheralpacingAppDelegate.m:1647 */,
+			AEE24F2314056B9D00CF22E9 /* peripheralpacingAppDelegate.m:1642 */,
+			AEE24F2F14056BFE00CF22E9 /* peripheralpacingAppDelegate.m:1404 */,
+			AEE24F3714056FCA00CF22E9 /* peripheralpacingAppDelegate.m:1060 */,
+			AEE24F58140575DD00CF22E9 /* BreathStatController.m:286 */,
+			AEE24F5A140575E000CF22E9 /* BreathStatController.m:282 */,
+			AEDD1C10140706DF00A8EEFE /* peripheralpacingAppDelegate.m:887 */,
+			AEDD1C37140708D800A8EEFE /* peripheralpacingAppDelegate.m:891 */,
+			AEDD1C6714070E9F00A8EEFE /* peripheralpacingAppDelegate.m:908 */,
+			AEDD1C6C14070EDE00A8EEFE /* peripheralpacingAppDelegate.m:897 */,
+			AEDD1C7C1407108F00A8EEFE /* peripheralpacingAppDelegate.m:248 */,
+			AEDD1DC21407173800A8EEFE /* BreathStatController.m:276 */,
+			AEDD1DDC14071C1700A8EEFE /* BreathStatController.m:248 */,
+			AEDD1DE914071E9F00A8EEFE /* BreathStatController.m:50 */,
+			AEDE21A714072343009B9C3C /* peripheralpacingAppDelegate.m:1453 */,
+			AEDE21C514074207009B9C3C /* BreathStatController.m:372 */,
+			AEDE2449140836D1009B9C3C /* peripheralpacingAppDelegate.m:365 */,
+			AEDE244B140836D6009B9C3C /* peripheralpacingAppDelegate.m:380 */,
+			AEDE244D140836DE009B9C3C /* peripheralpacingAppDelegate.m:408 */,
+			AEDE244F140836E9009B9C3C /* peripheralpacingAppDelegate.m:445 */,
+			AEDE2451140836F3009B9C3C /* peripheralpacingAppDelegate.m:425 */,
+			AEDBC5D5140C5AB200F02920 /* wireless-serial.h:108 */,
+			AE3C5DAD140D5BA400F1849F /* wirelessold.m:182 */,
+			AE3C5DAF140D5BB700F1849F /* wirelessold.m:235 */,
+			AE3C5DB1140D5BB800F1849F /* wirelessold.m:234 */,
+			AE3C5DB3140D5BBF00F1849F /* wirelessold.m:188 */,
+			AE3C5DCB140D660300F1849F /* wirelessold.m:32 */,
+			AE3C5DD6140D667B00F1849F /* wirelessold.m:38 */,
+			AE3C5E0A140D70A700F1849F /* wirelessold.m:90 */,
+			AE3C5E19140D719700F1849F /* wirelessold.m:204 */,
+			AE3C5E35140D737300F1849F /* wirelessold.m:64 */,
+			AE3C5E40140D745F00F1849F /* wirelessold.m:188 */,
+			AE3C5E42140D74A400F1849F /* wirelessold.m:246 */,
+			AE3C5E44140D74A800F1849F /* wirelessold.m:222 */,
+			AEE0400E140D8ED200299E08 /* wirelessold.m:251 */,
+			AEE04015140D8F1600299E08 /* wirelessold.m:41 */,
+			AEE04046140DA48600299E08 /* wirelessold.m:227 */,
+			AEDF23F7140DB09B00F6A47E /* wirelessold.m:212 */,
+			AEDF23FB140DB0AF00F6A47E /* wirelessold.m:223 */,
+			AEDCB00B140EBFAB00157B93 /* peripheralpacingAppDelegate.m:555 */,
+			AEDCB00D140EBFB900157B93 /* peripheralpacingAppDelegate.m:1291 */,
+			AEDCB00F140EBFC700157B93 /* peripheralpacingAppDelegate.m:1328 */,
+			AEDCB011140EC00B00157B93 /* peripheralpacingAppDelegate.m:385 */,
+			AEDCB013140EC00E00157B93 /* peripheralpacingAppDelegate.m:408 */,
+			AEDCB047140EC3C200157B93 /* peripheralpacingAppDelegate.m:490 */,
+			AEDCB049140EC3CB00157B93 /* peripheralpacingAppDelegate.m:1484 */,
+			AEDCB061140EC48B00157B93 /* BreathStatController.m:327 */,
+			AEDCB073140EC56300157B93 /* peripheralpacingAppDelegate.m:1482 */,
+			AEDCB0B2140EC8BD00157B93 /* peripheralpacingAppDelegate.m:445 */,
+			AE03116C140EEB7600B2F32E /* ppDatabaseManager.m:73 */,
+			AE031178140EEBC600B2F32E /* ppDatabaseManager.m:71 */,
+			AE03117A140EEBC900B2F32E /* ppDatabaseManager.m:59 */,
+			AE031191140EF4A600B2F32E /* peripheralpacingAppDelegate.m:1676 */,
+			AE085A2C14113FA100DFF8CC /* peripheralpacingAppDelegate.m:375 */,
+			AE085A3C14113FE300DFF8CC /* peripheralpacingAppDelegate.m:113 */,
+			AE085BE014114F7400DFF8CC /* peripheralpacingAppDelegate.m:408 */,
+			AE085BFB141150F900DFF8CC /* peripheralpacingAppDelegate.m:425 */,
+			AE085C0F141151BB00DFF8CC /* peripheralpacingAppDelegate.m:404 */,
+			AE085C2614116C4800DFF8CC /* peripheralpacingAppDelegate.m:405 */,
+			AE085C3014116D4D00DFF8CC /* peripheralpacingAppDelegate.m:408 */,
+			AE085C5914116ED800DFF8CC /* peripheralpacingAppDelegate.m:408 */,
+			AE085CAA1411722E00DFF8CC /* peripheralpacingAppDelegate.m:445 */,
+			AE085D011411750D00DFF8CC /* peripheralpacingAppDelegate.m:445 */,
+			AE085D1C141179BB00DFF8CC /* peripheralpacingAppDelegate.m:430 */,
+			AE085D1E141179C200DFF8CC /* peripheralpacingAppDelegate.m:399 */,
+			AE085D6814117EFD00DFF8CC /* BreathStatController.m:71 */,
+			AE085D8B14117FF800DFF8CC /* BreathStatController.m:58 */,
+			AE085DAB141180F500DFF8CC /* BreathStatController.m:83 */,
+			AE085DB61411811A00DFF8CC /* BreathStatController.m:82 */,
+			AE085E451411969300DFF8CC /* peripheralpacingAppDelegate.m:800 */,
+			AE085E501411983A00DFF8CC /* peripheralpacingAppDelegate.m:687 */,
+			AE085F971411A45A00DFF8CC /* peripheralpacingAppDelegate.m:405 */,
+			AE0862331415849A00DFF8CC /* objC_msg_send */,
+			AE0863E61415972B00DFF8CC /* peripheralpacingAppDelegate.m:378 */,
+			AE0864A61415A67E00DFF8CC /* peripheralpacingAppDelegate.m:1466 */,
+			AE0864F11415ACC900DFF8CC /* BreathRate.m:94 */,
+			AE0867F01415BA6900DFF8CC /* BreathRate.m:73 */,
+			AE0867F21415BA7600DFF8CC /* BreathRate.m:80 */,
+			AE0867F61415BAB000DFF8CC /* BreathRate.m:68 */,
+			AE08680E1415BCF800DFF8CC /* BreathRate.m:89 */,
+			AEE1DA421416B20B002E9BD2 /* wirelessold.m:42 */,
+			AEDE6B171416B6CF0090418C /* wirelessold.m:220 */,
+			AEE060081417D7EF00AAE503 /* peripheralpacingAppDelegate.m:1681 */,
+			AEE0603B1417DC7700AAE503 /* peripheralpacingAppDelegate.m:126 */,
+			AEDD5B48141979BE00551ED7 /* peripheralpacingAppDelegate.m:453 */,
+			AEDD5B4C141979CC00551ED7 /* peripheralpacingAppDelegate.m:457 */,
+			AEDD5B6114197A8B00551ED7 /* peripheralpacingAppDelegate.m:450 */,
+			AEDD5B8014197F8900551ED7 /* peripheralpacingAppDelegate.m:746 */,
+			AEDD5B8A141981D600551ED7 /* peripheralpacingAppDelegate.m:746 */,
+			AEDD7D1D141D5AA300F26F8E /* wireless.m:41 */,
+			AEDD7D32141D5AEC00F26F8E /* peripheralpacingAppDelegate.m:1308 */,
+			AEDD7D3E141D5B5100F26F8E /* peripheralpacingAppDelegate.m:1305 */,
+			AEDD7D6A141D5F5600F26F8E /* wireless.m:66 */,
+			AEDD7D6C141D5F6400F26F8E /* wireless.m:194 */,
+			AEDD7D6E141D5F6C00F26F8E /* wireless.m:203 */,
+			AEDD7D77141D5F7D00F26F8E /* wireless.m:204 */,
+			AEDD806C141D91F200F26F8E /* wirelessHdr.h:116 */,
+			AEDD808A141D923300F26F8E /* wirelessHdr.h:87 */,
+			AEDE3EA4141FE993008F4CB4 /* BreathStatController.m:361 */,
+			AEDE3EA6141FE9A9008F4CB4 /* BreathStatController.m:367 */,
+			AEDF9446141FEF0E00E7F6BF /* BreathStatController.m:322 */,
+			AEDF9450141FEF4C00E7F6BF /* peripheralpacingAppDelegate.m:1480 */,
+			AE29F22E142007A900C52FA1 /* BreathStatController.m:326 */,
+			AEDF38D614200BC000A39B7D /* BreathStatController.m:323 */,
+			AEDE471D14203D390044BBAC /* peripheralpacingAppDelegate.m:1323 */,
+			AEDE473314203D670044BBAC /* peripheralpacingAppDelegate.m:1304 */,
+			AEE016E31420FBA4009A7E67 /* BreathStatController.m:246 */,
+			AEE016FD1420FC24009A7E67 /* BreathStatController.m:252 */,
+			AEDE52F5142809250047C793 /* ppDatabaseManager.m:135 */,
+			AEDE52FF1428093C0047C793 /* ppDatabaseManager.m:144 */,
+		);
+		codeSenseManager = AEF242FA13B008D700549512 /* Code sense */;
+		executables = (
+			AEF242E413B008D200549512 /* peripheralpacing */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = 1;
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_UseID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					200,
+					643,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBookmarksDataSource_LocationID,
+					PBXBookmarksDataSource_NameID,
+					PBXBookmarksDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					702.58349609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					815,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					847,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					809,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					775,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 338239317;
+			PBXWorkspaceStateSaveDate = 338239317;
+		};
+		perUserProjectItems = {
+			AE085D161411799600DFF8CC /* PBXTextBookmark */ = AE085D161411799600DFF8CC /* PBXTextBookmark */;
+			AE085E8414119A4400DFF8CC /* PBXTextBookmark */ = AE085E8414119A4400DFF8CC /* PBXTextBookmark */;
+			AE231EF313F204CF000C8626 /* PlistBookmark */ = AE231EF313F204CF000C8626 /* PlistBookmark */;
+			AE231F4813F206C4000C8626 /* PBXTextBookmark */ = AE231F4813F206C4000C8626 /* PBXTextBookmark */;
+			AE29F2431420088300C52FA1 /* PBXTextBookmark */ = AE29F2431420088300C52FA1 /* PBXTextBookmark */;
+			AEAA09DA13B12FE7000C8A40 /* PBXTextBookmark */ = AEAA09DA13B12FE7000C8A40 /* PBXTextBookmark */;
+			AEC48C4C13E4F4D1008F8A59 /* PBXTextBookmark */ = AEC48C4C13E4F4D1008F8A59 /* PBXTextBookmark */;
+			AEDBC4CC140C0C8F00F02920 /* PBXTextBookmark */ = AEDBC4CC140C0C8F00F02920 /* PBXTextBookmark */;
+			AEDC3AAE1428E64D0031B9CC /* PBXTextBookmark */ = AEDC3AAE1428E64D0031B9CC /* PBXTextBookmark */;
+			AEDC3C951428FFE70031B9CC /* PBXTextBookmark */ = AEDC3C951428FFE70031B9CC /* PBXTextBookmark */;
+			AEDC3C9E142902150031B9CC /* PBXTextBookmark */ = AEDC3C9E142902150031B9CC /* PBXTextBookmark */;
+			AEDC3FF51429148D0031B9CC /* PBXTextBookmark */ = AEDC3FF51429148D0031B9CC /* PBXTextBookmark */;
+			AEDC40C014291F580031B9CC /* PBXTextBookmark */ = AEDC40C014291F580031B9CC /* PBXTextBookmark */;
+			AEDCAF3A140DDEDF00157B93 /* PBXTextBookmark */ = AEDCAF3A140DDEDF00157B93 /* PBXTextBookmark */;
+			AEDCAF3B140DDEDF00157B93 /* PBXTextBookmark */ = AEDCAF3B140DDEDF00157B93 /* PBXTextBookmark */;
+			AEDCAF3C140DDEDF00157B93 /* PBXTextBookmark */ = AEDCAF3C140DDEDF00157B93 /* PBXTextBookmark */;
+			AEDCAF3D140DDEDF00157B93 /* PBXTextBookmark */ = AEDCAF3D140DDEDF00157B93 /* PBXTextBookmark */;
+			AEDCAF3E140DDEDF00157B93 /* PBXTextBookmark */ = AEDCAF3E140DDEDF00157B93 /* PBXTextBookmark */;
+			AEDCAF3F140DDEDF00157B93 /* PBXTextBookmark */ = AEDCAF3F140DDEDF00157B93 /* PBXTextBookmark */;
+			AEDCAF40140DDEDF00157B93 /* PBXTextBookmark */ = AEDCAF40140DDEDF00157B93 /* PBXTextBookmark */;
+			AEDCAF41140DDEDF00157B93 /* PBXTextBookmark */ = AEDCAF41140DDEDF00157B93 /* PBXTextBookmark */;
+			AEDCAF42140DDEDF00157B93 /* PBXTextBookmark */ = AEDCAF42140DDEDF00157B93 /* PBXTextBookmark */;
+			AEDCAF45140DDEDF00157B93 /* PBXTextBookmark */ = AEDCAF45140DDEDF00157B93 /* PBXTextBookmark */;
+			AEDCAF46140DDEDF00157B93 /* PBXTextBookmark */ = AEDCAF46140DDEDF00157B93 /* PBXTextBookmark */;
+			AEDCB2AA140EE18200157B93 /* PBXTextBookmark */ = AEDCB2AA140EE18200157B93 /* PBXTextBookmark */;
+			AEDD1C3D14070B7E00A8EEFE /* PBXTextBookmark */ = AEDD1C3D14070B7E00A8EEFE /* PBXTextBookmark */;
+			AEDD5B2314195DED00551ED7 /* PBXTextBookmark */ = AEDD5B2314195DED00551ED7 /* PBXTextBookmark */;
+			AEDD5B2514195DED00551ED7 /* PBXTextBookmark */ = AEDD5B2514195DED00551ED7 /* PBXTextBookmark */;
+			AEDD5B2714195DED00551ED7 /* PBXTextBookmark */ = AEDD5B2714195DED00551ED7 /* PBXTextBookmark */;
+			AEDD5B2B14195DED00551ED7 /* PBXTextBookmark */ = AEDD5B2B14195DED00551ED7 /* PBXTextBookmark */;
+			AEDD5B2C14195DED00551ED7 /* PBXTextBookmark */ = AEDD5B2C14195DED00551ED7 /* PBXTextBookmark */;
+			AEDD5B7714197EDC00551ED7 /* PBXTextBookmark */ = AEDD5B7714197EDC00551ED7 /* PBXTextBookmark */;
+			AEDD7E0B141D7C2000F26F8E /* PBXTextBookmark */ = AEDD7E0B141D7C2000F26F8E /* PBXTextBookmark */;
+			AEDD80AA141D957E00F26F8E /* PBXTextBookmark */ = AEDD80AA141D957E00F26F8E /* PBXTextBookmark */;
+			AEDE44AB14202F9E0044BBAC /* PBXTextBookmark */ = AEDE44AB14202F9E0044BBAC /* PBXTextBookmark */;
+			AEDE45EA142035140044BBAC /* PBXTextBookmark */ = AEDE45EA142035140044BBAC /* PBXTextBookmark */;
+			AEDE45EB142035140044BBAC /* PBXTextBookmark */ = AEDE45EB142035140044BBAC /* PBXTextBookmark */;
+			AEDE45EC142035140044BBAC /* PBXTextBookmark */ = AEDE45EC142035140044BBAC /* PBXTextBookmark */;
+			AEDE52EA142808A80047C793 /* PBXTextBookmark */ = AEDE52EA142808A80047C793 /* PBXTextBookmark */;
+			AEDF38CF14200A5D00A39B7D /* PBXTextBookmark */ = AEDF38CF14200A5D00A39B7D /* PBXTextBookmark */;
+			AEDF642E14200EA800E7A124 /* PBXTextBookmark */ = AEDF642E14200EA800E7A124 /* PBXTextBookmark */;
+			AEDF642F14200EA800E7A124 /* PBXTextBookmark */ = AEDF642F14200EA800E7A124 /* PBXTextBookmark */;
+			AEE017151420FDF0009A7E67 /* PBXTextBookmark */ = AEE017151420FDF0009A7E67 /* PBXTextBookmark */;
+			AEE017E21420FE10009A7E67 /* PBXTextBookmark */ = AEE017E21420FE10009A7E67 /* PBXTextBookmark */;
+			AEE0606F1417E0FE00AAE503 /* PBXTextBookmark */ = AEE0606F1417E0FE00AAE503 /* PBXTextBookmark */;
+			AEE0653F141826D500AAE503 /* PBXTextBookmark */ = AEE0653F141826D500AAE503 /* PBXTextBookmark */;
+			AEE06544141826D500AAE503 /* PBXTextBookmark */ = AEE06544141826D500AAE503 /* PBXTextBookmark */;
+			AEE06545141826D500AAE503 /* PBXTextBookmark */ = AEE06545141826D500AAE503 /* PBXTextBookmark */;
+			AEE0654A141826D500AAE503 /* PBXTextBookmark */ = AEE0654A141826D500AAE503 /* PBXTextBookmark */;
+			AEE0655B1418298700AAE503 /* PBXTextBookmark */ = AEE0655B1418298700AAE503 /* PBXTextBookmark */;
+			AEE0E025141F2F55000DA5FF /* PBXTextBookmark */ = AEE0E025141F2F55000DA5FF /* PBXTextBookmark */;
+			AEE0E027141F2F55000DA5FF /* PBXTextBookmark */ = AEE0E027141F2F55000DA5FF /* PBXTextBookmark */;
+			AEE9A9C7141FACE700E3B1AB /* PBXTextBookmark */ = AEE9A9C7141FACE700E3B1AB /* PBXTextBookmark */;
+			AEE9AB92141FD8DF00E3B1AB /* PBXTextBookmark */ = AEE9AB92141FD8DF00E3B1AB /* PBXTextBookmark */;
+			AEE9AB93141FD8DF00E3B1AB /* PBXTextBookmark */ = AEE9AB93141FD8DF00E3B1AB /* PBXTextBookmark */;
+			AEE9AB94141FD8DF00E3B1AB /* PBXTextBookmark */ = AEE9AB94141FD8DF00E3B1AB /* PBXTextBookmark */;
+			AEE9AB95141FD8DF00E3B1AB /* PBXTextBookmark */ = AEE9AB95141FD8DF00E3B1AB /* PBXTextBookmark */;
+			AEE9AB96141FD8DF00E3B1AB /* PBXTextBookmark */ = AEE9AB96141FD8DF00E3B1AB /* PBXTextBookmark */;
+			AEEE1A8A13B2AD320054119D /* PBXTextBookmark */ = AEEE1A8A13B2AD320054119D /* PBXTextBookmark */;
+			AEFDB83413BAA142005E6B72 /* PBXTextBookmark */ = AEFDB83413BAA142005E6B72 /* PBXTextBookmark */;
+		};
+		sourceControlManager = AEF242F913B008D700549512 /* Source Control */;
+		userBookmarkGroup = AEC4879E13E33D5A008F8A59 /* PBXBookmarkGroup */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {993, 380}}";
+			sepNavSelRange = "{233, 0}";
+			sepNavVisRange = "{0, 294}";
+		};
+	};
+	8D1107260486CEB800E47090 /* peripheralpacing */ = {
+		activeExec = 0;
+		executables = (
+			AEF242E413B008D200549512 /* peripheralpacing */,
+		);
+	};
+	AE03116C140EEB7600B2F32E /* ppDatabaseManager.m:73 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEDD5B111419510600551ED7 /* ppDatabaseManager.m */;
+		functionName = "+sendHTTPRequest:toDestination:withParamString:withBody:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 73;
+		location = peripheralpacing;
+		modificationTime = 338231108.5115899;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE031178140EEBC600B2F32E /* ppDatabaseManager.m:71 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEDD5B111419510600551ED7 /* ppDatabaseManager.m */;
+		functionName = "+sendHTTPRequest:toDestination:withParamString:withBody:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 71;
+		location = peripheralpacing;
+		modificationTime = 338231108.5116261;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE03117A140EEBC900B2F32E /* ppDatabaseManager.m:59 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEDD5B111419510600551ED7 /* ppDatabaseManager.m */;
+		functionName = "+sendHTTPRequest:toDestination:withParamString:withBody:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 59;
+		location = peripheralpacing;
+		modificationTime = 338231108.511659;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE031191140EF4A600B2F32E /* peripheralpacingAppDelegate.m:1676 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-uploadBreathData:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1676;
+		location = peripheralpacing;
+		modificationTime = 338231108.511692;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE085A2C14113FA100DFF8CC /* peripheralpacingAppDelegate.m:375 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-loadUserProfile";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 375;
+		location = peripheralpacing;
+		modificationTime = 338231108.511748;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE085A3C14113FE300DFF8CC /* peripheralpacingAppDelegate.m:113 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-applicationWillFinishLaunching:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 113;
+		location = peripheralpacing;
+		modificationTime = 338231108.51181;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE085BE014114F7400DFF8CC /* peripheralpacingAppDelegate.m:408 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-setUserProfile:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 408;
+		location = peripheralpacing;
+		modificationTime = 338231108.511871;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE085BFB141150F900DFF8CC /* peripheralpacingAppDelegate.m:425 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-writeUserToPropertyDictionary";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 425;
+		location = peripheralpacing;
+		modificationTime = 338231108.511932;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE085C0F141151BB00DFF8CC /* peripheralpacingAppDelegate.m:404 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-setUserProfile:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 404;
+		location = peripheralpacing;
+		modificationTime = 338231108.511992;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE085C2614116C4800DFF8CC /* peripheralpacingAppDelegate.m:405 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-setUserProfile:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 405;
+		location = peripheralpacing;
+		modificationTime = 338231111.70913;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	AE085C3014116D4D00DFF8CC /* peripheralpacingAppDelegate.m:408 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-setUserProfile:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 408;
+		location = peripheralpacing;
+		modificationTime = 338231108.512107;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE085C5914116ED800DFF8CC /* peripheralpacingAppDelegate.m:408 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-setUserProfile:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 408;
+		location = peripheralpacing;
+		modificationTime = 338231108.5121639;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE085CAA1411722E00DFF8CC /* peripheralpacingAppDelegate.m:445 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-ReadUserFromPropertyDictionary";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 445;
+		location = peripheralpacing;
+		modificationTime = 338231108.51222;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE085D011411750D00DFF8CC /* peripheralpacingAppDelegate.m:445 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-ReadUserFromPropertyDictionary";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 445;
+		location = peripheralpacing;
+		modificationTime = 338231108.512277;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE085D161411799600DFF8CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CD8B881D1349ABE10092200B /* MGTransparentWindow.h */;
+		name = "MGTransparentWindow.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 168;
+		vrLoc = 0;
+	};
+	AE085D1C141179BB00DFF8CC /* peripheralpacingAppDelegate.m:430 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-ReadUserFromPropertyDictionary";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 430;
+		location = peripheralpacing;
+		modificationTime = 338231108.512345;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE085D1E141179C200DFF8CC /* peripheralpacingAppDelegate.m:399 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-setUserProfile:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 399;
+		location = peripheralpacing;
+		modificationTime = 338231108.512391;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE085D6814117EFD00DFF8CC /* BreathStatController.m:71 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-ReadStatObjectsFromPropertyArray";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 71;
+		location = peripheralpacing;
+		modificationTime = 338231108.512435;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE085D8B14117FF800DFF8CC /* BreathStatController.m:58 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-init";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 58;
+		location = peripheralpacing;
+		modificationTime = 338231108.512464;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE085DAB141180F500DFF8CC /* BreathStatController.m:83 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-ReadStatObjectsFromPropertyArray";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 83;
+		location = peripheralpacing;
+		modificationTime = 338231108.51249;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE085DB61411811A00DFF8CC /* BreathStatController.m:82 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-ReadStatObjectsFromPropertyArray";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 82;
+		location = peripheralpacing;
+		modificationTime = 338231108.512515;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE085E451411969300DFF8CC /* peripheralpacingAppDelegate.m:800 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-ShowUsers:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 800;
+		location = peripheralpacing;
+		modificationTime = 338231108.512541;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE085E501411983A00DFF8CC /* peripheralpacingAppDelegate.m:687 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-awakeFromNib";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 687;
+		location = peripheralpacing;
+		modificationTime = 338231108.512584;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE085E8414119A4400DFF8CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEDCAECE140DDB4300157B93 /* SBJsonParser.m */;
+		name = "SBJsonParser.m: 41";
+		rLen = 0;
+		rLoc = 1742;
+		rType = 0;
+		vrLen = 348;
+		vrLoc = 1545;
+	};
+	AE085F971411A45A00DFF8CC /* peripheralpacingAppDelegate.m:405 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-setUserProfile:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 405;
+		location = peripheralpacing;
+		modificationTime = 338231108.512629;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE0862331415849A00DFF8CC /* objC_msg_send */ = {
+		isa = PBXSymbolicBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 1;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		hitCount = 0;
+		ignoreCount = 0;
+		location = "";
+		modificationTime = 338231108.516669;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+		symbolName = objC_msg_send;
+	};
+	AE0863E61415972B00DFF8CC /* peripheralpacingAppDelegate.m:378 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-loadUserProfile";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 378;
+		location = peripheralpacing;
+		modificationTime = 338231108.512675;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE0864A61415A67E00DFF8CC /* peripheralpacingAppDelegate.m:1466 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1466;
+		location = peripheralpacing;
+		modificationTime = 338231108.512719;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE0864F11415ACC900DFF8CC /* BreathRate.m:94 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = CDD559531343F5E700FEE29B /* BreathRate.m */;
+		functionName = "-add_sample::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 94;
+		location = peripheralpacing;
+		modificationTime = 338231108.512764;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE0867F01415BA6900DFF8CC /* BreathRate.m:73 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = CDD559531343F5E700FEE29B /* BreathRate.m */;
+		functionName = "-add_sample::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 73;
+		modificationTime = 338231108.5127931;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	AE0867F21415BA7600DFF8CC /* BreathRate.m:80 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = CDD559531343F5E700FEE29B /* BreathRate.m */;
+		functionName = "-add_sample::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 80;
+		location = peripheralpacing;
+		modificationTime = 338231108.51282;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE0867F61415BAB000DFF8CC /* BreathRate.m:68 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = CDD559531343F5E700FEE29B /* BreathRate.m */;
+		functionName = "-add_sample::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 68;
+		location = peripheralpacing;
+		modificationTime = 338231108.512846;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE08680E1415BCF800DFF8CC /* BreathRate.m:89 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = CDD559531343F5E700FEE29B /* BreathRate.m */;
+		functionName = "-add_sample::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 89;
+		location = peripheralpacing;
+		modificationTime = 338231108.5128719;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE0A9BE913EA013F00CC39C2 /* BreathStatController.m:55 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-getMaxRateStat";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 55;
+		location = peripheralpacing;
+		modificationTime = 338231108.502897;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE0A9BEB13EA014400CC39C2 /* BreathStatController.m:55 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-getMinRateStat";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 55;
+		location = peripheralpacing;
+		modificationTime = 338231108.503054;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE0A9BEF13EA027F00CC39C2 /* BreathStatController.m:55 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-UpdateStat::::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 55;
+		location = peripheralpacing;
+		modificationTime = 338231108.503167;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE0A9BF513EA035700CC39C2 /* BreathStatController.m:55 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-notifyMoment";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 55;
+		location = peripheralpacing;
+		modificationTime = 338231108.503276;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE0A9C1813EA081F00CC39C2 /* BreathStatController.m:55 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-LabelsForStatType:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 55;
+		location = peripheralpacing;
+		modificationTime = 338231108.503381;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE0A9C1A13EA085900CC39C2 /* BreathStatController.m:55 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-setImage:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 55;
+		location = peripheralpacing;
+		modificationTime = 338231108.50349;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE231EF313F204CF000C8626 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* peripheralpacing-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/poorna/Desktop/peripheralpacing_code/peripheralpacing-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	AE231F4213F20684000C8626 /* peripheralpacingAppDelegate.m:1432 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1432;
+		location = peripheralpacing;
+		modificationTime = 338231108.507417;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE231F4413F206A1000C8626 /* peripheralpacingAppDelegate.m:1433 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1433;
+		location = peripheralpacing;
+		modificationTime = 338231108.507498;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE231F4813F206C4000C8626 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	AE29F22E142007A900C52FA1 /* BreathStatController.m:326 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-notifyMoment";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 326;
+		location = peripheralpacing;
+		modificationTime = 338231108.5136601;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE29F2431420088300C52FA1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEC48C2D13E375E8008F8A59 /* Stat.m */;
+		name = "Stat.m: 24";
+		rLen = 0;
+		rLoc = 635;
+		rType = 0;
+		vrLen = 616;
+		vrLoc = 368;
+	};
+	AE3C5D6F140D4B2C00F1849F /* wirelessold.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = wirelessold.m;
+		path = /Users/poorna/Desktop/peripheralpacing_code/wirelessold.m;
+		sourceTree = "<absolute>";
+	};
+	AE3C5DAD140D5BA400F1849F /* wirelessold.m:182 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AE3C5D6F140D4B2C00F1849F /* wirelessold.m */;
+		functionName = "-openSerialPort:baud:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 182;
+		modificationTime = 338231108.510478;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE3C5DAF140D5BB700F1849F /* wirelessold.m:235 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AE3C5D6F140D4B2C00F1849F /* wirelessold.m */;
+		functionName = "-incomingTextUpdateThread:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 235;
+		modificationTime = 338231108.51051;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	AE3C5DB1140D5BB800F1849F /* wirelessold.m:234 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AE3C5D6F140D4B2C00F1849F /* wirelessold.m */;
+		functionName = "-incomingTextUpdateThread:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 234;
+		location = peripheralpacing;
+		modificationTime = 338231108.510543;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE3C5DB3140D5BBF00F1849F /* wirelessold.m:188 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AE3C5D6F140D4B2C00F1849F /* wirelessold.m */;
+		functionName = "-appendToIncomingText:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 188;
+		location = peripheralpacing;
+		modificationTime = 338231108.5105761;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE3C5DCB140D660300F1849F /* wirelessold.m:32 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AE3C5D6F140D4B2C00F1849F /* wirelessold.m */;
+		functionName = "-autoDetect_Arduino_port:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 32;
+		modificationTime = 338231108.510609;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE3C5DD6140D667B00F1849F /* wirelessold.m:38 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AE3C5D6F140D4B2C00F1849F /* wirelessold.m */;
+		functionName = "-autoDetect_Arduino_port:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 38;
+		modificationTime = 338231108.5106419;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE3C5E0A140D70A700F1849F /* wirelessold.m:90 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AE3C5D6F140D4B2C00F1849F /* wirelessold.m */;
+		functionName = "-openSerialPort:baud:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 90;
+		modificationTime = 338231108.5106739;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE3C5E19140D719700F1849F /* wirelessold.m:204 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AE3C5D6F140D4B2C00F1849F /* wirelessold.m */;
+		functionName = "-incomingTextUpdateThread:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 204;
+		modificationTime = 338231108.510706;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE3C5E35140D737300F1849F /* wirelessold.m:64 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AE3C5D6F140D4B2C00F1849F /* wirelessold.m */;
+		functionName = "-getNextVal:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 64;
+		location = peripheralpacing;
+		modificationTime = 338231108.510739;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE3C5E40140D745F00F1849F /* wirelessold.m:188 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AE3C5D6F140D4B2C00F1849F /* wirelessold.m */;
+		functionName = "-appendToIncomingText:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 188;
+		modificationTime = 338231108.510771;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE3C5E42140D74A400F1849F /* wirelessold.m:246 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AE3C5D6F140D4B2C00F1849F /* wirelessold.m */;
+		functionName = "-incomingTextUpdateThread:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 246;
+		location = peripheralpacing;
+		modificationTime = 338231108.510805;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE3C5E44140D74A800F1849F /* wirelessold.m:222 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AE3C5D6F140D4B2C00F1849F /* wirelessold.m */;
+		functionName = "-incomingTextUpdateThread:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 222;
+		location = peripheralpacing;
+		modificationTime = 338231108.5108399;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE5EA2F613F1D01E009C860D /* BreathStatController.m:296 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-notifyMoment";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 296;
+		location = peripheralpacing;
+		modificationTime = 338231108.5073739;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE76CEF213F5B6320041C1C6 /* BreathStatController.m:383 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-UpdateStat::::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 383;
+		location = peripheralpacing;
+		modificationTime = 338231108.5078861;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE76CF0E13F5B9360041C1C6 /* BreathStatController.m:383 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-UpdateStat::::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 383;
+		location = peripheralpacing;
+		modificationTime = 338231108.507926;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AE9446A513D4DCBD00340102 /* ScreenCapture.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {993, 504}}";
+			sepNavSelRange = "{469, 0}";
+			sepNavVisRange = "{161, 315}";
+		};
+	};
+	AE9446A813D4DCCB00340102 /* ScreenCapture.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 504}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 468}";
+			sepNavWindowFrame = "{{38, 99}, {1201, 653}}";
+		};
+	};
+	AEAA09DA13B12FE7000C8A40 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEAA09DB13B12FE7000C8A40 /* matlab.c */;
+		name = "matlab.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 559;
+		vrLoc = 360;
+	};
+	AEAA09DB13B12FE7000C8A40 /* matlab.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = matlab.c;
+		path = /Users/poorna/Documents/matlab/matlab.c;
+		sourceTree = "<absolute>";
+	};
+	AEAE859913F06971001BFB13 /* BreathStatController.m:55 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-notifyMoment";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 55;
+		location = peripheralpacing;
+		modificationTime = 338231108.506536;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEAE859B13F06979001BFB13 /* BreathStatController.m:55 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-notifyMoment";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 55;
+		location = peripheralpacing;
+		modificationTime = 338231108.5065761;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEAE85B213F06A87001BFB13 /* BreathStatController.m:55 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-notifyMoment";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 55;
+		location = peripheralpacing;
+		modificationTime = 338231108.506617;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEAE860613F0790D001BFB13 /* BreathStatController.m:55 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-UpdateStat::::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 55;
+		location = peripheralpacing;
+		modificationTime = 338231108.506656;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEAE860E13F0792B001BFB13 /* BreathStatController.m:55 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-UpdateStat::::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 55;
+		location = peripheralpacing;
+		modificationTime = 338231108.506696;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEAE865F13F07F6A001BFB13 /* BreathStatController.m:55 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-UpdateStat::::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 55;
+		location = peripheralpacing;
+		modificationTime = 338231108.506735;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEAE866113F07F6C001BFB13 /* BreathStatController.m:55 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-UpdateStat::::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 55;
+		location = peripheralpacing;
+		modificationTime = 338231108.506773;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEAE866313F07F83001BFB13 /* BreathStatController.m:55 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-UpdateStat::::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 55;
+		location = peripheralpacing;
+		modificationTime = 338231108.5068129;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEAE867B13F081D8001BFB13 /* BreathStatController.m:55 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-getImages:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 55;
+		location = peripheralpacing;
+		modificationTime = 338231108.506853;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEAE868613F0844A001BFB13 /* BreathStatController.m:55 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-updateDictionary:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 55;
+		location = peripheralpacing;
+		modificationTime = 338231108.506893;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEAE878F13F0A472001BFB13 /* BreathStatController.m:205 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-getImages:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 205;
+		location = peripheralpacing;
+		modificationTime = 338231108.506932;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEAE87D913F10AF3001BFB13 /* BreathStatController.m:49 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-init";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 49;
+		location = peripheralpacing;
+		modificationTime = 338231108.506972;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEAE87FC13F10CA7001BFB13 /* BreathStatController.m:92 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-ReadStatObjectsFromPropertyArray";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 92;
+		location = peripheralpacing;
+		modificationTime = 338231108.5070111;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEAE883513F11289001BFB13 /* BreathStatController.m:98 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-ReadStatObjectsFromPropertyArray";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 98;
+		location = peripheralpacing;
+		modificationTime = 338231108.507051;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEC4879E13E33D5A008F8A59 /* PBXBookmarkGroup */ = {
+		isa = PBXBookmarkGroup;
+		children = (
+			AEC4887013E34970008F8A59 /* PBXBookmark */,
+		);
+		name = Root;
+	};
+	AEC4887013E34970008F8A59 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = AEF1E45F13E0CFBE007DDF93 /* notifier.xib */;
+	};
+	AEC48C2713E3756B008F8A59 /* BreathStatController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {993, 1386}}";
+			sepNavSelRange = "{331, 0}";
+			sepNavVisRange = "{0, 457}";
+			sepNavWindowFrame = "{{15, 50}, {750, 723}}";
+		};
+	};
+	AEC48C2813E3756B008F8A59 /* BreathStatController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1301.59, 9114}}";
+			sepNavSelRange = "{8056, 0}";
+			sepNavVisRange = "{7712, 632}";
+			sepNavWindowFrame = "{{15, 120}, {1201, 653}}";
+		};
+	};
+	AEC48C2C13E375E8008F8A59 /* Stat.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1745.91, 840}}";
+			sepNavSelRange = "{905, 0}";
+			sepNavVisRange = "{220, 639}";
+			sepNavWindowFrame = "{{15, 50}, {750, 723}}";
+		};
+	};
+	AEC48C2D13E375E8008F8A59 /* Stat.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1756.74, 1260}}";
+			sepNavSelRange = "{635, 0}";
+			sepNavVisRange = "{368, 616}";
+			sepNavWindowFrame = "{{15, 50}, {750, 723}}";
+		};
+	};
+	AEC48C4C13E4F4D1008F8A59 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEC48C4D13E4F4D1008F8A59 /* NSDictionary.h */;
+		name = "NSDictionary.h: 75";
+		rLen = 46;
+		rLoc = 3181;
+		rType = 0;
+		vrLen = 683;
+		vrLoc = 2441;
+	};
+	AEC48C4D13E4F4D1008F8A59 /* NSDictionary.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSDictionary.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSDictionary.h;
+		sourceTree = "<absolute>";
+	};
+	AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1453.31, 35049}}";
+			sepNavSelRange = "{13365, 0}";
+			sepNavVisRange = "{27679, 747}";
+			sepNavWindowFrame = "{{61, 78}, {1201, 653}}";
+		};
+	};
+	AED1C54613F1A548004B15E1 /* BreathStatController.m:259 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-getCalmImage";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 259;
+		location = peripheralpacing;
+		modificationTime = 338231108.50709;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AED1C55113F1A5ED004B15E1 /* BreathStatController.m:259 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-getCalmImage";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 259;
+		location = peripheralpacing;
+		modificationTime = 338231108.507129;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AED1C5B113F1AC48004B15E1 /* BreathStatController.m:72 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-ReadStatObjectsFromPropertyArray";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 72;
+		location = peripheralpacing;
+		modificationTime = 338231108.5071681;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AED1C5D213F1AD8C004B15E1 /* BreathStatController.m:89 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-ReadStatObjectsFromPropertyArray";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 89;
+		location = peripheralpacing;
+		modificationTime = 338231108.507208;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AED1C5FA13F1AE84004B15E1 /* BreathStatController.m:259 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-getCalmImage";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 259;
+		location = peripheralpacing;
+		modificationTime = 338231108.5072511;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AED1C61213F1AFC7004B15E1 /* BreathStatController.m:89 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-ReadStatObjectsFromPropertyArray";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 89;
+		location = peripheralpacing;
+		modificationTime = 338231108.507296;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AED1C62D13F1B1A6004B15E1 /* BreathStatController.m:257 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-getCalmImage";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 257;
+		location = peripheralpacing;
+		modificationTime = 338231108.507335;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AED8AC3113EB154000E659AC /* peripheralpacingAppDelegate.m:1500 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1500;
+		location = peripheralpacing;
+		modificationTime = 338231108.503594;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AED8AC3313EB154500E659AC /* peripheralpacingAppDelegate.m:1516 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1516;
+		location = peripheralpacing;
+		modificationTime = 338231108.503823;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AED8AC3513EB155900E659AC /* peripheralpacingAppDelegate.m:1534 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1534;
+		location = peripheralpacing;
+		modificationTime = 338231108.504008;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AED8AC3713EB15CA00E659AC /* peripheralpacingAppDelegate.m:1564 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1564;
+		location = peripheralpacing;
+		modificationTime = 338231108.504177;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AED8AC3913EB15CF00E659AC /* peripheralpacingAppDelegate.m:1581 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1581;
+		location = peripheralpacing;
+		modificationTime = 338231108.504344;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AED8AC5A13EB1E0100E659AC /* peripheralpacingAppDelegate.m:711 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-awakeFromNib";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 711;
+		location = peripheralpacing;
+		modificationTime = 338231108.504531;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AED8AC7A13EB204400E659AC /* peripheralpacingAppDelegate.m:998 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-set_interval_menu:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 998;
+		location = peripheralpacing;
+		modificationTime = 338231108.504701;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AED8AC7C13EB205D00E659AC /* peripheralpacingAppDelegate.m:1013 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-set_interval:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1013;
+		location = peripheralpacing;
+		modificationTime = 338231108.504869;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AED8ACF913EB5B6000E659AC /* peripheralpacingAppDelegate.m:1425 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1425;
+		location = peripheralpacing;
+		modificationTime = 338231108.5050319;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AED8ADC613EC800200E659AC /* peripheralpacingAppDelegate.m:1494 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1494;
+		location = peripheralpacing;
+		modificationTime = 338231108.505189;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AED8ADC813EC800800E659AC /* peripheralpacingAppDelegate.m:1492 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1492;
+		location = peripheralpacing;
+		modificationTime = 338231108.505351;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AED8AE0913EC86E400E659AC /* peripheralpacingAppDelegate.m:1495 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1495;
+		location = peripheralpacing;
+		modificationTime = 338231108.505515;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AED8AE1B13EC87C600E659AC /* peripheralpacingAppDelegate.m:1281 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-openImageURL:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1281;
+		location = peripheralpacing;
+		modificationTime = 338231108.505669;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AED8AE4C13EC990A00E659AC /* peripheralpacingAppDelegate.m:1278 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-LoadImage:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1278;
+		location = peripheralpacing;
+		modificationTime = 338231108.5058482;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AED8AE5013EC994700E659AC /* BreathStatController.m:55 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-getCalmImage";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 55;
+		location = peripheralpacing;
+		modificationTime = 338231108.505976;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AED8AE8913ECA57200E659AC /* BreathStatController.m:55 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-init";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 55;
+		location = peripheralpacing;
+		modificationTime = 338231108.506066;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AED8AEB013ECA60000E659AC /* BreathStatController.m:55 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-getCalmImage";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 55;
+		location = peripheralpacing;
+		modificationTime = 338231108.506149;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDB50401404CE5A008A6F53 /* peripheralpacingAppDelegate.m:1367 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1367;
+		location = peripheralpacing;
+		modificationTime = 338231108.508737;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDB50531404CE8A008A6F53 /* arduino-serial.h:88 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = CD32AF4113457BB000DC0FF3 /* arduino-serial.h */;
+		functionName = "autoDetect_Arduino_port(int baud)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 88;
+		location = peripheralpacing;
+		modificationTime = 338231108.5088;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDB507E1404D3C9008A6F53 /* peripheralpacingAppDelegate.m:1416 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1416;
+		modificationTime = 338231108.508844;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	AEDB50801404D3CC008A6F53 /* peripheralpacingAppDelegate.m:1416 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1416;
+		location = peripheralpacing;
+		modificationTime = 338231108.508909;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDB50871404D43A008A6F53 /* peripheralpacingAppDelegate.m:1351 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1351;
+		location = peripheralpacing;
+		modificationTime = 338231108.508978;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDB50A41404D500008A6F53 /* peripheralpacingAppDelegate.m:1416 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1416;
+		location = peripheralpacing;
+		modificationTime = 338231108.509047;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDB50BE1404D5E6008A6F53 /* peripheralpacingAppDelegate.m:1416 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1416;
+		location = peripheralpacing;
+		modificationTime = 338231108.509115;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDBC4CC140C0C8F00F02920 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CD8B881E1349ABE10092200B /* MGTransparentWindow.m */;
+		name = "MGTransparentWindow.m: 5";
+		rLen = 980;
+		rLoc = 70;
+		rType = 0;
+		vrLen = 668;
+		vrLoc = 70;
+	};
+	AEDBC5D5140C5AB200F02920 /* wireless-serial.h:108 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEE03E4B1404560F00006A6F /* wireless-serial.h */;
+		functionName = "getNextVal(int fd,int *val,int *header)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 108;
+		modificationTime = 338231108.510442;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDC3AAE1428E64D0031B9CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEDE24291408281C009B9C3C /* User.m */;
+		name = "User.m: 13";
+		rLen = 0;
+		rLoc = 192;
+		rType = 0;
+		vrLen = 226;
+		vrLoc = 0;
+	};
+	AEDC3C951428FFE70031B9CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEDD5B111419510600551ED7 /* ppDatabaseManager.m */;
+		name = "ppDatabaseManager.m: 89";
+		rLen = 0;
+		rLoc = 3338;
+		rType = 0;
+		vrLen = 605;
+		vrLoc = 9856;
+	};
+	AEDC3C9E142902150031B9CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* peripheralpacingAppDelegate.h */;
+		name = "peripheralpacingAppDelegate.h: 181";
+		rLen = 14;
+		rLoc = 5308;
+		rType = 0;
+		vrLen = 752;
+		vrLoc = 5497;
+	};
+	AEDC3FF51429148D0031B9CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		name = "peripheralpacingAppDelegate.m: 362";
+		rLen = 0;
+		rLoc = 13365;
+		rType = 0;
+		vrLen = 749;
+		vrLoc = 27679;
+	};
+	AEDC40C014291F580031B9CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		name = "peripheralpacingAppDelegate.m: 362";
+		rLen = 0;
+		rLoc = 13365;
+		rType = 0;
+		vrLen = 747;
+		vrLoc = 27679;
+	};
+	AEDC9D5F13FD8348007338D9 /* peripheralpacingAppDelegate.m:1388 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1388;
+		location = peripheralpacing;
+		modificationTime = 338231108.5081099;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDC9D7A13FD846F007338D9 /* peripheralpacingAppDelegate.m:1390 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1390;
+		location = peripheralpacing;
+		modificationTime = 338231108.5081781;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDC9D7C13FD8476007338D9 /* peripheralpacingAppDelegate.m:1388 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1388;
+		location = peripheralpacing;
+		modificationTime = 338231108.508248;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDC9DC213FDB0B5007338D9 /* arduino-serial.h:69 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = CD32AF4113457BB000DC0FF3 /* arduino-serial.h */;
+		functionName = "autoDetect_Arduino_port()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 69;
+		location = peripheralpacing;
+		modificationTime = 338231108.5083171;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDC9E0113FDB584007338D9 /* arduino-serial.h:200 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = CD32AF4113457BB000DC0FF3 /* arduino-serial.h */;
+		functionName = "getNextVal(int fd,int *val)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 200;
+		location = peripheralpacing;
+		modificationTime = 338231108.508361;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDC9E0313FDB7F5007338D9 /* peripheralpacingAppDelegate.m:1316 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1316;
+		location = peripheralpacing;
+		modificationTime = 338231108.508401;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDCAECA140DDB4300157B93 /* ppUser.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {993, 1281}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{762, 519}";
+		};
+	};
+	AEDCAECB140DDB4300157B93 /* ppUser.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1214.9, 1575}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{148, 371}";
+		};
+	};
+	AEDCAECC140DDB4300157B93 /* SBJson.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {993, 1785}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{2815, 675}";
+		};
+	};
+	AEDCAECD140DDB4300157B93 /* SBJsonParser.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {929, 2058}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 817}";
+		};
+	};
+	AEDCAECE140DDB4300157B93 /* SBJsonParser.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1193.22, 2100}}";
+			sepNavSelRange = "{1742, 0}";
+			sepNavVisRange = "{1545, 348}";
+		};
+	};
+	AEDCAED0140DDB4300157B93 /* SBJsonStreamParserAccumulator.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {929, 819}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 822}";
+		};
+	};
+	AEDCAED2140DDB4300157B93 /* SBJsonStreamParserAdapter.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {929, 3066}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 751}";
+			sepNavWindowFrame = "{{15, 53}, {750, 723}}";
+		};
+	};
+	AEDCAED3140DDB4300157B93 /* SBJsonStreamParserAdapter.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {792.258, 3066}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1524}";
+			sepNavWindowFrame = "{{15, 53}, {750, 723}}";
+		};
+	};
+	AEDCAED9140DDB8900157B93 /* SBJsonStreamParserState.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {929, 1701}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 751}";
+		};
+	};
+	AEDCAEDA140DDB8900157B93 /* SBJsonStreamParserState.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {929, 7119}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 746}";
+		};
+	};
+	AEDCAEDB140DDB8900157B93 /* SBJsonStreamWriter.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {929, 3948}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 751}";
+		};
+	};
+	AEDCAEDD140DDB8900157B93 /* SBJsonStreamWriterAccumulator.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {900.627, 819}}";
+			sepNavSelRange = "{0, 3}";
+			sepNavVisRange = "{0, 1547}";
+			sepNavWindowFrame = "{{15, 53}, {750, 723}}";
+		};
+	};
+	AEDCAEDF140DDB8900157B93 /* SBJsonStreamWriterState.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {929, 1449}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 751}";
+		};
+	};
+	AEDCAEE3140DDB8900157B93 /* SBJsonUTF8Stream.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {929, 1176}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 735}";
+		};
+	};
+	AEDCAEE5140DDB8900157B93 /* SBJsonWriter.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {929, 2310}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 822}";
+		};
+	};
+	AEDCAEE6140DDB8900157B93 /* SBJsonWriter.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {929, 2163}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 822}";
+		};
+	};
+	AEDCAEEE140DDBED00157B93 /* NSObject+SBJson.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {993, 1134}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1130}";
+		};
+	};
+	AEDCAEEF140DDBF500157B93 /* NSObject+SBJson.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {993, 1050}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1130}";
+		};
+	};
+	AEDCAEF1140DDC7900157B93 /* SBJsonStreamParser.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {929, 3486}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 751}";
+		};
+	};
+	AEDCAF3A140DDEDF00157B93 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEDCAEDA140DDB8900157B93 /* SBJsonStreamParserState.m */;
+		name = "SBJsonStreamParserState.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 746;
+		vrLoc = 0;
+	};
+	AEDCAF3B140DDEDF00157B93 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEDCAED9140DDB8900157B93 /* SBJsonStreamParserState.h */;
+		name = "SBJsonStreamParserState.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 751;
+		vrLoc = 0;
+	};
+	AEDCAF3C140DDEDF00157B93 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEDCAEE3140DDB8900157B93 /* SBJsonUTF8Stream.h */;
+		name = "SBJsonUTF8Stream.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 735;
+		vrLoc = 0;
+	};
+	AEDCAF3D140DDEDF00157B93 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEDCAEDB140DDB8900157B93 /* SBJsonStreamWriter.h */;
+		name = "SBJsonStreamWriter.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 751;
+		vrLoc = 0;
+	};
+	AEDCAF3E140DDEDF00157B93 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEDCAEE5140DDB8900157B93 /* SBJsonWriter.h */;
+		name = "SBJsonWriter.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 822;
+		vrLoc = 0;
+	};
+	AEDCAF3F140DDEDF00157B93 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEDCAECD140DDB4300157B93 /* SBJsonParser.h */;
+		name = "SBJsonParser.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 817;
+		vrLoc = 0;
+	};
+	AEDCAF40140DDEDF00157B93 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEDCAEF1140DDC7900157B93 /* SBJsonStreamParser.h */;
+		name = "SBJsonStreamParser.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 751;
+		vrLoc = 0;
+	};
+	AEDCAF41140DDEDF00157B93 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEDCAED0140DDB4300157B93 /* SBJsonStreamParserAccumulator.h */;
+		name = "SBJsonStreamParserAccumulator.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 822;
+		vrLoc = 0;
+	};
+	AEDCAF42140DDEDF00157B93 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEDCAED2140DDB4300157B93 /* SBJsonStreamParserAdapter.h */;
+		name = "SBJsonStreamParserAdapter.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 751;
+		vrLoc = 0;
+	};
+	AEDCAF45140DDEDF00157B93 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEDCAEE6140DDB8900157B93 /* SBJsonWriter.m */;
+		name = "SBJsonWriter.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 822;
+		vrLoc = 0;
+	};
+	AEDCAF46140DDEDF00157B93 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEDCAEDF140DDB8900157B93 /* SBJsonStreamWriterState.h */;
+		name = "SBJsonStreamWriterState.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 751;
+		vrLoc = 0;
+	};
+	AEDCB00B140EBFAB00157B93 /* peripheralpacingAppDelegate.m:555 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-uilog::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 555;
+		location = peripheralpacing;
+		modificationTime = 338231108.511044;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDCB00D140EBFB900157B93 /* peripheralpacingAppDelegate.m:1291 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1291;
+		location = peripheralpacing;
+		modificationTime = 338231108.511102;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDCB00F140EBFC700157B93 /* peripheralpacingAppDelegate.m:1328 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1328;
+		location = peripheralpacing;
+		modificationTime = 338231108.511159;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDCB011140EC00B00157B93 /* peripheralpacingAppDelegate.m:385 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-loadUserProfile";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 385;
+		location = peripheralpacing;
+		modificationTime = 338231111.677189;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	AEDCB013140EC00E00157B93 /* peripheralpacingAppDelegate.m:408 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-setUserProfile:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 408;
+		location = peripheralpacing;
+		modificationTime = 338231108.511274;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDCB047140EC3C200157B93 /* peripheralpacingAppDelegate.m:490 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-showNotification:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 490;
+		location = peripheralpacing;
+		modificationTime = 338231108.511331;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDCB049140EC3CB00157B93 /* peripheralpacingAppDelegate.m:1484 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1484;
+		location = peripheralpacing;
+		modificationTime = 338231108.511388;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDCB061140EC48B00157B93 /* BreathStatController.m:327 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-notifyMoment";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 327;
+		location = peripheralpacing;
+		modificationTime = 338231108.511445;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDCB073140EC56300157B93 /* peripheralpacingAppDelegate.m:1482 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1482;
+		location = peripheralpacing;
+		modificationTime = 338231108.511481;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDCB0B2140EC8BD00157B93 /* peripheralpacingAppDelegate.m:445 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-ReadUserFromPropertyDictionary";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 445;
+		location = peripheralpacing;
+		modificationTime = 338231108.511534;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDCB1B6140EDA6800157B93 /*  Growl Registration Ticket.growlRegDict */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.xml;
+		name = " Growl Registration Ticket.growlRegDict";
+		path = "/Users/poorna/Desktop/PPR/peripheralpacing_code/ Growl Registration Ticket.growlRegDict";
+		sourceTree = "<absolute>";
+	};
+	AEDCB2AA140EE18200157B93 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEDCB1B6140EDA6800157B93 /*  Growl Registration Ticket.growlRegDict */;
+		name = " Growl Registration Ticket.growlRegDict: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 325;
+		vrLoc = 156;
+	};
+	AEDD1C10140706DF00A8EEFE /* peripheralpacingAppDelegate.m:887 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-showBaselineWindow:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 887;
+		location = peripheralpacing;
+		modificationTime = 338231108.509611;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDD1C37140708D800A8EEFE /* peripheralpacingAppDelegate.m:891 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-showBaselineWindow:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 891;
+		location = peripheralpacing;
+		modificationTime = 338231108.509676;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDD1C3D14070B7E00A8EEFE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEE6C30C13FF2AE600BF9CEC /* matlab_session.m */;
+		name = "matlab_session.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 425;
+		vrLoc = 248;
+	};
+	AEDD1C6714070E9F00A8EEFE /* peripheralpacingAppDelegate.m:908 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-setBaseline:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 908;
+		location = peripheralpacing;
+		modificationTime = 338231108.509744;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDD1C6C14070EDE00A8EEFE /* peripheralpacingAppDelegate.m:897 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-setBaseline:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 897;
+		location = peripheralpacing;
+		modificationTime = 338231108.509824;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDD1C7C1407108F00A8EEFE /* peripheralpacingAppDelegate.m:248 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-applicationDidFinishLaunching:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 248;
+		location = peripheralpacing;
+		modificationTime = 338231108.509898;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDD1DC21407173800A8EEFE /* BreathStatController.m:276 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-notifyMoment";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 276;
+		location = peripheralpacing;
+		modificationTime = 338231108.509956;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDD1DDC14071C1700A8EEFE /* BreathStatController.m:248 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-getCalmImage";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 248;
+		location = peripheralpacing;
+		modificationTime = 338231108.509992;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDD1DE914071E9F00A8EEFE /* BreathStatController.m:50 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-init";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 50;
+		location = peripheralpacing;
+		modificationTime = 338231108.510024;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDD5B101419510600551ED7 /* ppDatabaseManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1193.22, 1302}}";
+			sepNavSelRange = "{1333, 0}";
+			sepNavVisRange = "{1208, 862}";
+		};
+	};
+	AEDD5B111419510600551ED7 /* ppDatabaseManager.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1312.43, 9660}}";
+			sepNavSelRange = "{3338, 0}";
+			sepNavVisRange = "{9856, 605}";
+		};
+	};
+	AEDD5B2314195DED00551ED7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEDD5B2414195DED00551ED7 /* ppDatabaseManager-1.h */;
+		name = "ppDatabaseManager-1.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 722;
+		vrLoc = 1351;
+	};
+	AEDD5B2414195DED00551ED7 /* ppDatabaseManager-1.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = "ppDatabaseManager-1.h";
+		path = "/Users/poorna/Downloads/ppDatabaseManager-1.h";
+		sourceTree = "<absolute>";
+	};
+	AEDD5B2514195DED00551ED7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEDD5B2614195DED00551ED7 /* ppDatabaseManager.m */;
+		name = "ppDatabaseManager.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 746;
+		vrLoc = 9433;
+	};
+	AEDD5B2614195DED00551ED7 /* ppDatabaseManager.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = ppDatabaseManager.m;
+		path = /Users/poorna/Downloads/ppDatabaseManager.m;
+		sourceTree = "<absolute>";
+	};
+	AEDD5B2714195DED00551ED7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEDD5B2814195DED00551ED7 /* TestAppDelegate.m */;
+		name = "TestAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 687;
+		vrLoc = 1470;
+	};
+	AEDD5B2814195DED00551ED7 /* TestAppDelegate.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = TestAppDelegate.m;
+		path = /Users/poorna/Downloads/TestAppDelegate.m;
+		sourceTree = "<absolute>";
+	};
+	AEDD5B2B14195DED00551ED7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEDCAECA140DDB4300157B93 /* ppUser.h */;
+		name = "ppUser.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 519;
+		vrLoc = 762;
+	};
+	AEDD5B2C14195DED00551ED7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEDCAECB140DDB4300157B93 /* ppUser.m */;
+		name = "ppUser.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 371;
+		vrLoc = 148;
+	};
+	AEDD5B48141979BE00551ED7 /* peripheralpacingAppDelegate.m:453 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-ReadAppSettingsFromPropertyFile";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 453;
+		location = peripheralpacing;
+		modificationTime = 338231108.513037;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDD5B4C141979CC00551ED7 /* peripheralpacingAppDelegate.m:457 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-ReadAppSettingsFromPropertyFile";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 457;
+		location = peripheralpacing;
+		modificationTime = 338231108.513083;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDD5B6114197A8B00551ED7 /* peripheralpacingAppDelegate.m:450 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-ReadAppSettingsFromPropertyFile";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 450;
+		location = peripheralpacing;
+		modificationTime = 338231108.513128;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDD5B7714197EDC00551ED7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AE9446A513D4DCBD00340102 /* ScreenCapture.h */;
+		name = "ScreenCapture.h: 22";
+		rLen = 0;
+		rLoc = 469;
+		rType = 0;
+		vrLen = 315;
+		vrLoc = 161;
+	};
+	AEDD5B8014197F8900551ED7 /* peripheralpacingAppDelegate.m:746 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-captureScreen:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 746;
+		location = peripheralpacing;
+		modificationTime = 338231108.513173;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDD5B8A141981D600551ED7 /* peripheralpacingAppDelegate.m:746 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-captureScreen:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 746;
+		location = peripheralpacing;
+		modificationTime = 338231108.513219;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDD7D1D141D5AA300F26F8E /* wireless.m:41 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEE0C8171416C67700ADCB66 /* wireless.m */;
+		functionName = "-autoDetect_Arduino_port:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 41;
+		location = peripheralpacing;
+		modificationTime = 338231108.513263;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDD7D32141D5AEC00F26F8E /* peripheralpacingAppDelegate.m:1308 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1308;
+		location = peripheralpacing;
+		modificationTime = 338231108.51329;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDD7D3E141D5B5100F26F8E /* peripheralpacingAppDelegate.m:1305 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1305;
+		location = peripheralpacing;
+		modificationTime = 338231108.513333;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDD7D6A141D5F5600F26F8E /* wireless.m:66 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEE0C8171416C67700ADCB66 /* wireless.m */;
+		functionName = "-getNextVal:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 66;
+		modificationTime = 338231108.513379;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	AEDD7D6C141D5F6400F26F8E /* wireless.m:194 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEE0C8171416C67700ADCB66 /* wireless.m */;
+		functionName = "-readSerial:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 194;
+		modificationTime = 338231108.513408;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	AEDD7D6E141D5F6C00F26F8E /* wireless.m:203 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEE0C8171416C67700ADCB66 /* wireless.m */;
+		functionName = "-readSerial:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 203;
+		location = peripheralpacing;
+		modificationTime = 338231108.5134339;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDD7D77141D5F7D00F26F8E /* wireless.m:204 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEE0C8171416C67700ADCB66 /* wireless.m */;
+		functionName = "-readSerial:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 204;
+		modificationTime = 338231108.51346;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	AEDD7E0B141D7C2000F26F8E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AE9446A813D4DCCB00340102 /* ScreenCapture.m */;
+		name = "ScreenCapture.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 528;
+		vrLoc = 0;
+	};
+	AEDD7E78141D82E600F26F8E /* wirelessHdr.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1344.94, 4998}}";
+			sepNavSelRange = "{3012, 0}";
+			sepNavVisRange = "{2719, 502}";
+		};
+	};
+	AEDD806C141D91F200F26F8E /* wirelessHdr.h:116 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEDD7E78141D82E600F26F8E /* wirelessHdr.h */;
+		functionName = "getNextWVal(int fd,int *val,char *header)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 116;
+		location = peripheralpacing;
+		modificationTime = 338231108.513487;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDD808A141D923300F26F8E /* wirelessHdr.h:87 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEDD7E78141D82E600F26F8E /* wirelessHdr.h */;
+		functionName = "autoDetect_wireless_port(int baud)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 87;
+		location = peripheralpacing;
+		modificationTime = 338231108.513513;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDD80AA141D957E00F26F8E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CD32AF4113457BB000DC0FF3 /* arduino-serial.h */;
+		name = "arduino-serial.h: 1";
+		rLen = 9443;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 598;
+		vrLoc = 6119;
+	};
+	AEDE21A714072343009B9C3C /* peripheralpacingAppDelegate.m:1453 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1453;
+		location = peripheralpacing;
+		modificationTime = 338231108.510058;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDE21C514074207009B9C3C /* BreathStatController.m:372 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-UpdateStat::::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 372;
+		location = peripheralpacing;
+		modificationTime = 338231108.510116;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDE24281408281C009B9C3C /* User.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {993, 420}}";
+			sepNavSelRange = "{321, 0}";
+			sepNavVisRange = "{3, 326}";
+		};
+	};
+	AEDE24291408281C009B9C3C /* User.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {993, 349}}";
+			sepNavSelRange = "{192, 0}";
+			sepNavVisRange = "{0, 226}";
+		};
+	};
+	AEDE2449140836D1009B9C3C /* peripheralpacingAppDelegate.m:365 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-applicationDidFinishLaunching:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 365;
+		location = peripheralpacing;
+		modificationTime = 338231108.510156;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDE244B140836D6009B9C3C /* peripheralpacingAppDelegate.m:380 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-loadUserProfile";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 380;
+		location = peripheralpacing;
+		modificationTime = 338231108.510214;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDE244D140836DE009B9C3C /* peripheralpacingAppDelegate.m:408 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-setUserProfile";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 408;
+		location = peripheralpacing;
+		modificationTime = 338231108.510271;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDE244F140836E9009B9C3C /* peripheralpacingAppDelegate.m:445 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-ReadUserFromPropertyDictionary";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 445;
+		location = peripheralpacing;
+		modificationTime = 338231108.510327;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDE2451140836F3009B9C3C /* peripheralpacingAppDelegate.m:425 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-writeUserToPropertyDictionary:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 425;
+		location = peripheralpacing;
+		modificationTime = 338231108.510384;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDE3EA4141FE993008F4CB4 /* BreathStatController.m:361 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-UpdateStat::::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 361;
+		location = peripheralpacing;
+		modificationTime = 338231108.513539;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDE3EA6141FE9A9008F4CB4 /* BreathStatController.m:367 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-UpdateStat::::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 367;
+		location = peripheralpacing;
+		modificationTime = 338231108.5135649;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDE44AB14202F9E0044BBAC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEDD5B101419510600551ED7 /* ppDatabaseManager.h */;
+		name = "ppDatabaseManager.h: 42";
+		rLen = 0;
+		rLoc = 1333;
+		rType = 0;
+		vrLen = 862;
+		vrLoc = 1208;
+	};
+	AEDE4586142032230044BBAC /* FlickrFetcher.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2851.27, 2436}}";
+			sepNavSelRange = "{2773, 0}";
+			sepNavVisRange = "{2470, 743}";
+		};
+	};
+	AEDE45A11420341E0044BBAC /* NSString+SBJSON.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1095.69, 1239}}";
+			sepNavSelRange = "{2319, 0}";
+			sepNavVisRange = "{1500, 819}";
+			sepNavWindowFrame = "{{15, 53}, {750, 723}}";
+		};
+	};
+	AEDE45E2142034AD0044BBAC /* NSString+SBJSON.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {993, 1386}}";
+			sepNavSelRange = "{2162, 0}";
+			sepNavVisRange = "{1745, 420}";
+		};
+	};
+	AEDE45EA142035140044BBAC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEE9AB8B141FD8B500E3B1AB /* JSON.h */;
+		name = "JSON.h: 12";
+		rLen = 0;
+		rLoc = 203;
+		rType = 0;
+		vrLen = 230;
+		vrLoc = 0;
+	};
+	AEDE45EB142035140044BBAC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEDE45A11420341E0044BBAC /* NSString+SBJSON.h */;
+		name = "NSString+SBJSON.h: 59";
+		rLen = 0;
+		rLoc = 2319;
+		rType = 0;
+		vrLen = 602;
+		vrLoc = 1717;
+	};
+	AEDE45EC142035140044BBAC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEDE45E2142034AD0044BBAC /* NSString+SBJSON.m */;
+		name = "NSString+SBJSON.m: 55";
+		rLen = 0;
+		rLoc = 2162;
+		rType = 0;
+		vrLen = 420;
+		vrLoc = 1745;
+	};
+	AEDE471D14203D390044BBAC /* peripheralpacingAppDelegate.m:1323 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1323;
+		location = peripheralpacing;
+		modificationTime = 338231108.51372;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDE473314203D670044BBAC /* peripheralpacingAppDelegate.m:1304 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1304;
+		location = peripheralpacing;
+		modificationTime = 338231108.513766;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDE51EA13FC57850065958C /* arduino-serial.h:226 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = CD32AF4113457BB000DC0FF3 /* arduino-serial.h */;
+		functionName = "serialport_read_until(int fd, char* buf, char until)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 226;
+		location = peripheralpacing;
+		modificationTime = 338231108.5080031;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDE51FE13FC59D70065958C /* peripheralpacingAppDelegate.m:1386 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1386;
+		location = peripheralpacing;
+		modificationTime = 338231108.50804;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDE52EA142808A80047C793 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEC48C2713E3756B008F8A59 /* BreathStatController.h */;
+		name = "BreathStatController.h: 15";
+		rLen = 0;
+		rLoc = 331;
+		rType = 0;
+		vrLen = 457;
+		vrLoc = 0;
+	};
+	AEDE52F5142809250047C793 /* ppDatabaseManager.m:135 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEDD5B111419510600551ED7 /* ppDatabaseManager.m */;
+		functionName = "+updateTimestamp:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 135;
+		location = peripheralpacing;
+		modificationTime = 338231111.758594;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	AEDE52FF1428093C0047C793 /* ppDatabaseManager.m:144 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEDD5B111419510600551ED7 /* ppDatabaseManager.m */;
+		functionName = "+updateTimestamp:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 144;
+		location = peripheralpacing;
+		modificationTime = 338231111.789879;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	AEDE6B171416B6CF0090418C /* wirelessold.m:220 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AE3C5D6F140D4B2C00F1849F /* wirelessold.m */;
+		functionName = "-incomingTextUpdateThread:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 220;
+		modificationTime = 338231108.5129229;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDF1BB013F45AA2001EC310 /* myLogger.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {993, 483}}";
+			sepNavSelRange = "{306, 68}";
+			sepNavVisRange = "{91, 324}";
+		};
+	};
+	AEDF1BB113F45AA2001EC310 /* myLogger.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1648.37, 819}}";
+			sepNavSelRange = "{779, 0}";
+			sepNavVisRange = "{634, 331}";
+		};
+	};
+	AEDF1BEC13F46170001EC310 /* BreathStatController.m:345 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-updateBreathStats:::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 345;
+		location = peripheralpacing;
+		modificationTime = 338231108.507569;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDF1BF713F461EB001EC310 /* myLogger.m:31 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEDF1BB113F45AA2001EC310 /* myLogger.m */;
+		functionName = "-log:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 31;
+		location = peripheralpacing;
+		modificationTime = 338231108.507612;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDF1BFE13F46220001EC310 /* myLogger.m:16 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEDF1BB113F45AA2001EC310 /* myLogger.m */;
+		functionName = "-initWithPath:logName:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 16;
+		location = peripheralpacing;
+		modificationTime = 338231108.507651;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDF1C0C13F462C7001EC310 /* myLogger.m:15 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEDF1BB113F45AA2001EC310 /* myLogger.m */;
+		functionName = "-initWithPath:logName:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 15;
+		location = peripheralpacing;
+		modificationTime = 338231108.507691;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDF1D7413F4A420001EC310 /* BreathStatController.m:365 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-UpdateStat::::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 365;
+		location = peripheralpacing;
+		modificationTime = 338231108.50773;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDF1D9C13F4A626001EC310 /* BreathStatController.m:320 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-notifyMoment";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 320;
+		location = peripheralpacing;
+		modificationTime = 338231108.50777;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDF1DA813F56B8B001EC310 /* BreathStatController.m:293 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-notifyMoment";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 293;
+		location = peripheralpacing;
+		modificationTime = 338231108.507808;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDF1DAE13F56BFE001EC310 /* Stat.m:35 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2D13E375E8008F8A59 /* Stat.m */;
+		functionName = "-Reset";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 35;
+		location = peripheralpacing;
+		modificationTime = 338231108.507847;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDF23F7140DB09B00F6A47E /* wirelessold.m:212 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AE3C5D6F140D4B2C00F1849F /* wirelessold.m */;
+		functionName = "-incomingTextUpdateThread:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 212;
+		modificationTime = 338231108.51098;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	AEDF23FB140DB0AF00F6A47E /* wirelessold.m:223 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AE3C5D6F140D4B2C00F1849F /* wirelessold.m */;
+		functionName = "-incomingTextUpdateThread:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 223;
+		modificationTime = 338231108.511012;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDF38CF14200A5D00A39B7D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEC48C2C13E375E8008F8A59 /* Stat.h */;
+		name = "Stat.h: 36";
+		rLen = 0;
+		rLoc = 905;
+		rType = 0;
+		vrLen = 639;
+		vrLoc = 220;
+	};
+	AEDF38D614200BC000A39B7D /* BreathStatController.m:323 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-notifyMoment";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 323;
+		location = peripheralpacing;
+		modificationTime = 338231108.513692;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDF642E14200EA800E7A124 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEE0E00B141F2676000DA5FF /* Notification.h */;
+		name = "Notification.h: 16";
+		rLen = 0;
+		rLoc = 277;
+		rType = 0;
+		vrLen = 338;
+		vrLoc = 0;
+	};
+	AEDF642F14200EA800E7A124 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEE0E00C141F2676000DA5FF /* Notification.m */;
+		name = "Notification.m: 19";
+		rLen = 0;
+		rLoc = 313;
+		rType = 0;
+		vrLen = 321;
+		vrLoc = 0;
+	};
+	AEDF9446141FEF0E00E7F6BF /* BreathStatController.m:322 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-notifyMoment";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 322;
+		location = peripheralpacing;
+		modificationTime = 338231108.51359;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEDF9450141FEF4C00E7F6BF /* peripheralpacingAppDelegate.m:1480 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1480;
+		location = peripheralpacing;
+		modificationTime = 338231108.513616;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEE016E31420FBA4009A7E67 /* BreathStatController.m:246 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-getCalmImage";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 246;
+		location = peripheralpacing;
+		modificationTime = 338231108.513818;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEE016FD1420FC24009A7E67 /* BreathStatController.m:252 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-getCalmImage";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 252;
+		location = peripheralpacing;
+		modificationTime = 338231111.740852;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	AEE017151420FDF0009A7E67 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		name = "BreathStatController.m: 233";
+		rLen = 0;
+		rLoc = 8056;
+		rType = 0;
+		vrLen = 632;
+		vrLoc = 7712;
+	};
+	AEE017E21420FE10009A7E67 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEE9AA89141FAD2100E3B1AB /* FlickrFetcher.m */;
+		name = "FlickrFetcher.m: 72";
+		rLen = 0;
+		rLoc = 2773;
+		rType = 0;
+		vrLen = 569;
+		vrLoc = 1641;
+	};
+	AEE0229D13FADC7700DD1A01 /* BreathStatController.m:100 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-ReadStatObjectsFromPropertyArray";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 100;
+		location = peripheralpacing;
+		modificationTime = 338231108.507965;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEE03D05140420D300006A6F /* peripheralpacingAppDelegate.m:1482 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1482;
+		location = peripheralpacing;
+		modificationTime = 338231108.5086271;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEE03E4B1404560F00006A6F /* wireless-serial.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = "wireless-serial.h";
+		path = "/Users/poorna/Desktop/peripheralpacing_code/wireless-serial.h";
+		sourceTree = "<absolute>";
+	};
+	AEE03F691404626900006A6F /* wireless-serial.h:84 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEE03E4B1404560F00006A6F /* wireless-serial.h */;
+		functionName = "autoDetect_Arduino_port(int baud)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 84;
+		modificationTime = 338231108.508692;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEE0400E140D8ED200299E08 /* wirelessold.m:251 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AE3C5D6F140D4B2C00F1849F /* wirelessold.m */;
+		functionName = "-incomingTextUpdateThread:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 251;
+		modificationTime = 338231108.510873;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEE04015140D8F1600299E08 /* wirelessold.m:41 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AE3C5D6F140D4B2C00F1849F /* wirelessold.m */;
+		functionName = "-autoDetect_Arduino_port:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 41;
+		modificationTime = 338231108.510906;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEE04046140DA48600299E08 /* wirelessold.m:227 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AE3C5D6F140D4B2C00F1849F /* wirelessold.m */;
+		functionName = "-incomingTextUpdateThread:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 227;
+		modificationTime = 338231108.510942;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEE04D2B13F058A000F367B1 /* BreathStatController.m:55 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-getCalmImage";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 55;
+		location = peripheralpacing;
+		modificationTime = 338231108.506226;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEE04D3913F0598F00F367B1 /* BreathStatController.m:55 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-updateDictionary:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 55;
+		location = peripheralpacing;
+		modificationTime = 338231108.506305;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEE04D6C13F0612A00F367B1 /* BreathRate.m:83 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = CDD559531343F5E700FEE29B /* BreathRate.m */;
+		functionName = "-add_sample::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 83;
+		location = peripheralpacing;
+		modificationTime = 338231108.506392;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEE04D8513F065DB00F367B1 /* BreathStatController.m:55 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-updateDictionary:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 55;
+		location = peripheralpacing;
+		modificationTime = 338231108.506451;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEE04D8D13F0661A00F367B1 /* BreathStatController.m:55 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-getMinRateStat";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 55;
+		location = peripheralpacing;
+		modificationTime = 338231108.506496;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEE060081417D7EF00AAE503 /* peripheralpacingAppDelegate.m:1681 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-launchUpload";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1681;
+		location = peripheralpacing;
+		modificationTime = 338231108.512948;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEE0603B1417DC7700AAE503 /* peripheralpacingAppDelegate.m:126 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-applicationDidFinishLaunching:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 126;
+		location = peripheralpacing;
+		modificationTime = 338231108.512992;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEE0606F1417E0FE00AAE503 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 14";
+		rLen = 0;
+		rLoc = 233;
+		rType = 0;
+		vrLen = 294;
+		vrLoc = 0;
+	};
+	AEE0653F141826D500AAE503 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEDE24281408281C009B9C3C /* User.h */;
+		name = "User.h: 17";
+		rLen = 0;
+		rLoc = 321;
+		rType = 0;
+		vrLen = 326;
+		vrLoc = 3;
+	};
+	AEE06544141826D500AAE503 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CDD559531343F5E700FEE29B /* BreathRate.m */;
+		name = "BreathRate.m: 74";
+		rLen = 0;
+		rLoc = 1416;
+		rType = 0;
+		vrLen = 475;
+		vrLoc = 1281;
+	};
+	AEE06545141826D500AAE503 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CDD559511343F1E000FEE29B /* BreathRate.h */;
+		name = "BreathRate.h: 48";
+		rLen = 0;
+		rLoc = 1349;
+		rType = 0;
+		vrLen = 385;
+		vrLoc = 1142;
+	};
+	AEE0654A141826D500AAE503 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEDF1BB013F45AA2001EC310 /* myLogger.h */;
+		name = "myLogger.h: 18";
+		rLen = 68;
+		rLoc = 306;
+		rType = 0;
+		vrLen = 324;
+		vrLoc = 91;
+	};
+	AEE0655B1418298700AAE503 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEDF1BB113F45AA2001EC310 /* myLogger.m */;
+		name = "myLogger.m: 31";
+		rLen = 0;
+		rLoc = 779;
+		rType = 0;
+		vrLen = 331;
+		vrLoc = 634;
+	};
+	AEE0C8171416C67700ADCB66 /* wireless.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = wireless.m;
+		path = /Users/poorna/Desktop/peripheralpacing_code/wireless.m;
+		sourceTree = "<absolute>";
+	};
+	AEE0E00B141F2676000DA5FF /* Notification.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {993, 425}}";
+			sepNavSelRange = "{277, 0}";
+			sepNavVisRange = "{0, 338}";
+		};
+	};
+	AEE0E00C141F2676000DA5FF /* Notification.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {993, 462}}";
+			sepNavSelRange = "{313, 0}";
+			sepNavVisRange = "{0, 321}";
+		};
+	};
+	AEE0E025141F2F55000DA5FF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEE0E026141F2F55000DA5FF /* FlickrAPIKey.h */;
+		name = "FlickrAPIKey.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 168;
+		vrLoc = 0;
+	};
+	AEE0E026141F2F55000DA5FF /* FlickrAPIKey.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = FlickrAPIKey.h;
+		path = "/Users/poorna/Library/Mail Downloads/Flickr/FlickrAPIKey.h";
+		sourceTree = "<absolute>";
+	};
+	AEE0E027141F2F55000DA5FF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEE0E028141F2F55000DA5FF /* FlickrFetcher.h */;
+		name = "FlickrFetcher.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1118;
+		vrLoc = 201;
+	};
+	AEE0E028141F2F55000DA5FF /* FlickrFetcher.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = FlickrFetcher.h;
+		path = "/Users/poorna/Library/Mail Downloads/Flickr/FlickrFetcher.h";
+		sourceTree = "<absolute>";
+	};
+	AEE0E02C141F2F55000DA5FF /* FlickrFetcher.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = FlickrFetcher.m;
+		path = "/Users/poorna/Library/Mail Downloads/Flickr/FlickrFetcher.m";
+		sourceTree = "<absolute>";
+	};
+	AEE1DA421416B20B002E9BD2 /* wirelessold.m:42 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AE3C5D6F140D4B2C00F1849F /* wirelessold.m */;
+		functionName = "-autoDetect_Arduino_port:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 42;
+		modificationTime = 338231108.512897;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEE24F1514056B5300CF22E9 /* peripheralpacingAppDelegate.m:714 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-awakeFromNib";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 714;
+		location = peripheralpacing;
+		modificationTime = 338231108.509183;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEE24F2114056B9B00CF22E9 /* peripheralpacingAppDelegate.m:1647 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-receiveWakeNote:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1647;
+		location = peripheralpacing;
+		modificationTime = 338231108.509252;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEE24F2314056B9D00CF22E9 /* peripheralpacingAppDelegate.m:1642 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-receiveSleepNote:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1642;
+		location = peripheralpacing;
+		modificationTime = 338231108.509321;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEE24F2F14056BFE00CF22E9 /* peripheralpacingAppDelegate.m:1404 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-mainloop:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1404;
+		location = peripheralpacing;
+		modificationTime = 338231108.509389;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEE24F3714056FCA00CF22E9 /* peripheralpacingAppDelegate.m:1060 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC8798C13DE32C8003F05F6 /* peripheralpacingAppDelegate.m */;
+		functionName = "-toggle_on_off:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1060;
+		location = peripheralpacing;
+		modificationTime = 338231108.509457;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEE24F58140575DD00CF22E9 /* BreathStatController.m:286 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-notifyMoment";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 286;
+		location = peripheralpacing;
+		modificationTime = 338231108.509527;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEE24F5A140575E000CF22E9 /* BreathStatController.m:282 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = AEC48C2813E3756B008F8A59 /* BreathStatController.m */;
+		functionName = "-notifyMoment";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 282;
+		location = peripheralpacing;
+		modificationTime = 338231108.50957;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEE6C28613FED2A600BF9CEC /* arduino-serial.h:217 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = CD32AF4113457BB000DC0FF3 /* arduino-serial.h */;
+		functionName = "getNextVal(int fd,int *val,char *header)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 217;
+		location = peripheralpacing;
+		modificationTime = 338231108.508588;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEE6C30C13FF2AE600BF9CEC /* matlab_session.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = matlab_session.m;
+		path = /Users/poorna/prep/cs229/matlab_session.m;
+		sourceTree = "<absolute>";
+	};
+	AEE85A7D13FDBCA900981D47 /* arduino-serial.h:235 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = CD32AF4113457BB000DC0FF3 /* arduino-serial.h */;
+		functionName = "serialport_read_until(int fd, char* buf, char until)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 235;
+		location = peripheralpacing;
+		modificationTime = 338231108.508466;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEE85A9713FDC2F600981D47 /* arduino-serial.h:305 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = CD32AF4113457BB000DC0FF3 /* arduino-serial.h */;
+		functionName = "serialport_init(const char* serialport, int baud)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 305;
+		location = peripheralpacing;
+		modificationTime = 338231108.5085111;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEE85B1913FDD00400981D47 /* arduino-serial.h:199 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = CD32AF4113457BB000DC0FF3 /* arduino-serial.h */;
+		functionName = "getNextVal(int fd,int *val,char *header)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 199;
+		location = peripheralpacing;
+		modificationTime = 338231108.508549;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	AEE9A9C7141FACE700E3B1AB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEE0E02C141F2F55000DA5FF /* FlickrFetcher.m */;
+		name = "FlickrFetcher.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1138;
+		vrLoc = 3960;
+	};
+	AEE9AA87141FAD2100E3B1AB /* FlickrAPIKey.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = FlickrAPIKey.h;
+		path = /Users/poorna/Desktop/peripheralpacing_code/FlickrAPIKey.h;
+		sourceTree = "<absolute>";
+	};
+	AEE9AA88141FAD2100E3B1AB /* FlickrFetcher.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = FlickrFetcher.h;
+		path = /Users/poorna/Desktop/peripheralpacing_code/FlickrFetcher.h;
+		sourceTree = "<absolute>";
+	};
+	AEE9AA89141FAD2100E3B1AB /* FlickrFetcher.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = FlickrFetcher.m;
+		path = /Users/poorna/Desktop/peripheralpacing_code/FlickrFetcher.m;
+		sourceTree = "<absolute>";
+	};
+	AEE9AB8B141FD8B500E3B1AB /* JSON.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = JSON.h;
+		path = /Users/poorna/Desktop/peripheralpacing_code/JSON.h;
+		sourceTree = "<absolute>";
+	};
+	AEE9AB92141FD8DF00E3B1AB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEDCAEEE140DDBED00157B93 /* NSObject+SBJson.h */;
+		name = "NSObject+SBJson.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1130;
+		vrLoc = 0;
+	};
+	AEE9AB93141FD8DF00E3B1AB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEDCAECC140DDB4300157B93 /* SBJson.h */;
+		name = "SBJson.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 675;
+		vrLoc = 2815;
+	};
+	AEE9AB94141FD8DF00E3B1AB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEDCAEEF140DDBF500157B93 /* NSObject+SBJson.m */;
+		name = "NSObject+SBJson.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1130;
+		vrLoc = 0;
+	};
+	AEE9AB95141FD8DF00E3B1AB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEE9AA87141FAD2100E3B1AB /* FlickrAPIKey.h */;
+		name = "FlickrAPIKey.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 168;
+		vrLoc = 0;
+	};
+	AEE9AB96141FD8DF00E3B1AB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEE9AA88141FAD2100E3B1AB /* FlickrFetcher.h */;
+		name = "FlickrFetcher.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 488;
+		vrLoc = 0;
+	};
+	AEEE1A8A13B2AD320054119D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3F00F4B6AF500CF3369 /* peripheralpacing_Prefix.pch */;
+		name = "peripheralpacing_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 163;
+		vrLoc = 0;
+	};
+	AEF1E45F13E0CFBE007DDF93 /* notifier.xib */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = file.xib;
+		name = notifier.xib;
+		path = /Users/poorna/Desktop/peripheralpacing_code/notifier.xib;
+		sourceTree = "<absolute>";
+	};
+	AEF242E413B008D200549512 /* peripheralpacing */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+			{
+				active = NO;
+				name = NSZombieEnabled;
+				value = YES;
+			},
+			{
+				active = NO;
+				name = MallocStackLogging;
+				value = YES;
+			},
+			{
+				active = NO;
+				name = NSDebugEnabled;
+				value = YES;
+			},
+			{
+				active = NO;
+				name = "NSBindingDebugLogLevel ";
+				value = YES;
+			},
+			{
+				active = NO;
+				name = NSTraceEvents;
+				value = YES;
+			},
+			{
+				active = NO;
+				name = MallocBadFreeAbort;
+				value = YES;
+			},
+			{
+				active = NO;
+				name = MallocScribble;
+				value = YES;
+			},
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = peripheralpacing;
+		savedGlobals = {
+		};
+		showTypeColumn = 1;
+		sourceDirectories = (
+		);
+		startupPath = "<<ProductDirectory>>";
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eflags = 1;
+			$es = 1;
+			$fctrl = 1;
+			$fioff = 1;
+			$fiseg = 1;
+			$fooff = 1;
+			$fop = 1;
+			$foseg = 1;
+			$fs = 1;
+			$fstat = 1;
+			$ftag = 1;
+			$gs = 1;
+			$mxcsr = 1;
+			$r10 = 1;
+			$r11 = 1;
+			$r12 = 1;
+			$r13 = 1;
+			$r14 = 1;
+			$r15 = 1;
+			$r8 = 1;
+			$r9 = 1;
+			$rax = 1;
+			$rbp = 1;
+			$rbx = 1;
+			$rcx = 1;
+			$rdi = 1;
+			$rdx = 1;
+			$rip = 1;
+			$rsi = 1;
+			$rsp = 1;
+			$ss = 1;
+		};
+	};
+	AEF242F913B008D700549512 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	AEF242FA13B008D700549512 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	AEFDB83413BAA142005E6B72 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEFDB83513BAA142005E6B72 /* NSGeometry.h */;
+		name = "NSGeometry.h: 101";
+		rLen = 0;
+		rLoc = 2155;
+		rType = 0;
+		vrLen = 722;
+		vrLoc = 1638;
+	};
+	AEFDB83513BAA142005E6B72 /* NSGeometry.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSGeometry.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSGeometry.h;
+		sourceTree = "<absolute>";
+	};
+	CD32AF4113457BB000DC0FF3 /* arduino-serial.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {933.138, 6783}}";
+			sepNavSelRange = "{7177, 0}";
+			sepNavVisRange = "{6068, 751}";
+			sepNavWindowFrame = "{{15, 57}, {750, 721}}";
+		};
+	};
+	CD8B881D1349ABE10092200B /* MGTransparentWindow.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {929, 299}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 168}";
+			sepNavWindowFrame = "{{15, 55}, {750, 720}}";
+		};
+	};
+	CD8B881E1349ABE10092200B /* MGTransparentWindow.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {803.095, 1029}}";
+			sepNavSelRange = "{70, 980}";
+			sepNavVisRange = "{70, 668}";
+		};
+	};
+	CDD559511343F1E000FEE29B /* BreathRate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1193.22, 1155}}";
+			sepNavSelRange = "{1349, 0}";
+			sepNavVisRange = "{1142, 385}";
+			sepNavWindowFrame = "{{15, 53}, {750, 725}}";
+		};
+	};
+	CDD559531343F5E700FEE29B /* BreathRate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1236.57, 2142}}";
+			sepNavSelRange = "{1416, 0}";
+			sepNavVisRange = "{1281, 475}";
+			sepNavWindowFrame = "{{15, 53}, {750, 725}}";
+		};
+	};
+}

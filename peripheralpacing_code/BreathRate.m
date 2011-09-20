@@ -11,13 +11,14 @@
 
 @implementation BreathRate
 
-- (id) init
+- (id) initWithTime:(double) time
 {
 	sample_index = 0;
 	last_sample_time = 0;
 	breath_rate = 0;
 	smoothing_index = 0;
 	warm_up = true;
+	init_time = time;
 	return self;
 }
 
@@ -37,6 +38,19 @@
 
 }
 
+- (float) getInhaleExhaleRatio
+{
+	return inhale_exhale_ratio;
+}
+
+-(float) getInhaleRestPerMinute 
+{
+	return inRestPerMinute;
+}
+-(float) getExhaleRestPerMinute 
+{
+	return outRestPerMinute;
+}
 
 - (id) add_sample: (int) value :(float) time
 {
@@ -50,7 +64,6 @@
 	//printf("%d\n",samples[sample_index]);
 	
 	
-	
 	//calculate breath rate
 	if (warm_up)
 	{
@@ -59,27 +72,30 @@
 	else {
 		int npeaks = 0;
 		for (int i = 1; i < NUM_SAMPLES - 1; i++) { 
-			if ((samples[i] > samples[i - 1]) && (samples[i] > samples[i + 1]))
-			npeaks++;
+			if ((samples[i] > samples[i - 1]) && (samples[i] > samples[i + 1])) { 
+				npeaks++;
+		
+			}
 	}
 	int last_index = (sample_index + 1) % NUM_SAMPLES;
 	float dt  = sampleTime[sample_index] - sampleTime[last_index];
 	//Final breath rate calculation = number of peaks /duration * (60 Sec/1 Min)
-	breath_rate = (npeaks) * 60/dt;
-		
-	//printf("npeaks: %d, myrate: %f dt=%f \n",npeaks,breath_rate,dt);
+		breath_rate = (npeaks) * 60/dt;
 		
 	}
 	
-	
-	
-	
 	//update sample_index
 	sample_index = (sample_index+1)%NUM_SAMPLES;
+
 	smoothing_index = (smoothing_index+1)%WINDOW_SIZE;
-	if (sample_index==0)  
+	if ((sample_index==0) && ((time - init_time) > 30.0))  //minimum warm up of 30 secs to prevent strange b.rate
+	{
 		warm_up = false;
+	}
 	return self;
 }
-
+-(bool) isWarmUp 
+{
+	return warm_up;
+}
 @end

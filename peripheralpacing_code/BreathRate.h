@@ -31,16 +31,22 @@
 	bool warm_up;
 	//last calculated breath rate (cycles/min)
 	float breath_rate;
-	
+	float avg_rate_buffer[NUM_SAMPLES];
+	float avg_total;
+	int avg_index;
+	float inhale_exhale_ratio;
+	float inRestPerMinute;
+	float outRestPerMinute;
+	float init_time;
 	//hann window used for smoothing
 }
 
 //constructor 
-- (id) init;
+- (id) initWithTime:(double) time;
 - (float) hann: (int) idx; 
 
 - (float) getBreathRate;
-
+- (bool)  isWarmUp;
 
 //adds the new sample to the data and calculates new average sample rate, and breath rate based on that
 - (id) add_sample: (int) value :(float) time;

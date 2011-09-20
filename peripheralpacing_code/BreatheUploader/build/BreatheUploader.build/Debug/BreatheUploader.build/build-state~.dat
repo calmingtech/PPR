@@ -1,0 +1,664 @@
+TBreatheUploader
+v7
+r0
+t337041167.931893
+cCheck dependencies
+cProcessInfoPlistFile /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/BreatheUploader.app/Contents/Info.plist BreatheUploader-Info.plist
+cCopyStringsFile /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/BreatheUploader.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/English.lproj/MainMenu.xib
+cProcessPCH /var/folders/hh/hhE-it1xH9C75MnjwdIcmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreatheUploader_Prefix-eqthjvgsdnqbkkdypnlajfjklzkq/BreatheUploader_Prefix.pch.gch BreatheUploader_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/main.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/BreatheUploaderAppDelegate.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/ppDatabaseManager.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/ppDatabaseManager.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/ppUser.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/ppUser.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonWriter.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonWriter.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonUTF8Stream.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonUTF8Stream.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonTokeniser.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonTokeniser.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamWriterState.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamWriterState.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamWriterAccumulator.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamWriterAccumulator.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamWriter.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamWriter.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamParserState.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParserState.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamParserAdapter.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParserAdapter.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamParserAccumulator.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParserAccumulator.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamParser.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParser.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonParser.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonParser.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/NSObject+SBJson.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/NSObject+SBJson.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004E582AA300000000000000EE
+t1314400931
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC401D100000000000013E6
+t1287913937
+s5094
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
+c000000004A11EB240000000000000C7E
+t1242688292
+s3198
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004D53E65D000000000000A5E0
+t1297344093
+s42464
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.h
+c000000004E64E2F1000000000000015E
+t1315234545
+s350
+i<Cocoa/Cocoa.h>
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m
+c000000004E669F810000000000000443
+t1315348353
+s1091
+i"BreatheUploaderAppDelegate.h"
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploader_Prefix.pch
+c000000004E6425FA00000000000000A1
+t1315186170
+s161
+i<Cocoa/Cocoa.h>
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/English.lproj/InfoPlist.strings
+c000000004E6425FA000000000000002D
+t1315186170
+s45
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/English.lproj/MainMenu.xib
+c000000004E64E24F000000000002C28D
+t1315234383
+s180877
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/NSObject+SBJson.h
+c000000004E0D9B0200000000000008B7
+t1309514498
+s2231
+i<Foundation/Foundation.h>
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/NSObject+SBJson.m
+c000000004E0D9B0200000000000008A6
+t1309514498
+s2214
+i"NSObject+SBJson.h"
+i"SBJsonWriter.h"
+i"SBJsonParser.h"
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJson.h
+c000000004E0D9B020000000000000DA2
+t1309514498
+s3490
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+i"SBJsonStreamParser.h"
+i"SBJsonStreamParserAdapter.h"
+i"SBJsonStreamWriter.h"
+i"NSObject+SBJson.h"
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonParser.h
+c000000004E5BDFD30000000000000DF6
+t1314643923
+s3574
+i<Foundation/Foundation.h>
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonParser.m
+c000000004E0D9B020000000000000CC0
+t1309514498
+s3264
+i"SBJsonParser.h"
+i"SBJsonStreamParser.h"
+i"SBJsonStreamParserAdapter.h"
+i"SBJsonStreamParserAccumulator.h"
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParser.h
+c000000004E5BDFB100000000000015E4
+t1314643889
+s5604
+i<Foundation/Foundation.h>
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParser.m
+c000000004E0D9B020000000000001AC1
+t1309514498
+s6849
+i"SBJsonStreamParser.h"
+i"SBJsonTokeniser.h"
+i"SBJsonStreamParserState.h"
+i<limits.h>
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParserAccumulator.h
+c000000004E5BDFE900000000000006BD
+t1314643945
+s1725
+i<Foundation/Foundation.h>
+i"SBJsonStreamParserAdapter.h"
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParserAccumulator.m
+c000000004E0D9B02000000000000079B
+t1309514498
+s1947
+i"SBJsonStreamParserAccumulator.h"
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParserAdapter.h
+c000000004E5BE0100000000000001445
+t1314643984
+s5189
+i<Foundation/Foundation.h>
+i"SBJsonStreamParser.h"
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParserAdapter.m
+c000000004E0D9B0200000000000011DD
+t1309514498
+s4573
+i"SBJsonStreamParserAdapter.h"
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParserState.h
+c000000004E0D9B020000000000000B22
+t1309514498
+s2850
+i<Foundation/Foundation.h>
+i"SBJsonTokeniser.h"
+i"SBJsonStreamParser.h"
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParserState.m
+c000000004E0D9B020000000000001FB6
+t1309514498
+s8118
+i"SBJsonStreamParserState.h"
+i"SBJsonStreamParser.h"
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamWriter.h
+c000000004E5BE4A400000000000016B6
+t1314645156
+s5814
+i<Foundation/Foundation.h>
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamWriter.m
+c000000004E0D9B020000000000002948
+t1309514498
+s10568
+i"SBJsonStreamWriter.h"
+i"SBJsonStreamWriterState.h"
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamWriterAccumulator.h
+c000000004E5BE0B600000000000006AD
+t1314644150
+s1709
+i"SBJsonStreamWriter.h"
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamWriterAccumulator.m
+c000000004E0D9B0200000000000007EB
+t1309514498
+s2027
+i"SBJsonStreamWriterAccumulator.h"
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamWriterState.h
+c000000004E0D9B0200000000000009EC
+t1309514498
+s2540
+i<Foundation/Foundation.h>
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamWriterState.m
+c000000004E0D9B020000000000000F61
+t1309514498
+s3937
+i"SBJsonStreamWriterState.h"
+i"SBJsonStreamWriter.h"
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonTokeniser.h
+c000000004E5BDE2000000000000008BC
+t1314643488
+s2236
+i<Foundation/Foundation.h>
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonTokeniser.m
+c000000004E0D9B020000000000003112
+t1309514498
+s12562
+i"SBJsonTokeniser.h"
+i"SBJsonUTF8Stream.h"
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonUTF8Stream.h
+c000000004E5BDF4F0000000000000828
+t1314643791
+s2088
+i<Foundation/Foundation.h>
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonUTF8Stream.m
+c000000004E0D9B020000000000000F25
+t1309514498
+s3877
+i"SBJsonUTF8Stream.h"
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonWriter.h
+c000000004E5BE04400000000000010AA
+t1314644036
+s4266
+i<Foundation/Foundation.h>
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonWriter.m
+c000000004E0D9B020000000000000DBF
+t1309514498
+s3519
+i"SBJsonWriter.h"
+i"SBJsonStreamWriter.h"
+i"SBJsonStreamWriterAccumulator.h"
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/BreatheUploader.LinkFileList
+c000000004E669F8100000000000009F0
+t1315348353
+s2544
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/BreatheUploaderAppDelegate.o
+t2
+s0
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/NSObject+SBJson.o
+t1315348367
+s9800
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonParser.o
+t1315348367
+s19100
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamParser.o
+t1315348367
+s33972
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamParserAccumulator.o
+t1315348367
+s12324
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamParserAdapter.o
+t1315348367
+s29308
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamParserState.o
+t1315348367
+s54852
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamWriter.o
+t1315348367
+s49936
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamWriterAccumulator.o
+t1315348367
+s12540
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamWriterState.o
+t1315348367
+s33048
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonTokeniser.o
+t1315348367
+s30820
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonUTF8Stream.o
+t1315348367
+s20940
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonWriter.o
+t1315348367
+s22668
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/main.o
+t1315348367
+s5040
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/ppDatabaseManager.o
+t1315348367
+s42192
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/ppUser.o
+t1315348367
+s24376
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/BreatheUploader.app
+t2
+s0
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/BreatheUploader.app/Contents/Info.plist
+t1315348353
+s1308
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/BreatheUploader.app/Contents/MacOS/BreatheUploader
+t2
+s0
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/BreatheUploader.app/Contents/PkgInfo
+t1315348353
+s8
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/BreatheUploader.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1315348355
+s92
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/BreatheUploader.app/Contents/Resources/English.lproj/MainMenu.nib
+t1315348357
+s33651
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/main.m
+c000000004E6425FA000000000000010F
+t1315186170
+s271
+i<Cocoa/Cocoa.h>
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/ppDatabaseManager.h
+c000000004E5C2C91000000000000078C
+t1314663569
+s1932
+i<Foundation/Foundation.h>
+i"ppUser.h"
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/ppDatabaseManager.m
+c000000004E5C44D10000000000003CAC
+t1314669777
+s15532
+i"ppDatabaseManager.h"
+i"SBJson.h"
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/ppUser.h
+c000000004E5BDECC0000000000000666
+t1314643660
+s1638
+i<Cocoa/Cocoa.h>
+
+N/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/ppUser.m
+c000000004E495B7C000000000000064E
+t1313430396
+s1614
+i"ppUser.h"
+
+N/var/folders/hh/hhE-it1xH9C75MnjwdIcmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreatheUploader_Prefix-eqthjvgsdnqbkkdypnlajfjklzkq/BreatheUploader_Prefix.pch.gch
+t1315348367
+s54306576
+
+NBreatheUploader-Info.plist
+c000000004E6425FA00000000000003EA
+t1315186170
+s1002
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies337041153#337041153#0(0"0(0#1#0"8614930624#0"0#
+
+CCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/BreatheUploaderAppDelegate.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s337041167.199503
+e337041167.349359
+r0
+xCompileC
+xbuild/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/BreatheUploaderAppDelegate.o
+x/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m: In function '-[BreatheUploaderAppDelegate applicationDidFinishLaunching:]':
+o/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:19: error: expected expression before '@' token
+o/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:19: warning: 'NSThread' may not respond to '+detachNewThreadSelector:'
+o/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:19: warning: (Messages without a matching method signature
+o/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:19: warning: will be assumed to return 'id' and accept
+o/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:19: warning: '...' as arguments.)
+o/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m: In function '-[BreatheUploaderAppDelegate mainloop:]':
+o/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:30: error: expected identifier or '(' before 'char'
+o/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:31: error: 'timePassed_s' undeclared (first use in this function)
+o/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:31: error: (Each undeclared identifier is reported only once
+o/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:31: error: for each function it appears in.)
+o/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:31: error: 'dateAbs' undeclared (first use in this function)
+o/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:31: warning: unknown conversion type character '.' in format
+o/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:31: warning: unknown conversion type character '.' in format
+o/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:31: warning: unknown conversion type character '.' in format
+o/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:31: warning: format '%d' expects type 'int *', but argument 5 has type 'float *'
+o/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:31: warning: format '%d' expects type 'int *', but argument 6 has type 'float *'
+o/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:31: warning: format '%s' expects type 'char *', but argument 8 has type 'int *'
+o/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:27: warning: unused variable 'timepassed_s'
+lSLF07#2@96"Compile /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m337041167#337041167#0(2845"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m: In function '-[BreatheUploaderAppDelegate applicationDidFinishLaunching:]':/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:19: error: expected expression before '@' token/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:19: warning: 'NSThread' may not respond to '+detachNewThreadSelector:'/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:19: warning: (Messages without a matching method signature/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:19: warning: will be assumed to return 'id' and accept/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:19: warning: '...' as arguments.)/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m: In function '-[BreatheUploaderAppDelegate mainloop:]':/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:30: error: expected identifier or '(' before 'char'/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:31: error: 'timePassed_s' undeclared (first use in this function)/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:31: error: (Each undeclared identifier is reported only once/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:31: error: for each function it appears in.)/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:31: error: 'dateAbs' undeclared (first use in this function)/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:31: warning: unknown conversion type character '.' in format/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:31: warning: unknown conversion type character '.' in format/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:31: warning: unknown conversion type character '.' in format/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:31: warning: format '%d' expects type 'int *', but argument 5 has type 'float *'/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:31: warning: format '%d' expects type 'int *', but argument 6 has type 'float *'/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:31: warning: format '%s' expects type 'char *', but argument 8 has type 'int *'/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m:27: warning: unused variable 'timepassed_s'13(4@36"Expected expression before '@' token337041167#166#137#0(6@88"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m337041153#19#0#19#0#19"expected * before *0(22@57"'NSThread' may not respond to '+detachNewThreadSelector:'337041167#303#160#0(6@88"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m337041153#19#0#19#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)337041167#463#148#0(6@88"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m337041153#19#0#19#0#0"0(4@40"Expected identifier or '(' before 'char'337041167#1023#141#0(6@88"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m337041153#30#0#30#0#19"expected * before *0(4@54"'timePassed_s' undeclared (first use in this function)337041167#1164#155#0(6@88"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m337041153#31#0#31#0#43"'*' undeclared (first use in this function)0(4@49"'dateAbs' undeclared (first use in this function)337041167#1603#150#0(6@88"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m337041153#31#0#31#0#43"'*' undeclared (first use in this function)0(22@47"Unknown conversion type character '.' in format337041167#1753#150#0(6@88"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m337041153#31#0#31#0#0"0(22@47"Unknown conversion type character '.' in format337041167#1903#150#0(6@88"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m337041153#31#0#31#0#0"0(22@47"Unknown conversion type character '.' in format337041167#2053#150#0(6@88"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m337041153#31#0#31#0#0"0(22@67"Format '%d' expects type 'int *', but argument 5 has type 'float *'337041167#2203#170#0(6@88"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m337041153#31#0#31#0#56"format '*' expects type '*', but argument * has type '*'0(22@67"Format '%d' expects type 'int *', but argument 6 has type 'float *'337041167#2373#170#0(6@88"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m337041153#31#0#31#0#56"format '*' expects type '*', but argument * has type '*'0(22@66"Format '%s' expects type 'char *', but argument 8 has type 'int *'337041167#2543#169#0(6@88"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m337041153#31#0#31#0#56"format '*' expects type '*', but argument * has type '*'0(22@30"Unused variable 'timepassed_s'337041167#2712#133#0(6@88"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m337041153#27#0#27#0#19"unused variable '*'0(0#0#88"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m8615460768#1885"    cd /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-generated-files.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-own-target-headers.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-all-target-headers.hmap -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-project-headers.hmap -F/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/include -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources/x86_64 -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources -include /var/folders/hh/hhE-it1xH9C75MnjwdIcmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreatheUploader_Prefix-eqthjvgsdnqbkkdypnlajfjklzkq/BreatheUploader_Prefix.pch -c /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploaderAppDelegate.m -o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/BreatheUploaderAppDelegate.o1#
+
+CCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/NSObject+SBJson.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/NSObject+SBJson.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s337041167.774076
+e337041167.881506
+r1
+xCompileC
+xbuild/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/NSObject+SBJson.o
+x/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/NSObject+SBJson.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/NSObject+SBJson.m337041167#337041167#0(0"0(0#0#77"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/NSObject+SBJson.m8618788832#1863"    cd /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-generated-files.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-own-target-headers.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-all-target-headers.hmap -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-project-headers.hmap -F/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/include -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources/x86_64 -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources -include /var/folders/hh/hhE-it1xH9C75MnjwdIcmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreatheUploader_Prefix-eqthjvgsdnqbkkdypnlajfjklzkq/BreatheUploader_Prefix.pch -c /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/NSObject+SBJson.m -o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/NSObject+SBJson.o0#
+
+CCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonParser.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonParser.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s337041167.742551
+e337041167.882565
+r1
+xCompileC
+xbuild/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonParser.o
+x/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonParser.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonParser.m337041167#337041167#0(0"0(0#0#74"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonParser.m8621772608#1857"    cd /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-generated-files.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-own-target-headers.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-all-target-headers.hmap -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-project-headers.hmap -F/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/include -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources/x86_64 -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources -include /var/folders/hh/hhE-it1xH9C75MnjwdIcmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreatheUploader_Prefix-eqthjvgsdnqbkkdypnlajfjklzkq/BreatheUploader_Prefix.pch -c /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonParser.m -o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonParser.o0#
+
+CCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamParser.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParser.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s337041167.731155
+e337041167.931746
+r1
+xCompileC
+xbuild/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamParser.o
+x/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParser.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParser.m337041167#337041167#0(0"0(0#0#80"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParser.m8622321312#1869"    cd /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-generated-files.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-own-target-headers.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-all-target-headers.hmap -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-project-headers.hmap -F/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/include -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources/x86_64 -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources -include /var/folders/hh/hhE-it1xH9C75MnjwdIcmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreatheUploader_Prefix-eqthjvgsdnqbkkdypnlajfjklzkq/BreatheUploader_Prefix.pch -c /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParser.m -o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamParser.o0#
+
+CCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamParserAccumulator.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParserAccumulator.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s337041167.633568
+e337041167.773954
+r1
+xCompileC
+xbuild/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamParserAccumulator.o
+x/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParserAccumulator.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParserAccumulator.m337041167#337041167#0(0"0(0#0#91"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParserAccumulator.m8621491360#1891"    cd /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-generated-files.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-own-target-headers.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-all-target-headers.hmap -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-project-headers.hmap -F/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/include -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources/x86_64 -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources -include /var/folders/hh/hhE-it1xH9C75MnjwdIcmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreatheUploader_Prefix-eqthjvgsdnqbkkdypnlajfjklzkq/BreatheUploader_Prefix.pch -c /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParserAccumulator.m -o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamParserAccumulator.o0#
+
+CCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamParserAdapter.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParserAdapter.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s337041167.556260
+e337041167.731028
+r1
+xCompileC
+xbuild/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamParserAdapter.o
+x/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParserAdapter.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParserAdapter.m337041167#337041167#0(0"0(0#0#87"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParserAdapter.m8622315456#1883"    cd /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-generated-files.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-own-target-headers.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-all-target-headers.hmap -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-project-headers.hmap -F/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/include -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources/x86_64 -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources -include /var/folders/hh/hhE-it1xH9C75MnjwdIcmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreatheUploader_Prefix-eqthjvgsdnqbkkdypnlajfjklzkq/BreatheUploader_Prefix.pch -c /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParserAdapter.m -o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamParserAdapter.o0#
+
+CCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamParserState.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParserState.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s337041167.551213
+e337041167.742411
+r1
+xCompileC
+xbuild/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamParserState.o
+x/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParserState.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParserState.m337041167#337041167#0(0"0(0#0#85"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParserState.m8607687840#1879"    cd /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-generated-files.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-own-target-headers.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-all-target-headers.hmap -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-project-headers.hmap -F/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/include -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources/x86_64 -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources -include /var/folders/hh/hhE-it1xH9C75MnjwdIcmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreatheUploader_Prefix-eqthjvgsdnqbkkdypnlajfjklzkq/BreatheUploader_Prefix.pch -c /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamParserState.m -o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamParserState.o0#
+
+CCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamWriter.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamWriter.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s337041167.508991
+e337041167.775316
+r1
+xCompileC
+xbuild/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamWriter.o
+x/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamWriter.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamWriter.m337041167#337041167#0(0"0(0#0#80"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamWriter.m8614298560#1869"    cd /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-generated-files.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-own-target-headers.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-all-target-headers.hmap -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-project-headers.hmap -F/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/include -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources/x86_64 -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources -include /var/folders/hh/hhE-it1xH9C75MnjwdIcmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreatheUploader_Prefix-eqthjvgsdnqbkkdypnlajfjklzkq/BreatheUploader_Prefix.pch -c /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamWriter.m -o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamWriter.o0#
+
+CCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamWriterAccumulator.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamWriterAccumulator.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s337041167.491717
+e337041167.633436
+r1
+xCompileC
+xbuild/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamWriterAccumulator.o
+x/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamWriterAccumulator.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamWriterAccumulator.m337041167#337041167#0(0"0(0#0#91"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamWriterAccumulator.m8615544192#1891"    cd /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-generated-files.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-own-target-headers.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-all-target-headers.hmap -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-project-headers.hmap -F/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/include -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources/x86_64 -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources -include /var/folders/hh/hhE-it1xH9C75MnjwdIcmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreatheUploader_Prefix-eqthjvgsdnqbkkdypnlajfjklzkq/BreatheUploader_Prefix.pch -c /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamWriterAccumulator.m -o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamWriterAccumulator.o0#
+
+CCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamWriterState.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamWriterState.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s337041167.397371
+e337041167.556139
+r1
+xCompileC
+xbuild/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamWriterState.o
+x/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamWriterState.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamWriterState.m337041167#337041167#0(0"0(0#0#85"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamWriterState.m8615986656#1879"    cd /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-generated-files.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-own-target-headers.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-all-target-headers.hmap -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-project-headers.hmap -F/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/include -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources/x86_64 -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources -include /var/folders/hh/hhE-it1xH9C75MnjwdIcmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreatheUploader_Prefix-eqthjvgsdnqbkkdypnlajfjklzkq/BreatheUploader_Prefix.pch -c /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonStreamWriterState.m -o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonStreamWriterState.o0#
+
+CCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonTokeniser.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonTokeniser.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s337041167.352130
+e337041167.551095
+r1
+xCompileC
+xbuild/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonTokeniser.o
+x/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonTokeniser.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonTokeniser.m337041167#337041167#0(0"0(0#0#77"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonTokeniser.m8621669440#1863"    cd /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-generated-files.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-own-target-headers.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-all-target-headers.hmap -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-project-headers.hmap -F/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/include -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources/x86_64 -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources -include /var/folders/hh/hhE-it1xH9C75MnjwdIcmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreatheUploader_Prefix-eqthjvgsdnqbkkdypnlajfjklzkq/BreatheUploader_Prefix.pch -c /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonTokeniser.m -o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonTokeniser.o0#
+
+CCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonUTF8Stream.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonUTF8Stream.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s337041167.350947
+e337041167.508855
+r1
+xCompileC
+xbuild/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonUTF8Stream.o
+x/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonUTF8Stream.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonUTF8Stream.m337041167#337041167#0(0"0(0#0#78"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonUTF8Stream.m8621937888#1865"    cd /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-generated-files.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-own-target-headers.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-all-target-headers.hmap -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-project-headers.hmap -F/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/include -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources/x86_64 -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources -include /var/folders/hh/hhE-it1xH9C75MnjwdIcmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreatheUploader_Prefix-eqthjvgsdnqbkkdypnlajfjklzkq/BreatheUploader_Prefix.pch -c /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonUTF8Stream.m -o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonUTF8Stream.o0#
+
+CCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonWriter.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonWriter.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s337041167.349489
+e337041167.491583
+r1
+xCompileC
+xbuild/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonWriter.o
+x/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonWriter.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonWriter.m337041167#337041167#0(0"0(0#0#74"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonWriter.m8622560448#1857"    cd /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-generated-files.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-own-target-headers.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-all-target-headers.hmap -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-project-headers.hmap -F/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/include -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources/x86_64 -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources -include /var/folders/hh/hhE-it1xH9C75MnjwdIcmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreatheUploader_Prefix-eqthjvgsdnqbkkdypnlajfjklzkq/BreatheUploader_Prefix.pch -c /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/SBJsonWriter.m -o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/SBJsonWriter.o0#
+
+CCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/main.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s337041167.197881
+e337041167.350645
+r1
+xCompileC
+xbuild/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/main.o
+x/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/main.m337041167#337041167#0(0"0(0#0#66"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/main.m8614303904#1841"    cd /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-generated-files.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-own-target-headers.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-all-target-headers.hmap -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-project-headers.hmap -F/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/include -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources/x86_64 -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources -include /var/folders/hh/hhE-it1xH9C75MnjwdIcmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreatheUploader_Prefix-eqthjvgsdnqbkkdypnlajfjklzkq/BreatheUploader_Prefix.pch -c /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/main.m -o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/ppDatabaseManager.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/ppDatabaseManager.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s337041167.200707
+e337041167.397253
+r1
+xCompileC
+xbuild/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/ppDatabaseManager.o
+x/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/ppDatabaseManager.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/ppDatabaseManager.m337041167#337041167#0(0"0(0#0#79"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/ppDatabaseManager.m8616080192#1867"    cd /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-generated-files.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-own-target-headers.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-all-target-headers.hmap -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-project-headers.hmap -F/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/include -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources/x86_64 -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources -include /var/folders/hh/hhE-it1xH9C75MnjwdIcmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreatheUploader_Prefix-eqthjvgsdnqbkkdypnlajfjklzkq/BreatheUploader_Prefix.pch -c /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/ppDatabaseManager.m -o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/ppDatabaseManager.o0#
+
+CCompileC build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/ppUser.o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/ppUser.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s337041167.202669
+e337041167.350835
+r1
+xCompileC
+xbuild/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/ppUser.o
+x/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/ppUser.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/ppUser.m337041167#337041167#0(0"0(0#0#68"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/ppUser.m8601707776#1845"    cd /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-generated-files.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-own-target-headers.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-all-target-headers.hmap -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-project-headers.hmap -F/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/include -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources/x86_64 -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources -include /var/folders/hh/hhE-it1xH9C75MnjwdIcmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreatheUploader_Prefix-eqthjvgsdnqbkkdypnlajfjklzkq/BreatheUploader_Prefix.pch -c /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/ppUser.m -o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/Objects-normal/x86_64/ppUser.o0#
+
+CCompileXIB /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/English.lproj/MainMenu.xib
+s337041153.543438
+e337041157.770114
+r1
+xCompileXIB
+x/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib337041153#337041157#0(0"0(0#0#86"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/English.lproj/MainMenu.xib8615974144#435"    cd /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/BreatheUploader.app/Contents/Resources/English.lproj/MainMenu.nib /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/BreatheUploader.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s337041153.542619
+e337041155.318906
+r1
+xCopyStringsFile
+x/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/BreatheUploader.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings337041153#337041155#0(0"0(0#0#91"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/English.lproj/InfoPlist.strings8616019776#415"    cd /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/BreatheUploader.app/Contents/Resources/English.lproj0#
+
+CLd /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/BreatheUploader.app/Contents/MacOS/BreatheUploader normal x86_64
+r0
+
+CProcessInfoPlistFile /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/BreatheUploader.app/Contents/Info.plist BreatheUploader-Info.plist
+s337041153.538313
+e337041153.542520
+r1
+xProcessInfoPlistFile
+x/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/BreatheUploader.app/Contents/Info.plist
+xBreatheUploader-Info.plist
+lSLF07#2@34"Process BreatheUploader-Info.plist337041153#337041153#0(0"0(0#0#86"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploader-Info.plist8614663456#397"    cd /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader    builtin-infoPlistUtility BreatheUploader-Info.plist -genpkginfo /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/BreatheUploader.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/BreatheUploader.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/hh/hhE-it1xH9C75MnjwdIcmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreatheUploader_Prefix-eqthjvgsdnqbkkdypnlajfjklzkq/BreatheUploader_Prefix.pch.gch BreatheUploader_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s337041157.770330
+e337041167.197637
+r1
+xProcessPCH
+x/var/folders/hh/hhE-it1xH9C75MnjwdIcmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreatheUploader_Prefix-eqthjvgsdnqbkkdypnlajfjklzkq/BreatheUploader_Prefix.pch.gch
+xBreatheUploader_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile BreatheUploader_Prefix.pch337041157#337041167#0(0"0(0#0#86"/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploader_Prefix.pch8603796480#1718"    cd /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-generated-files.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-own-target-headers.hmap -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-all-target-headers.hmap -iquote /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/BreatheUploader-project-headers.hmap -F/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/include -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources/x86_64 -I/Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/BreatheUploader.build/Debug/BreatheUploader.build/DerivedSources -c /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/BreatheUploader_Prefix.pch -o /var/folders/hh/hhE-it1xH9C75MnjwdIcmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BreatheUploader_Prefix-eqthjvgsdnqbkkdypnlajfjklzkq/BreatheUploader_Prefix.pch.gch0#
+
+CTouch /Users/poorna/Desktop/peripheralpacing_code/BreatheUploader/build/Debug/BreatheUploader.app
+r0
+
